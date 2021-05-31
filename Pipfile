@@ -7,8 +7,6 @@ name = "pypi"
 pdfplumber = "*"
 pandas = "*"
 geopy = "*"
-pdf2image = "*"
-pytesseract = "*"
 
 [dev-packages]
 

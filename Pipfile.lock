@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "db9d3efdfdde43f1e8d827c3c088ae2561e8c8f361cac76703b72222e3dfa8af"
+            "sha256": "e768edbb172ebaf6708f6069b6bf9f0dba46bfece2bf75a39ff99390e8b20335"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -90,14 +90,6 @@
             ],
             "index": "pypi",
             "version": "==1.2.4"
-        },
-        "pdf2image": {
-            "hashes": [
-                "sha256:36dec8cb7612f067c7c652fcdbb98bca0776fe5882eea688e666309b614bca96",
-                "sha256:aa6013c1b5b25ceb90caa34834f1ed343e969cfa532100e1472cfe0e96a639b5"
-            ],
-            "index": "pypi",
-            "version": "==1.15.1"
         },
         "pdfminer.six": {
             "hashes": [
@@ -189,13 +181,6 @@
             ],
             "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3, 3.4'",
             "version": "==3.10.1"
-        },
-        "pytesseract": {
-            "hashes": [
-                "sha256:4ecfc898d00a70fcc38d2bce729de1597c67e7bc5d2fa26094714c9f5b573645"
-            ],
-            "index": "pypi",
-            "version": "==0.3.7"
         },
         "python-dateutil": {
             "hashes": [
