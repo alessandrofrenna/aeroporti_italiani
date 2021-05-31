@@ -2,8 +2,6 @@ import re
 import pandas
 from geopy import geocoders, Point
 from . import AIRPORTS_TRAFFIC_2020, INPUT_AIRPORTS_CSV_FILE, ITALIAN_AIRPORTS
-# Default airports name as in the traffic data files
-it_airports_names = pandas.read_csv(AIRPORTS_TRAFFIC_2020)["Aeroporto"].unique()
 # Nominatim instance to get detailed address information
 nominatim = geocoders.Nominatim(user_agent="italian_airports")
 # Output dataframe columns headers
@@ -28,9 +26,10 @@ columns = [
 def extract_airports():
     print("Extracting and cleaning airports data...")
     data_f = pandas.read_csv(INPUT_AIRPORTS_CSV_FILE, encoding="cp1252")
-    data_f = __normalize_airports_names(data_f)
+    it_airports_names = pandas.read_csv(AIRPORTS_TRAFFIC_2020)["Aeroporto"].unique()
+    data_f = __normalize_airports_names(data_f, it_airports_names)
     airports_data_frame = pandas.DataFrame(__clean_enac_airports_dataset(data_f), columns=columns)
-    airports_data_frame = __add_missing_airports(airports_data_frame)
+    airports_data_frame = __add_missing_airports(airports_data_frame, it_airports_names)
     airports_data_frame.index.name = "Id"
     print("Saving airports data to the disk...")
     airports_data_frame.to_csv(ITALIAN_AIRPORTS, header=columns)
@@ -44,6 +43,8 @@ def __clean_enac_airports_dataset(data_frame):
             commercial_name = df_row["NOME COMMERCIALE"].split("\r\n")[0]
         else:
             commercial_name = df_row["NOME COMMERCIALE"]
+        if "Forl\u00ef\u00bf\u00bd" in commercial_name:
+            commercial_name = commercial_name.replace("Forl\u00ef\u00bf\u00bd", "Forlì")
         if "Karol Wojty?a" in commercial_name:
             commercial_name = commercial_name.replace("Karol Wojty?a", "Karol Wojtyła")
         if "Pietro Savorgnan di Brazz\u00ef\u00bf\u00bd" in commercial_name:
@@ -92,9 +93,9 @@ def __clean_enac_airports_dataset(data_frame):
     return raw_airports
 
 
-def __normalize_airports_names(data_frame):
+def __normalize_airports_names(data_frame, airports_names):
     df_airports_names = data_frame["AEROPORTO"].unique()
-    it_ap_names_set = set([ap.upper() for ap in it_airports_names])
+    it_ap_names_set = set([ap.upper() for ap in airports_names])
     airports_intsect = list(it_ap_names_set.intersection(set(df_airports_names)))
     airports_intsect_capitalized = [" ".join([tok.capitalize() for tok in ap.split(" ")]) for ap in airports_intsect]
     airports_lut = dict(zip(airports_intsect, airports_intsect_capitalized))
@@ -116,9 +117,9 @@ def __normalize_airports_names(data_frame):
     return data_frame
 
 
-def __add_missing_airports(data_frame):
+def __add_missing_airports(data_frame, airports_names):
     df_airports_set = set(data_frame["Aeroporto"].unique())
-    difference = set(it_airports_names).difference(df_airports_set)
+    difference = set(airports_names).difference(df_airports_set)
     # The only missing elements should be "Pantelleria's airport"
     if "Pantelleria" in difference:
         result = nominatim.geocode("Airport of Pantelleria", country_codes="IT", addressdetails=True)
