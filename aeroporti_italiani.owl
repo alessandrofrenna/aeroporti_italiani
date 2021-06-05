@@ -1,0 +1,156 @@
+@prefix : <http://purl.org/net/italian_airports/ontology#> .
+@prefix aio: <http://purl.org/net/aeroporti_italiani/ontologia> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org> .
+@base <http://purl.org/net/italian_airports/ontology> .
+
+<http://purl.org/net/italian_airports/ontology> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://purl.org/net/italian_airports/ontology#belongsTo
+:belongsTo rdf:type owl:ObjectProperty ;
+           owl:inverseOf :hasTrafficData ;
+           rdfs:domain :TrafficData ;
+           rdfs:range :Airport .
+
+
+###  http://purl.org/net/italian_airports/ontology#hasTrafficData
+:hasTrafficData rdf:type owl:ObjectProperty ;
+                rdfs:domain :Airport ;
+                rdfs:range :TrafficData .
+
+
+###  http://purl.org/net/italian_airports/ontology#isManagedBy
+:isManagedBy rdf:type owl:ObjectProperty ;
+             owl:inverseOf :isManagerOf ;
+             rdfs:domain :Airport ;
+             rdfs:range :ManagingAuthority .
+
+
+###  http://purl.org/net/italian_airports/ontology#isManagerOf
+:isManagerOf rdf:type owl:ObjectProperty ;
+             rdfs:subPropertyOf owl:topObjectProperty ;
+             rdfs:domain :ManagingAuthority ;
+             rdfs:range :Airport .
+
+
+###  http://www.w3.org/2002/07/owl#sameAs
+owl:sameAs rdf:type owl:ObjectProperty ;
+           rdfs:domain owl:Thing ;
+           rdfs:range owl:Thing .
+
+
+###  https://schema.org/address
+<https://schema.org/address> rdf:type owl:ObjectProperty ;
+                             rdfs:domain <https://schema.org/GeoCoodinates> ;
+                             rdfs:range <https://schema.org/PostalAddress> .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://purl.org/net/italian_airports/ontology#category
+:category rdf:type owl:DatatypeProperty ;
+          rdfs:domain :TrafficData ;
+          rdfs:range xsd:string .
+
+
+###  http://purl.org/net/italian_airports/ontology#commercialName
+:commercialName rdf:type owl:DatatypeProperty ;
+                rdfs:domain :Airport ;
+                rdfs:range xsd:string .
+
+
+###  http://purl.org/net/italian_airports/ontology#iataCode
+:iataCode rdf:type owl:DatatypeProperty ;
+          rdfs:domain :Airport ;
+          rdfs:range xsd:string .
+
+
+###  http://purl.org/net/italian_airports/ontology#icaoCode
+:icaoCode rdf:type owl:DatatypeProperty ;
+          rdfs:domain :Airport ;
+          rdfs:range xsd:string .
+
+
+###  http://purl.org/net/italian_airports/ontology#name
+:name rdf:type owl:DatatypeProperty ;
+      rdfs:domain :Airport ,
+                  :ManagingAuthority ;
+      rdfs:range xsd:string .
+
+
+###  http://purl.org/net/italian_airports/ontology#namedAfter
+:namedAfter rdf:type owl:DatatypeProperty ;
+            rdfs:subPropertyOf owl:topDataProperty ;
+            rdfs:domain :Airport ;
+            rdfs:range xsd:string .
+
+
+###  http://purl.org/net/italian_airports/ontology#value
+:value rdf:type owl:DatatypeProperty ;
+       rdfs:domain :TrafficData ;
+       rdfs:range xsd:decimal ,
+                  xsd:long .
+
+
+###  http://purl.org/net/italian_airports/ontology#website
+:website rdf:type owl:DatatypeProperty ;
+         rdfs:domain :Airport ;
+         rdfs:range xsd:anyURI .
+
+
+###  http://purl.org/net/italian_airports/ontology#year
+:year rdf:type owl:DatatypeProperty ;
+      rdfs:domain :TrafficData ;
+      rdfs:range xsd:int .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://purl.org/net/italian_airports/ontology#Airport
+:Airport rdf:type owl:Class .
+
+
+###  http://purl.org/net/italian_airports/ontology#CargoTraffic
+:CargoTraffic rdf:type owl:Class ;
+              rdfs:subClassOf :TrafficData .
+
+
+###  http://purl.org/net/italian_airports/ontology#FlightsTraffic
+:FlightsTraffic rdf:type owl:Class ;
+                rdfs:subClassOf :TrafficData .
+
+
+###  http://purl.org/net/italian_airports/ontology#ManagingAuthority
+:ManagingAuthority rdf:type owl:Class .
+
+
+###  http://purl.org/net/italian_airports/ontology#PassengersTraffic
+:PassengersTraffic rdf:type owl:Class ;
+                   rdfs:subClassOf :TrafficData .
+
+
+###  http://purl.org/net/italian_airports/ontology#TrafficData
+:TrafficData rdf:type owl:Class .
+
+
+###  https://schema.org/GeoCoodinates
+<https://schema.org/GeoCoodinates> rdf:type owl:Class .
+
+
+###  https://schema.org/PostalAddress
+<https://schema.org/PostalAddress> rdf:type owl:Class .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi

@@ -1,5 +1,8 @@
 import re
+import time
+
 import pandas
+from geopy.exc import GeopyError
 from geopy import geocoders, Point
 from . import AIRPORTS_TRAFFIC_2020, INPUT_AIRPORTS_CSV_FILE, ITALIAN_AIRPORTS
 # Nominatim instance to get detailed address information
@@ -54,7 +57,13 @@ def __clean_enac_airports_dataset(data_frame):
             )
         longitude = df_row["LON (EPSG:4326)"]
         latitude = df_row["LAT (EPSG:4326)"]
-        result = nominatim.reverse(Point(latitude, longitude), language="it")
+        result = None
+        while result is None:
+            try:
+                result = nominatim.reverse(Point(latitude, longitude), language="it")
+            except GeopyError:
+                time.sleep(5)
+                result = nominatim.reverse(Point(latitude, longitude), language="it")
         address = result.raw["address"]
         # Let's get the municipality of the address got from nominatim
         if "city" in address:
@@ -74,6 +83,16 @@ def __clean_enac_airports_dataset(data_frame):
             province = address["county"]
         else:
             province = ""
+        # If we have Brissogne or Turriaco as municipality, province will be null, we check here to prevent null value
+        if "Brissogne" == municipality:
+            province = "Aosta"
+        if "Turriaco" == municipality:
+            province = "Gorizia"
+        # We do this check to clean wrong letters with accents
+        if "Localit\u00ef\u00bf\u00bd" in df_row["INDIRIZZO"]:
+            df_row["INDIRIZZO"] = df_row["INDIRIZZO"].replace("Localit\u00ef\u00bf\u00bd", "Località")
+        elif "Forl\u00ef\u00bf\u00bd" in commercial_name:
+            df_row["INDIRIZZO"] = df_row["INDIRIZZO"].replace("Forl\u00ef\u00bf\u00bd", "Forlì")
         raw_airports.append([
             df_row["AEROPORTO"],
             commercial_name,
@@ -84,7 +103,7 @@ def __clean_enac_airports_dataset(data_frame):
             df_row["INDIRIZZO"],
             municipality,
             re.sub(r" Capitale|Città metropolitana di ", "", province).strip(),
-            address["state"],
+            address["state"].replace("-", " "),
             address["country"],
             address["country_code"].upper(),
             latitude,
