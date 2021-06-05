@@ -1046,7 +1046,7 @@
     aio:currentValue 0.0 ;
     aio:hasCategory <http://purl.org/net/italian_airports/resources/categories/merci_e_posta> ;
     aio:pastValue 0.0 ;
-    aio:variation 0.0 .
+    aio:variation 0.00 .
 
 <http://purl.org/net/italian_airports/resources/summaries/LIBC-merci_e_posta-internazionale-2019> a aio:TrafficData ;
     rdfs:label "merci e posta 2019"^^xsd:string ;
@@ -1086,7 +1086,7 @@
     aio:currentValue 54130 ;
     aio:hasCategory <http://purl.org/net/italian_airports/resources/categories/passeggeri> ;
     aio:pastValue 171905 ;
-    aio:variation -68.5100000000000051159076974727213382720947265625 .
+    aio:variation -68.51 .
 
 <http://purl.org/net/italian_airports/resources/summaries/LIBC-passeggeri-intarnazionale-2020> a aio:TrafficData ;
     rdfs:label "passeggeri 2020"^^xsd:string ;
@@ -1126,7 +1126,7 @@
     aio:currentValue 498.0 ;
     aio:hasCategory <http://purl.org/net/italian_airports/resources/categories/voli_commerciali> ;
     aio:pastValue 1061.0 ;
-    aio:variation -53.06000000000000227373675443232059478759765625 .
+    aio:variation -53.06 .
 
 <http://purl.org/net/italian_airports/resources/summaries/LIBC-voli_commerciali-internazionale-2019> a aio:TrafficData ;
     rdfs:label "voli commerciali 2019"^^xsd:string ;
@@ -1166,7 +1166,7 @@
     aio:currentValue 2511.59999999999990905052982270717620849609375 ;
     aio:hasCategory <http://purl.org/net/italian_airports/resources/categories/merci_e_posta> ;
     aio:pastValue 4470.0 ;
-    aio:variation -43.81000000000000227373675443232059478759765625 .
+    aio:variation -43.81 .
 
 <http://purl.org/net/italian_airports/resources/summaries/LIBD-merci_e_posta-internazionale-2019> a aio:TrafficData ;
     rdfs:label "merci e posta 2019"^^xsd:string ;
@@ -1206,7 +1206,7 @@
     aio:currentValue 1703656 ;
     aio:hasCategory <http://purl.org/net/italian_airports/resources/categories/passeggeri> ;
     aio:pastValue 6620558 ;
-    aio:variation -74.2699999999999960209606797434389591217041015625 .
+    aio:variation -74.27 .
 
 <http://purl.org/net/italian_airports/resources/summaries/LIBD-passeggeri-intarnazionale-2020> a aio:TrafficData ;
     rdfs:label "passeggeri 2020"^^xsd:string ;
@@ -1246,7 +1246,7 @@
     aio:currentValue 16354.0 ;
     aio:hasCategory <http://purl.org/net/italian_airports/resources/categories/voli_commerciali> ;
     aio:pastValue 49108.0 ;
-    aio:variation -66.7000000000000028421709430404007434844970703125 .
+    aio:variation -66.70 .
 
 <http://purl.org/net/italian_airports/resources/summaries/LIBD-voli_commerciali-internazionale-2019> a aio:TrafficData ;
     rdfs:label "voli commerciali 2019"^^xsd:string ;
@@ -1286,7 +1286,7 @@
     aio:currentValue 0.0 ;
     aio:hasCategory <http://purl.org/net/italian_airports/resources/categories/merci_e_posta> ;
     aio:pastValue 0.0 ;
-    aio:variation 0.0 .
+    aio:variation 0.00 .
 
 <http://purl.org/net/italian_airports/resources/summaries/LIBF-merci_e_posta-internazionale-2019> a aio:TrafficData ;
     rdfs:label "merci e posta 2019"^^xsd:string ;
@@ -1326,7 +1326,7 @@
     aio:currentValue 0 ;
     aio:hasCategory <http://purl.org/net/italian_airports/resources/categories/passeggeri> ;
     aio:pastValue 0 ;
-    aio:variation 0.0 .
+    aio:variation 0.00 .
 
 <http://purl.org/net/italian_airports/resources/summaries/LIBF-passeggeri-intarnazionale-2020> a aio:TrafficData ;
     rdfs:label "passeggeri 2020"^^xsd:string ;
@@ -1366,7 +1366,7 @@
     aio:currentValue 0.0 ;
     aio:hasCategory <http://purl.org/net/italian_airports/resources/categories/voli_commerciali> ;
     aio:pastValue 0.0 ;
-    aio:variation 0.0 .
+    aio:variation 0.00 .
 
 <http://purl.org/net/italian_airports/resources/summaries/LIBF-voli_commerciali-internazionale-2019> a aio:TrafficData ;
     rdfs:label "voli commerciali 2019"^^xsd:string ;
@@ -1406,7 +1406,7 @@
     aio:currentValue 5006.600000000000363797880709171295166015625 ;
     aio:hasCategory <http://purl.org/net/italian_airports/resources/categories/merci_e_posta> ;
     aio:pastValue 8506.0 ;
-    aio:variation -41.1400000000000005684341886080801486968994140625 .
+    aio:variation -41.14 .
 
 <http://purl.org/net/italian_airports/resources/summaries/LIBG-merci_e_posta-internazionale-2019> a aio:TrafficData ;
     rdfs:label "merci e posta 2019"^^xsd:string ;
@@ -1446,7 +1446,7 @@
     aio:currentValue 0 ;
     aio:hasCategory <http://purl.org/net/italian_airports/resources/categories/passeggeri> ;
     aio:pastValue 603 ;
-    aio:variation -100.0 .
+    aio:variation -100.00 .
 
 <http://purl.org/net/italian_airports/resources/summaries/LIBG-passeggeri-intarnazionale-2020> a aio:TrafficData ;
     rdfs:label "passeggeri 2020"^^xsd:string ;
@@ -1486,7 +1486,7 @@
     aio:currentValue 164.0 ;
     aio:hasCategory <http://purl.org/net/italian_airports/resources/categories/voli_commerciali> ;
     aio:pastValue 256.0 ;
-    aio:variation -35.93999999999999772626324556767940521240234375 .
+    aio:variation -35.94 .
 
 <http://purl.org/net/italian_airports/resources/summaries/LIBG-voli_commerciali-internazionale-2019> a aio:TrafficData ;
     rdfs:label "voli commerciali 2019"^^xsd:string ;
@@ -1526,7 +1526,7 @@
     aio:currentValue 0.0 ;
     aio:hasCategory <http://purl.org/net/italian_airports/resources/categories/merci_e_posta> ;
     aio:pastValue 267.0 ;
-    aio:variation -100.0 .
+    aio:variation -100.00 .
 
 <http://purl.org/net/italian_airports/resources/summaries/LIBP-merci_e_posta-internazionale-2019> a aio:TrafficData ;
     rdfs:label "merci e posta 2019"^^xsd:string ;
@@ -1566,7 +1566,7 @@
     aio:currentValue 168362 ;
     aio:hasCategory <http://purl.org/net/italian_airports/resources/categories/passeggeri> ;
     aio:pastValue 756120 ;
-    aio:variation -77.7300000000000039790393202565610408782958984375 .
+    aio:variation -77.73 .
 
 <http://purl.org/net/italian_airports/resources/summaries/LIBP-passeggeri-intarnazionale-2020> a aio:TrafficData ;
     rdfs:label "passeggeri 2020"^^xsd:string ;
@@ -1606,7 +1606,7 @@
     aio:currentValue 1658.0 ;
     aio:hasCategory <http://purl.org/net/italian_airports/resources/categories/voli_commerciali> ;
     aio:pastValue 6044.0 ;
-    aio:variation -72.56999999999999317878973670303821563720703125 .
+    aio:variation -72.57 .
 
 <http://purl.org/net/italian_airports/resources/summaries/LIBP-voli_commerciali-internazionale-2019> a aio:TrafficData ;
     rdfs:label "voli commerciali 2019"^^xsd:string ;
@@ -1646,7 +1646,7 @@
     aio:currentValue 41.7999999999999971578290569595992565155029296875 ;
     aio:hasCategory <http://purl.org/net/italian_airports/resources/categories/merci_e_posta> ;
     aio:pastValue 18.0 ;
-    aio:variation 132.219999999999998863131622783839702606201171875 .
+    aio:variation 132.22 .
 
 <http://purl.org/net/italian_airports/resources/summaries/LIBR-merci_e_posta-internazionale-2019> a aio:TrafficData ;
     rdfs:label "merci e posta 2019"^^xsd:string ;
@@ -1686,7 +1686,7 @@
     aio:currentValue 1016495 ;
     aio:hasCategory <http://purl.org/net/italian_airports/resources/categories/passeggeri> ;
     aio:pastValue 3340765 ;
-    aio:variation -69.56999999999999317878973670303821563720703125 .
+    aio:variation -69.57 .
 
 <http://purl.org/net/italian_airports/resources/summaries/LIBR-passeggeri-intarnazionale-2020> a aio:TrafficData ;
     rdfs:label "passeggeri 2020"^^xsd:string ;
@@ -1726,7 +1726,7 @@
     aio:currentValue 8451.0 ;
     aio:hasCategory <http://purl.org/net/italian_airports/resources/categories/voli_commerciali> ;
     aio:pastValue 23337.0 ;
-    aio:variation -63.78999999999999914734871708787977695465087890625 .
+    aio:variation -63.79 .
 
 <http://purl.org/net/italian_airports/resources/summaries/LIBR-voli_commerciali-internazionale-2019> a aio:TrafficData ;
     rdfs:label "voli commerciali 2019"^^xsd:string ;
@@ -1766,7 +1766,7 @@
     aio:currentValue 30.10000000000000142108547152020037174224853515625 ;
     aio:hasCategory <http://purl.org/net/italian_airports/resources/categories/merci_e_posta> ;
     aio:pastValue 2465.0 ;
-    aio:variation -98.780000000000001136868377216160297393798828125 .
+    aio:variation -98.78 .
 
 <http://purl.org/net/italian_airports/resources/summaries/LICA-merci_e_posta-internazionale-2019> a aio:TrafficData ;
     rdfs:label "merci e posta 2019"^^xsd:string ;
@@ -1806,7 +1806,7 @@
     aio:currentValue 969535 ;
     aio:hasCategory <http://purl.org/net/italian_airports/resources/categories/passeggeri> ;
     aio:pastValue 3704297 ;
-    aio:variation -73.8299999999999982946974341757595539093017578125 .
+    aio:variation -73.83 .
 
 <http://purl.org/net/italian_airports/resources/summaries/LICA-passeggeri-intarnazionale-2020> a aio:TrafficData ;
     rdfs:label "passeggeri 2020"^^xsd:string ;
@@ -1846,7 +1846,7 @@
     aio:currentValue 8247.0 ;
     aio:hasCategory <http://purl.org/net/italian_airports/resources/categories/voli_commerciali> ;
     aio:pastValue 28352.0 ;
-    aio:variation -70.909999999999996589394868351519107818603515625 .
+    aio:variation -70.91 .
 
 <http://purl.org/net/italian_airports/resources/summaries/LICA-voli_commerciali-internazionale-2019> a aio:TrafficData ;
     rdfs:label "voli commerciali 2019"^^xsd:string ;
@@ -1886,7 +1886,7 @@
     aio:currentValue 0.0 ;
     aio:hasCategory <http://purl.org/net/italian_airports/resources/categories/merci_e_posta> ;
     aio:pastValue 0.0 ;
-    aio:variation 0.0 .
+    aio:variation 0.00 .
 
 <http://purl.org/net/italian_airports/resources/summaries/LICB-merci_e_posta-internazionale-2019> a aio:TrafficData ;
     rdfs:label "merci e posta 2019"^^xsd:string ;
@@ -1926,7 +1926,7 @@
     aio:currentValue 92459 ;
     aio:hasCategory <http://purl.org/net/italian_airports/resources/categories/passeggeri> ;
     aio:pastValue 365519 ;
-    aio:variation -74.7000000000000028421709430404007434844970703125 .
+    aio:variation -74.70 .
 
 <http://purl.org/net/italian_airports/resources/summaries/LICB-passeggeri-intarnazionale-2020> a aio:TrafficData ;
     rdfs:label "passeggeri 2020"^^xsd:string ;
@@ -1966,7 +1966,7 @@
     aio:currentValue 772.0 ;
     aio:hasCategory <http://purl.org/net/italian_airports/resources/categories/voli_commerciali> ;
     aio:pastValue 2542.0 ;
-    aio:variation -69.6299999999999954525264911353588104248046875 .
+    aio:variation -69.63 .
 
 <http://purl.org/net/italian_airports/resources/summaries/LICB-voli_commerciali-internazionale-2019> a aio:TrafficData ;
     rdfs:label "voli commerciali 2019"^^xsd:string ;
@@ -2006,7 +2006,7 @@
     aio:currentValue 4919.4000000000005456968210637569427490234375 ;
     aio:hasCategory <http://purl.org/net/italian_airports/resources/categories/merci_e_posta> ;
     aio:pastValue 10877.0 ;
-    aio:variation -54.77000000000000312638803734444081783294677734375 .
+    aio:variation -54.77 .
 
 <http://purl.org/net/italian_airports/resources/summaries/LICC-merci_e_posta-internazionale-2019> a aio:TrafficData ;
     rdfs:label "merci e posta 2019"^^xsd:string ;
@@ -2046,7 +2046,7 @@
     aio:currentValue 3647860 ;
     aio:hasCategory <http://purl.org/net/italian_airports/resources/categories/passeggeri> ;
     aio:pastValue 12183163 ;
-    aio:variation -70.06000000000000227373675443232059478759765625 .
+    aio:variation -70.06 .
 
 <http://purl.org/net/italian_airports/resources/summaries/LICC-passeggeri-intarnazionale-2020> a aio:TrafficData ;
     rdfs:label "passeggeri 2020"^^xsd:string ;
@@ -2086,7 +2086,7 @@
     aio:currentValue 32037.0 ;
     aio:hasCategory <http://purl.org/net/italian_airports/resources/categories/voli_commerciali> ;
     aio:pastValue 90963.0 ;
-    aio:variation -64.780000000000001136868377216160297393798828125 .
+    aio:variation -64.78 .
 
 <http://purl.org/net/italian_airports/resources/summaries/LICC-voli_commerciali-internazionale-2019> a aio:TrafficData ;
     rdfs:label "voli commerciali 2019"^^xsd:string ;
@@ -2126,7 +2126,7 @@
     aio:currentValue 13.800000000000000710542735760100185871124267578125 ;
     aio:hasCategory <http://purl.org/net/italian_airports/resources/categories/merci_e_posta> ;
     aio:pastValue 18.0 ;
-    aio:variation -23.3299999999999982946974341757595539093017578125 .
+    aio:variation -23.33 .
 
 <http://purl.org/net/italian_airports/resources/summaries/LICD-merci_e_posta-internazionale-2019> a aio:TrafficData ;
     rdfs:label "merci e posta 2019"^^xsd:string ;
@@ -2166,7 +2166,7 @@
     aio:currentValue 174682 ;
     aio:hasCategory <http://purl.org/net/italian_airports/resources/categories/passeggeri> ;
     aio:pastValue 378218 ;
-    aio:variation -53.81000000000000227373675443232059478759765625 .
+    aio:variation -53.81 .
 
 <http://purl.org/net/italian_airports/resources/summaries/LICD-passeggeri-intarnazionale-2020> a aio:TrafficData ;
     rdfs:label "passeggeri 2020"^^xsd:string ;
@@ -2206,7 +2206,7 @@
     aio:currentValue 3122.0 ;
     aio:hasCategory <http://purl.org/net/italian_airports/resources/categories/voli_commerciali> ;
     aio:pastValue 4957.0 ;
-    aio:variation -37.02000000000000312638803734444081783294677734375 .
+    aio:variation -37.02 .
 
 <http://purl.org/net/italian_airports/resources/summaries/LICD-voli_commerciali-internazionale-2019> a aio:TrafficData ;
     rdfs:label "voli commerciali 2019"^^xsd:string ;
@@ -2246,7 +2246,7 @@
     aio:currentValue 21.800000000000000710542735760100185871124267578125 ;
     aio:hasCategory <http://purl.org/net/italian_airports/resources/categories/merci_e_posta> ;
     aio:pastValue 27.0 ;
-    aio:variation -19.260000000000001563194018672220408916473388671875 .
+    aio:variation -19.26 .
 
 <http://purl.org/net/italian_airports/resources/summaries/LICG-merci_e_posta-internazionale-2019> a aio:TrafficData ;
     rdfs:label "merci e posta 2019"^^xsd:string ;
@@ -2286,7 +2286,7 @@
     aio:currentValue 107800 ;
     aio:hasCategory <http://purl.org/net/italian_airports/resources/categories/passeggeri> ;
     aio:pastValue 190784 ;
-    aio:variation -43.5 .
+    aio:variation -43.50 .
 
 <http://purl.org/net/italian_airports/resources/summaries/LICG-passeggeri-intarnazionale-2020> a aio:TrafficData ;
     rdfs:label "passeggeri 2020"^^xsd:string ;
@@ -2326,7 +2326,7 @@
     aio:currentValue 2861.0 ;
     aio:hasCategory <http://purl.org/net/italian_airports/resources/categories/voli_commerciali> ;
     aio:pastValue 3912.0 ;
-    aio:variation -26.870000000000000994759830064140260219573974609375 .
+    aio:variation -26.87 .
 
 <http://purl.org/net/italian_airports/resources/summaries/LICG-voli_commerciali-internazionale-2019> a aio:TrafficData ;
     rdfs:label "voli commerciali 2019"^^xsd:string ;
@@ -2366,7 +2366,7 @@
     aio:currentValue 2492.59999999999990905052982270717620849609375 ;
     aio:hasCategory <http://purl.org/net/italian_airports/resources/categories/merci_e_posta> ;
     aio:pastValue 2291.0 ;
-    aio:variation 8.800000000000000710542735760100185871124267578125 .
+    aio:variation 8.80 .
 
 <http://purl.org/net/italian_airports/resources/summaries/LICJ-merci_e_posta-internazionale-2019> a aio:TrafficData ;
     rdfs:label "merci e posta 2019"^^xsd:string ;
@@ -2406,7 +2406,7 @@
     aio:currentValue 2699531 ;
     aio:hasCategory <http://purl.org/net/italian_airports/resources/categories/passeggeri> ;
     aio:pastValue 8392906 ;
-    aio:variation -67.840000000000003410605131648480892181396484375 .
+    aio:variation -67.84 .
 
 <http://purl.org/net/italian_airports/resources/summaries/LICJ-passeggeri-intarnazionale-2020> a aio:TrafficData ;
     rdfs:label "passeggeri 2020"^^xsd:string ;
@@ -2446,7 +2446,7 @@
     aio:currentValue 25833.0 ;
     aio:hasCategory <http://purl.org/net/italian_airports/resources/categories/voli_commerciali> ;
     aio:pastValue 63518.0 ;
-    aio:variation -59.3299999999999982946974341757595539093017578125 .
+    aio:variation -59.33 .
 
 <http://purl.org/net/italian_airports/resources/summaries/LICJ-voli_commerciali-internazionale-2019> a aio:TrafficData ;
     rdfs:label "voli commerciali 2019"^^xsd:string ;
@@ -2486,7 +2486,7 @@
     aio:currentValue 9.699999999999999289457264239899814128875732421875 ;
     aio:hasCategory <http://purl.org/net/italian_airports/resources/categories/merci_e_posta> ;
     aio:pastValue 52.0 ;
-    aio:variation -81.349999999999994315658113919198513031005859375 .
+    aio:variation -81.35 .
 
 <http://purl.org/net/italian_airports/resources/summaries/LICR-merci_e_posta-internazionale-2019> a aio:TrafficData ;
     rdfs:label "merci e posta 2019"^^xsd:string ;
@@ -2526,7 +2526,7 @@
     aio:currentValue 110216 ;
     aio:hasCategory <http://purl.org/net/italian_airports/resources/categories/passeggeri> ;
     aio:pastValue 723125 ;
-    aio:variation -84.7600000000000051159076974727213382720947265625 .
+    aio:variation -84.76 .
 
 <http://purl.org/net/italian_airports/resources/summaries/LICR-passeggeri-intarnazionale-2020> a aio:TrafficData ;
     rdfs:label "passeggeri 2020"^^xsd:string ;
@@ -2566,7 +2566,7 @@
     aio:currentValue 1209.0 ;
     aio:hasCategory <http://purl.org/net/italian_airports/resources/categories/voli_commerciali> ;
     aio:pastValue 6634.0 ;
-    aio:variation -81.780000000000001136868377216160297393798828125 .
+    aio:variation -81.78 .
 
 <http://purl.org/net/italian_airports/resources/summaries/LICR-voli_commerciali-internazionale-2019> a aio:TrafficData ;
     rdfs:label "voli commerciali 2019"^^xsd:string ;
@@ -2606,7 +2606,7 @@
     aio:currentValue 30.10000000000000142108547152020037174224853515625 ;
     aio:hasCategory <http://purl.org/net/italian_airports/resources/categories/merci_e_posta> ;
     aio:pastValue 12.0 ;
-    aio:variation 150.830000000000012505552149377763271331787109375 .
+    aio:variation 150.83 .
 
 <http://purl.org/net/italian_airports/resources/summaries/LICT-merci_e_posta-internazionale-2019> a aio:TrafficData ;
     rdfs:label "merci e posta 2019"^^xsd:string ;
@@ -2646,7 +2646,7 @@
     aio:currentValue 183264 ;
     aio:hasCategory <http://purl.org/net/italian_airports/resources/categories/passeggeri> ;
     aio:pastValue 533442 ;
-    aio:variation -65.6400000000000005684341886080801486968994140625 .
+    aio:variation -65.64 .
 
 <http://purl.org/net/italian_airports/resources/summaries/LICT-passeggeri-intarnazionale-2020> a aio:TrafficData ;
     rdfs:label "passeggeri 2020"^^xsd:string ;
@@ -2686,7 +2686,7 @@
     aio:currentValue 2665.0 ;
     aio:hasCategory <http://purl.org/net/italian_airports/resources/categories/voli_commerciali> ;
     aio:pastValue 5912.0 ;
-    aio:variation -54.9200000000000017053025658242404460906982421875 .
+    aio:variation -54.92 .
 
 <http://purl.org/net/italian_airports/resources/summaries/LICT-voli_commerciali-internazionale-2019> a aio:TrafficData ;
     rdfs:label "voli commerciali 2019"^^xsd:string ;
@@ -2726,7 +2726,7 @@
     aio:currentValue 7.0 ;
     aio:hasCategory <http://purl.org/net/italian_airports/resources/categories/merci_e_posta> ;
     aio:pastValue 2.0 ;
-    aio:variation 250.0 .
+    aio:variation 250.00 .
 
 <http://purl.org/net/italian_airports/resources/summaries/LIEA-merci_e_posta-internazionale-2019> a aio:TrafficData ;
     rdfs:label "merci e posta 2019"^^xsd:string ;
@@ -2766,7 +2766,7 @@
     aio:currentValue 535396 ;
     aio:hasCategory <http://purl.org/net/italian_airports/resources/categories/passeggeri> ;
     aio:pastValue 1855752 ;
-    aio:variation -71.150000000000005684341886080801486968994140625 .
+    aio:variation -71.15 .
 
 <http://purl.org/net/italian_airports/resources/summaries/LIEA-passeggeri-intarnazionale-2020> a aio:TrafficData ;
     rdfs:label "passeggeri 2020"^^xsd:string ;
@@ -2806,7 +2806,7 @@
     aio:currentValue 5320.0 ;
     aio:hasCategory <http://purl.org/net/italian_airports/resources/categories/voli_commerciali> ;
     aio:pastValue 14016.0 ;
-    aio:variation -62.03999999999999914734871708787977695465087890625 .
+    aio:variation -62.04 .
 
 <http://purl.org/net/italian_airports/resources/summaries/LIEA-voli_commerciali-internazionale-2019> a aio:TrafficData ;
     rdfs:label "voli commerciali 2019"^^xsd:string ;
@@ -2846,7 +2846,7 @@
     aio:currentValue 4915.8000000000001818989403545856475830078125 ;
     aio:hasCategory <http://purl.org/net/italian_airports/resources/categories/merci_e_posta> ;
     aio:pastValue 8282.0 ;
-    aio:variation -40.6400000000000005684341886080801486968994140625 .
+    aio:variation -40.64 .
 
 <http://purl.org/net/italian_airports/resources/summaries/LIEE-merci_e_posta-internazionale-2019> a aio:TrafficData ;
     rdfs:label "merci e posta 2019"^^xsd:string ;
@@ -2886,7 +2886,7 @@
     aio:currentValue 1771733 ;
     aio:hasCategory <http://purl.org/net/italian_airports/resources/categories/passeggeri> ;
     aio:pastValue 6439011 ;
-    aio:variation -72.4800000000000039790393202565610408782958984375 .
+    aio:variation -72.48 .
 
 <http://purl.org/net/italian_airports/resources/summaries/LIEE-passeggeri-intarnazionale-2020> a aio:TrafficData ;
     rdfs:label "passeggeri 2020"^^xsd:string ;
@@ -2926,7 +2926,7 @@
     aio:currentValue 18253.0 ;
     aio:hasCategory <http://purl.org/net/italian_airports/resources/categories/voli_commerciali> ;
     aio:pastValue 48591.0 ;
-    aio:variation -62.43999999999999772626324556767940521240234375 .
+    aio:variation -62.44 .
 
 <http://purl.org/net/italian_airports/resources/summaries/LIEE-voli_commerciali-internazionale-2019> a aio:TrafficData ;
     rdfs:label "voli commerciali 2019"^^xsd:string ;
@@ -2966,7 +2966,7 @@
     aio:currentValue 5.79999999999999982236431605997495353221893310546875 ;
     aio:hasCategory <http://purl.org/net/italian_airports/resources/categories/merci_e_posta> ;
     aio:pastValue 173.0 ;
-    aio:variation -96.650000000000005684341886080801486968994140625 .
+    aio:variation -96.65 .
 
 <http://purl.org/net/italian_airports/resources/summaries/LIEO-merci_e_posta-internazionale-2019> a aio:TrafficData ;
     rdfs:label "merci e posta 2019"^^xsd:string ;
@@ -3006,7 +3006,7 @@
     aio:currentValue 1002433 ;
     aio:hasCategory <http://purl.org/net/italian_airports/resources/categories/passeggeri> ;
     aio:pastValue 3709835 ;
-    aio:variation -72.9800000000000039790393202565610408782958984375 .
+    aio:variation -72.98 .
 
 <http://purl.org/net/italian_airports/resources/summaries/LIEO-passeggeri-intarnazionale-2020> a aio:TrafficData ;
     rdfs:label "passeggeri 2020"^^xsd:string ;
@@ -3046,7 +3046,7 @@
     aio:currentValue 9274.0 ;
     aio:hasCategory <http://purl.org/net/italian_airports/resources/categories/voli_commerciali> ;
     aio:pastValue 29175.0 ;
-    aio:variation -68.2099999999999937472239253111183643341064453125 .
+    aio:variation -68.21 .
 
 <http://purl.org/net/italian_airports/resources/summaries/LIEO-voli_commerciali-internazionale-2019> a aio:TrafficData ;
     rdfs:label "voli commerciali 2019"^^xsd:string ;
@@ -3086,7 +3086,7 @@
     aio:currentValue 516388.599999999976716935634613037109375 ;
     aio:hasCategory <http://purl.org/net/italian_airports/resources/categories/merci_e_posta> ;
     aio:pastValue 650415.0 ;
-    aio:variation -20.6099999999999994315658113919198513031005859375 .
+    aio:variation -20.61 .
 
 <http://purl.org/net/italian_airports/resources/summaries/LIMC-merci_e_posta-internazionale-2019> a aio:TrafficData ;
     rdfs:label "merci e posta 2019"^^xsd:string ;
@@ -3126,7 +3126,7 @@
     aio:currentValue 7201030 ;
     aio:hasCategory <http://purl.org/net/italian_airports/resources/categories/passeggeri> ;
     aio:pastValue 33501167 ;
-    aio:variation -78.5100000000000051159076974727213382720947265625 .
+    aio:variation -78.51 .
 
 <http://purl.org/net/italian_airports/resources/summaries/LIMC-passeggeri-intarnazionale-2020> a aio:TrafficData ;
     rdfs:label "passeggeri 2020"^^xsd:string ;
@@ -3166,7 +3166,7 @@
     aio:currentValue 86275.0 ;
     aio:hasCategory <http://purl.org/net/italian_airports/resources/categories/voli_commerciali> ;
     aio:pastValue 274583.0 ;
-    aio:variation -68.5799999999999982946974341757595539093017578125 .
+    aio:variation -68.58 .
 
 <http://purl.org/net/italian_airports/resources/summaries/LIMC-voli_commerciali-internazionale-2019> a aio:TrafficData ;
     rdfs:label "voli commerciali 2019"^^xsd:string ;
@@ -3206,7 +3206,7 @@
     aio:currentValue 51507.800000000002910383045673370361328125 ;
     aio:hasCategory <http://purl.org/net/italian_airports/resources/categories/merci_e_posta> ;
     aio:pastValue 119065.0 ;
-    aio:variation -56.74000000000000198951966012828052043914794921875 .
+    aio:variation -56.74 .
 
 <http://purl.org/net/italian_airports/resources/summaries/LIME-merci_e_posta-internazionale-2019> a aio:TrafficData ;
     rdfs:label "merci e posta 2019"^^xsd:string ;
@@ -3246,7 +3246,7 @@
     aio:currentValue 3830163 ;
     aio:hasCategory <http://purl.org/net/italian_airports/resources/categories/passeggeri> ;
     aio:pastValue 14350171 ;
-    aio:variation -73.31000000000000227373675443232059478759765625 .
+    aio:variation -73.31 .
 
 <http://purl.org/net/italian_airports/resources/summaries/LIME-passeggeri-intarnazionale-2020> a aio:TrafficData ;
     rdfs:label "passeggeri 2020"^^xsd:string ;
@@ -3286,7 +3286,7 @@
     aio:currentValue 35795.0 ;
     aio:hasCategory <http://purl.org/net/italian_airports/resources/categories/voli_commerciali> ;
     aio:pastValue 96205.0 ;
-    aio:variation -62.78999999999999914734871708787977695465087890625 .
+    aio:variation -62.79 .
 
 <http://purl.org/net/italian_airports/resources/summaries/LIME-voli_commerciali-internazionale-2019> a aio:TrafficData ;
     rdfs:label "voli commerciali 2019"^^xsd:string ;
@@ -3326,7 +3326,7 @@
     aio:currentValue 216.400000000000005684341886080801486968994140625 ;
     aio:hasCategory <http://purl.org/net/italian_airports/resources/categories/merci_e_posta> ;
     aio:pastValue 288.0 ;
-    aio:variation -24.8599999999999994315658113919198513031005859375 .
+    aio:variation -24.86 .
 
 <http://purl.org/net/italian_airports/resources/summaries/LIMF-merci_e_posta-internazionale-2019> a aio:TrafficData ;
     rdfs:label "merci e posta 2019"^^xsd:string ;
@@ -3366,7 +3366,7 @@
     aio:currentValue 1413772 ;
     aio:hasCategory <http://purl.org/net/italian_airports/resources/categories/passeggeri> ;
     aio:pastValue 4827385 ;
-    aio:variation -70.7099999999999937472239253111183643341064453125 .
+    aio:variation -70.71 .
 
 <http://purl.org/net/italian_airports/resources/summaries/LIMF-passeggeri-intarnazionale-2020> a aio:TrafficData ;
     rdfs:label "passeggeri 2020"^^xsd:string ;
@@ -3406,7 +3406,7 @@
     aio:currentValue 13816.0 ;
     aio:hasCategory <http://purl.org/net/italian_airports/resources/categories/voli_commerciali> ;
     aio:pastValue 44305.0 ;
-    aio:variation -68.81999999999999317878973670303821563720703125 .
+    aio:variation -68.82 .
 
 <http://purl.org/net/italian_airports/resources/summaries/LIMF-voli_commerciali-internazionale-2019> a aio:TrafficData ;
     rdfs:label "voli commerciali 2019"^^xsd:string ;
@@ -3446,7 +3446,7 @@
     aio:currentValue 0.0 ;
     aio:hasCategory <http://purl.org/net/italian_airports/resources/categories/merci_e_posta> ;
     aio:pastValue 0.0 ;
-    aio:variation 0.0 .
+    aio:variation 0.00 .
 
 <http://purl.org/net/italian_airports/resources/summaries/LIMG-merci_e_posta-internazionale-2019> a aio:TrafficData ;
     rdfs:label "merci e posta 2019"^^xsd:string ;
@@ -3486,7 +3486,7 @@
     aio:currentValue 0 ;
     aio:hasCategory <http://purl.org/net/italian_airports/resources/categories/passeggeri> ;
     aio:pastValue 0 ;
-    aio:variation 0.0 .
+    aio:variation 0.00 .
 
 <http://purl.org/net/italian_airports/resources/summaries/LIMG-passeggeri-intarnazionale-2020> a aio:TrafficData ;
     rdfs:label "passeggeri 2020"^^xsd:string ;
@@ -3526,7 +3526,7 @@
     aio:currentValue 0.0 ;
     aio:hasCategory <http://purl.org/net/italian_airports/resources/categories/voli_commerciali> ;
     aio:pastValue 0.0 ;
-    aio:variation 0.0 .
+    aio:variation 0.00 .
 
 <http://purl.org/net/italian_airports/resources/summaries/LIMG-voli_commerciali-internazionale-2019> a aio:TrafficData ;
     rdfs:label "voli commerciali 2019"^^xsd:string ;
@@ -3566,7 +3566,7 @@
     aio:currentValue 77.2000000000000028421709430404007434844970703125 ;
     aio:hasCategory <http://purl.org/net/italian_airports/resources/categories/merci_e_posta> ;
     aio:pastValue 249.0 ;
-    aio:variation -69.0 .
+    aio:variation -69.00 .
 
 <http://purl.org/net/italian_airports/resources/summaries/LIMJ-merci_e_posta-internazionale-2019> a aio:TrafficData ;
     rdfs:label "merci e posta 2019"^^xsd:string ;
@@ -3606,7 +3606,7 @@
     aio:currentValue 394490 ;
     aio:hasCategory <http://purl.org/net/italian_airports/resources/categories/passeggeri> ;
     aio:pastValue 1957918 ;
-    aio:variation -79.849999999999994315658113919198513031005859375 .
+    aio:variation -79.85 .
 
 <http://purl.org/net/italian_airports/resources/summaries/LIMJ-passeggeri-intarnazionale-2020> a aio:TrafficData ;
     rdfs:label "passeggeri 2020"^^xsd:string ;
@@ -3646,7 +3646,7 @@
     aio:currentValue 4382.0 ;
     aio:hasCategory <http://purl.org/net/italian_airports/resources/categories/voli_commerciali> ;
     aio:pastValue 19195.0 ;
-    aio:variation -77.1700000000000017053025658242404460906982421875 .
+    aio:variation -77.17 .
 
 <http://purl.org/net/italian_airports/resources/summaries/LIMJ-voli_commerciali-internazionale-2019> a aio:TrafficData ;
     rdfs:label "voli commerciali 2019"^^xsd:string ;
@@ -3686,7 +3686,7 @@
     aio:currentValue 1240.09999999999990905052982270717620849609375 ;
     aio:hasCategory <http://purl.org/net/italian_airports/resources/categories/merci_e_posta> ;
     aio:pastValue 8765.0 ;
-    aio:variation -85.849999999999994315658113919198513031005859375 .
+    aio:variation -85.85 .
 
 <http://purl.org/net/italian_airports/resources/summaries/LIML-merci_e_posta-internazionale-2019> a aio:TrafficData ;
     rdfs:label "merci e posta 2019"^^xsd:string ;
@@ -3726,7 +3726,7 @@
     aio:currentValue 2250374 ;
     aio:hasCategory <http://purl.org/net/italian_airports/resources/categories/passeggeri> ;
     aio:pastValue 10834257 ;
-    aio:variation -79.2300000000000039790393202565610408782958984375 .
+    aio:variation -79.23 .
 
 <http://purl.org/net/italian_airports/resources/summaries/LIML-passeggeri-intarnazionale-2020> a aio:TrafficData ;
     rdfs:label "passeggeri 2020"^^xsd:string ;
@@ -3766,7 +3766,7 @@
     aio:currentValue 28305.0 ;
     aio:hasCategory <http://purl.org/net/italian_airports/resources/categories/voli_commerciali> ;
     aio:pastValue 119899.0 ;
-    aio:variation -76.3900000000000005684341886080801486968994140625 .
+    aio:variation -76.39 .
 
 <http://purl.org/net/italian_airports/resources/summaries/LIML-voli_commerciali-internazionale-2019> a aio:TrafficData ;
     rdfs:label "voli commerciali 2019"^^xsd:string ;
@@ -3806,7 +3806,7 @@
     aio:currentValue 0.0 ;
     aio:hasCategory <http://purl.org/net/italian_airports/resources/categories/merci_e_posta> ;
     aio:pastValue 0.0 ;
-    aio:variation 0.0 .
+    aio:variation 0.00 .
 
 <http://purl.org/net/italian_airports/resources/summaries/LIMP-merci_e_posta-internazionale-2019> a aio:TrafficData ;
     rdfs:label "merci e posta 2019"^^xsd:string ;
@@ -3846,7 +3846,7 @@
     aio:currentValue 26873 ;
     aio:hasCategory <http://purl.org/net/italian_airports/resources/categories/passeggeri> ;
     aio:pastValue 72876 ;
-    aio:variation -63.13000000000000255795384873636066913604736328125 .
+    aio:variation -63.13 .
 
 <http://purl.org/net/italian_airports/resources/summaries/LIMP-passeggeri-intarnazionale-2020> a aio:TrafficData ;
     rdfs:label "passeggeri 2020"^^xsd:string ;
@@ -3886,7 +3886,7 @@
     aio:currentValue 328.0 ;
     aio:hasCategory <http://purl.org/net/italian_airports/resources/categories/voli_commerciali> ;
     aio:pastValue 523.0 ;
-    aio:variation -37.280000000000001136868377216160297393798828125 .
+    aio:variation -37.28 .
 
 <http://purl.org/net/italian_airports/resources/summaries/LIMP-voli_commerciali-internazionale-2019> a aio:TrafficData ;
     rdfs:label "voli commerciali 2019"^^xsd:string ;
@@ -3926,7 +3926,7 @@
     aio:currentValue 0.0 ;
     aio:hasCategory <http://purl.org/net/italian_airports/resources/categories/merci_e_posta> ;
     aio:pastValue 0.0 ;
-    aio:variation 0.0 .
+    aio:variation 0.00 .
 
 <http://purl.org/net/italian_airports/resources/summaries/LIMW-merci_e_posta-internazionale-2019> a aio:TrafficData ;
     rdfs:label "merci e posta 2019"^^xsd:string ;
@@ -3966,7 +3966,7 @@
     aio:currentValue 0 ;
     aio:hasCategory <http://purl.org/net/italian_airports/resources/categories/passeggeri> ;
     aio:pastValue 0 ;
-    aio:variation 0.0 .
+    aio:variation 0.00 .
 
 <http://purl.org/net/italian_airports/resources/summaries/LIMW-passeggeri-intarnazionale-2020> a aio:TrafficData ;
     rdfs:label "passeggeri 2020"^^xsd:string ;
@@ -4006,7 +4006,7 @@
     aio:currentValue 0.0 ;
     aio:hasCategory <http://purl.org/net/italian_airports/resources/categories/voli_commerciali> ;
     aio:pastValue 0.0 ;
-    aio:variation 0.0 .
+    aio:variation 0.00 .
 
 <http://purl.org/net/italian_airports/resources/summaries/LIMW-voli_commerciali-internazionale-2019> a aio:TrafficData ;
     rdfs:label "voli commerciali 2019"^^xsd:string ;
@@ -4046,7 +4046,7 @@
     aio:currentValue 0.0 ;
     aio:hasCategory <http://purl.org/net/italian_airports/resources/categories/merci_e_posta> ;
     aio:pastValue 0.0 ;
-    aio:variation 0.0 .
+    aio:variation 0.00 .
 
 <http://purl.org/net/italian_airports/resources/summaries/LIMZ-merci_e_posta-internazionale-2019> a aio:TrafficData ;
     rdfs:label "merci e posta 2019"^^xsd:string ;
@@ -4086,7 +4086,7 @@
     aio:currentValue 51941 ;
     aio:hasCategory <http://purl.org/net/italian_airports/resources/categories/passeggeri> ;
     aio:pastValue 89809 ;
-    aio:variation -42.1700000000000017053025658242404460906982421875 .
+    aio:variation -42.17 .
 
 <http://purl.org/net/italian_airports/resources/summaries/LIMZ-passeggeri-intarnazionale-2020> a aio:TrafficData ;
     rdfs:label "passeggeri 2020"^^xsd:string ;
@@ -4126,7 +4126,7 @@
     aio:currentValue 472.0 ;
     aio:hasCategory <http://purl.org/net/italian_airports/resources/categories/voli_commerciali> ;
     aio:pastValue 618.0 ;
-    aio:variation -23.620000000000000994759830064140260219573974609375 .
+    aio:variation -23.62 .
 
 <http://purl.org/net/italian_airports/resources/summaries/LIMZ-voli_commerciali-internazionale-2019> a aio:TrafficData ;
     rdfs:label "voli commerciali 2019"^^xsd:string ;
@@ -4166,7 +4166,7 @@
     aio:currentValue 0.0 ;
     aio:hasCategory <http://purl.org/net/italian_airports/resources/categories/merci_e_posta> ;
     aio:pastValue 0.0 ;
-    aio:variation 0.0 .
+    aio:variation 0.00 .
 
 <http://purl.org/net/italian_airports/resources/summaries/LIPB-merci_e_posta-internazionale-2019> a aio:TrafficData ;
     rdfs:label "merci e posta 2019"^^xsd:string ;
@@ -4206,7 +4206,7 @@
     aio:currentValue 124 ;
     aio:hasCategory <http://purl.org/net/italian_airports/resources/categories/passeggeri> ;
     aio:pastValue 1176 ;
-    aio:variation -89.4599999999999937472239253111183643341064453125 .
+    aio:variation -89.46 .
 
 <http://purl.org/net/italian_airports/resources/summaries/LIPB-passeggeri-intarnazionale-2020> a aio:TrafficData ;
     rdfs:label "passeggeri 2020"^^xsd:string ;
@@ -4246,7 +4246,7 @@
     aio:currentValue 3.0 ;
     aio:hasCategory <http://purl.org/net/italian_airports/resources/categories/voli_commerciali> ;
     aio:pastValue 39.0 ;
-    aio:variation -92.31000000000000227373675443232059478759765625 .
+    aio:variation -92.31 .
 
 <http://purl.org/net/italian_airports/resources/summaries/LIPB-voli_commerciali-internazionale-2019> a aio:TrafficData ;
     rdfs:label "voli commerciali 2019"^^xsd:string ;
@@ -4286,7 +4286,7 @@
     aio:currentValue 34673.9000000000014551915228366851806640625 ;
     aio:hasCategory <http://purl.org/net/italian_airports/resources/categories/merci_e_posta> ;
     aio:pastValue 38130.0 ;
-    aio:variation -9.0600000000000004973799150320701301097869873046875 .
+    aio:variation -9.06 .
 
 <http://purl.org/net/italian_airports/resources/summaries/LIPE-merci_e_posta-internazionale-2019> a aio:TrafficData ;
     rdfs:label "merci e posta 2019"^^xsd:string ;
@@ -4326,7 +4326,7 @@
     aio:currentValue 2518282 ;
     aio:hasCategory <http://purl.org/net/italian_airports/resources/categories/passeggeri> ;
     aio:pastValue 10594048 ;
-    aio:variation -76.2300000000000039790393202565610408782958984375 .
+    aio:variation -76.23 .
 
 <http://purl.org/net/italian_airports/resources/summaries/LIPE-passeggeri-intarnazionale-2020> a aio:TrafficData ;
     rdfs:label "passeggeri 2020"^^xsd:string ;
@@ -4366,7 +4366,7 @@
     aio:currentValue 27332.0 ;
     aio:hasCategory <http://purl.org/net/italian_airports/resources/categories/voli_commerciali> ;
     aio:pastValue 83845.0 ;
-    aio:variation -67.400000000000005684341886080801486968994140625 .
+    aio:variation -67.40 .
 
 <http://purl.org/net/italian_airports/resources/summaries/LIPE-voli_commerciali-internazionale-2019> a aio:TrafficData ;
     rdfs:label "voli commerciali 2019"^^xsd:string ;
@@ -4406,7 +4406,7 @@
     aio:currentValue 0.0 ;
     aio:hasCategory <http://purl.org/net/italian_airports/resources/categories/merci_e_posta> ;
     aio:pastValue 0.0 ;
-    aio:variation 0.0 .
+    aio:variation 0.00 .
 
 <http://purl.org/net/italian_airports/resources/summaries/LIPH-merci_e_posta-internazionale-2019> a aio:TrafficData ;
     rdfs:label "merci e posta 2019"^^xsd:string ;
@@ -4446,7 +4446,7 @@
     aio:currentValue 461006 ;
     aio:hasCategory <http://purl.org/net/italian_airports/resources/categories/passeggeri> ;
     aio:pastValue 3247607 ;
-    aio:variation -85.7999999999999971578290569595992565155029296875 .
+    aio:variation -85.80 .
 
 <http://purl.org/net/italian_airports/resources/summaries/LIPH-passeggeri-intarnazionale-2020> a aio:TrafficData ;
     rdfs:label "passeggeri 2020"^^xsd:string ;
@@ -4486,7 +4486,7 @@
     aio:currentValue 3259.0 ;
     aio:hasCategory <http://purl.org/net/italian_airports/resources/categories/voli_commerciali> ;
     aio:pastValue 19025.0 ;
-    aio:variation -82.8700000000000045474735088646411895751953125 .
+    aio:variation -82.87 .
 
 <http://purl.org/net/italian_airports/resources/summaries/LIPH-voli_commerciali-internazionale-2019> a aio:TrafficData ;
     rdfs:label "voli commerciali 2019"^^xsd:string ;
@@ -4526,7 +4526,7 @@
     aio:currentValue 0.0 ;
     aio:hasCategory <http://purl.org/net/italian_airports/resources/categories/merci_e_posta> ;
     aio:pastValue 0.0 ;
-    aio:variation 0.0 .
+    aio:variation 0.00 .
 
 <http://purl.org/net/italian_airports/resources/summaries/LIPK-merci_e_posta-internazionale-2019> a aio:TrafficData ;
     rdfs:label "merci e posta 2019"^^xsd:string ;
@@ -4566,7 +4566,7 @@
     aio:currentValue 204 ;
     aio:hasCategory <http://purl.org/net/italian_airports/resources/categories/passeggeri> ;
     aio:pastValue 0 ;
-    aio:variation 100.0 .
+    aio:variation 100.00 .
 
 <http://purl.org/net/italian_airports/resources/summaries/LIPK-passeggeri-intarnazionale-2020> a aio:TrafficData ;
     rdfs:label "passeggeri 2020"^^xsd:string ;
@@ -4606,7 +4606,7 @@
     aio:currentValue 4.0 ;
     aio:hasCategory <http://purl.org/net/italian_airports/resources/categories/voli_commerciali> ;
     aio:pastValue 0.0 ;
-    aio:variation 100.0 .
+    aio:variation 100.00 .
 
 <http://purl.org/net/italian_airports/resources/summaries/LIPK-voli_commerciali-internazionale-2019> a aio:TrafficData ;
     rdfs:label "voli commerciali 2019"^^xsd:string ;
@@ -4646,7 +4646,7 @@
     aio:currentValue 21503.70000000000072759576141834259033203125 ;
     aio:hasCategory <http://purl.org/net/italian_airports/resources/categories/merci_e_posta> ;
     aio:pastValue 24270.0 ;
-    aio:variation -11.4000000000000003552713678800500929355621337890625 .
+    aio:variation -11.40 .
 
 <http://purl.org/net/italian_airports/resources/summaries/LIPO-merci_e_posta-internazionale-2019> a aio:TrafficData ;
     rdfs:label "merci e posta 2019"^^xsd:string ;
@@ -4686,7 +4686,7 @@
     aio:currentValue 569 ;
     aio:hasCategory <http://purl.org/net/italian_airports/resources/categories/passeggeri> ;
     aio:pastValue 16263 ;
-    aio:variation -96.5 .
+    aio:variation -96.50 .
 
 <http://purl.org/net/italian_airports/resources/summaries/LIPO-passeggeri-intarnazionale-2020> a aio:TrafficData ;
     rdfs:label "passeggeri 2020"^^xsd:string ;
@@ -4726,7 +4726,7 @@
     aio:currentValue 5255.0 ;
     aio:hasCategory <http://purl.org/net/italian_airports/resources/categories/voli_commerciali> ;
     aio:pastValue 6424.0 ;
-    aio:variation -18.199999999999999289457264239899814128875732421875 .
+    aio:variation -18.20 .
 
 <http://purl.org/net/italian_airports/resources/summaries/LIPO-voli_commerciali-internazionale-2019> a aio:TrafficData ;
     rdfs:label "voli commerciali 2019"^^xsd:string ;
@@ -4766,7 +4766,7 @@
     aio:currentValue 39.10000000000000142108547152020037174224853515625 ;
     aio:hasCategory <http://purl.org/net/italian_airports/resources/categories/merci_e_posta> ;
     aio:pastValue 98.0 ;
-    aio:variation -60.10000000000000142108547152020037174224853515625 .
+    aio:variation -60.10 .
 
 <http://purl.org/net/italian_airports/resources/summaries/LIPQ-merci_e_posta-internazionale-2019> a aio:TrafficData ;
     rdfs:label "merci e posta 2019"^^xsd:string ;
@@ -4806,7 +4806,7 @@
     aio:currentValue 206653 ;
     aio:hasCategory <http://purl.org/net/italian_airports/resources/categories/passeggeri> ;
     aio:pastValue 1088479 ;
-    aio:variation -81.0100000000000051159076974727213382720947265625 .
+    aio:variation -81.01 .
 
 <http://purl.org/net/italian_airports/resources/summaries/LIPQ-passeggeri-intarnazionale-2020> a aio:TrafficData ;
     rdfs:label "passeggeri 2020"^^xsd:string ;
@@ -4846,7 +4846,7 @@
     aio:currentValue 2656.0 ;
     aio:hasCategory <http://purl.org/net/italian_airports/resources/categories/voli_commerciali> ;
     aio:pastValue 12288.0 ;
-    aio:variation -78.3900000000000005684341886080801486968994140625 .
+    aio:variation -78.39 .
 
 <http://purl.org/net/italian_airports/resources/summaries/LIPQ-voli_commerciali-internazionale-2019> a aio:TrafficData ;
     rdfs:label "voli commerciali 2019"^^xsd:string ;
@@ -4886,7 +4886,7 @@
     aio:currentValue 154.69999999999998863131622783839702606201171875 ;
     aio:hasCategory <http://purl.org/net/italian_airports/resources/categories/merci_e_posta> ;
     aio:pastValue 4.0 ;
-    aio:variation 3767.5 .
+    aio:variation 3767.50 .
 
 <http://purl.org/net/italian_airports/resources/summaries/LIPR-merci_e_posta-internazionale-2019> a aio:TrafficData ;
     rdfs:label "merci e posta 2019"^^xsd:string ;
@@ -4926,7 +4926,7 @@
     aio:currentValue 37516 ;
     aio:hasCategory <http://purl.org/net/italian_airports/resources/categories/passeggeri> ;
     aio:pastValue 396726 ;
-    aio:variation -90.5400000000000062527760746888816356658935546875 .
+    aio:variation -90.54 .
 
 <http://purl.org/net/italian_airports/resources/summaries/LIPR-passeggeri-intarnazionale-2020> a aio:TrafficData ;
     rdfs:label "passeggeri 2020"^^xsd:string ;
@@ -4966,7 +4966,7 @@
     aio:currentValue 613.0 ;
     aio:hasCategory <http://purl.org/net/italian_airports/resources/categories/voli_commerciali> ;
     aio:pastValue 2596.0 ;
-    aio:variation -76.3900000000000005684341886080801486968994140625 .
+    aio:variation -76.39 .
 
 <http://purl.org/net/italian_airports/resources/summaries/LIPR-voli_commerciali-internazionale-2019> a aio:TrafficData ;
     rdfs:label "voli commerciali 2019"^^xsd:string ;
@@ -5006,7 +5006,7 @@
     aio:currentValue 259.6000000000000227373675443232059478759765625 ;
     aio:hasCategory <http://purl.org/net/italian_airports/resources/categories/merci_e_posta> ;
     aio:pastValue 691.0 ;
-    aio:variation -62.42999999999999971578290569595992565155029296875 .
+    aio:variation -62.43 .
 
 <http://purl.org/net/italian_airports/resources/summaries/LIPX-merci_e_posta-internazionale-2019> a aio:TrafficData ;
     rdfs:label "merci e posta 2019"^^xsd:string ;
@@ -5046,7 +5046,7 @@
     aio:currentValue 1029982 ;
     aio:hasCategory <http://purl.org/net/italian_airports/resources/categories/passeggeri> ;
     aio:pastValue 4800032 ;
-    aio:variation -78.5400000000000062527760746888816356658935546875 .
+    aio:variation -78.54 .
 
 <http://purl.org/net/italian_airports/resources/summaries/LIPX-passeggeri-intarnazionale-2020> a aio:TrafficData ;
     rdfs:label "passeggeri 2020"^^xsd:string ;
@@ -5086,7 +5086,7 @@
     aio:currentValue 9487.0 ;
     aio:hasCategory <http://purl.org/net/italian_airports/resources/categories/voli_commerciali> ;
     aio:pastValue 41838.0 ;
-    aio:variation -77.31999999999999317878973670303821563720703125 .
+    aio:variation -77.32 .
 
 <http://purl.org/net/italian_airports/resources/summaries/LIPX-voli_commerciali-internazionale-2019> a aio:TrafficData ;
     rdfs:label "voli commerciali 2019"^^xsd:string ;
@@ -5126,7 +5126,7 @@
     aio:currentValue 5570.5 ;
     aio:hasCategory <http://purl.org/net/italian_airports/resources/categories/merci_e_posta> ;
     aio:pastValue 6943.0 ;
-    aio:variation -19.769999999999999573674358543939888477325439453125 .
+    aio:variation -19.77 .
 
 <http://purl.org/net/italian_airports/resources/summaries/LIPY-merci_e_posta-internazionale-2019> a aio:TrafficData ;
     rdfs:label "merci e posta 2019"^^xsd:string ;
@@ -5166,7 +5166,7 @@
     aio:currentValue 148117 ;
     aio:hasCategory <http://purl.org/net/italian_airports/resources/categories/passeggeri> ;
     aio:pastValue 531083 ;
-    aio:variation -72.1099999999999994315658113919198513031005859375 .
+    aio:variation -72.11 .
 
 <http://purl.org/net/italian_airports/resources/summaries/LIPY-passeggeri-intarnazionale-2020> a aio:TrafficData ;
     rdfs:label "passeggeri 2020"^^xsd:string ;
@@ -5206,7 +5206,7 @@
     aio:currentValue 2379.0 ;
     aio:hasCategory <http://purl.org/net/italian_airports/resources/categories/voli_commerciali> ;
     aio:pastValue 6210.0 ;
-    aio:variation -61.68999999999999772626324556767940521240234375 .
+    aio:variation -61.69 .
 
 <http://purl.org/net/italian_airports/resources/summaries/LIPY-voli_commerciali-internazionale-2019> a aio:TrafficData ;
     rdfs:label "voli commerciali 2019"^^xsd:string ;
@@ -5246,7 +5246,7 @@
     aio:currentValue 37225.199999999997089616954326629638671875 ;
     aio:hasCategory <http://purl.org/net/italian_airports/resources/categories/merci_e_posta> ;
     aio:pastValue 52067.0 ;
-    aio:variation -28.510000000000001563194018672220408916473388671875 .
+    aio:variation -28.51 .
 
 <http://purl.org/net/italian_airports/resources/summaries/LIPZ-merci_e_posta-internazionale-2019> a aio:TrafficData ;
     rdfs:label "merci e posta 2019"^^xsd:string ;
@@ -5286,7 +5286,7 @@
     aio:currentValue 2785673 ;
     aio:hasCategory <http://purl.org/net/italian_airports/resources/categories/passeggeri> ;
     aio:pastValue 12336823 ;
-    aio:variation -77.4200000000000017053025658242404460906982421875 .
+    aio:variation -77.42 .
 
 <http://purl.org/net/italian_airports/resources/summaries/LIPZ-passeggeri-intarnazionale-2020> a aio:TrafficData ;
     rdfs:label "passeggeri 2020"^^xsd:string ;
@@ -5326,7 +5326,7 @@
     aio:currentValue 29663.0 ;
     aio:hasCategory <http://purl.org/net/italian_airports/resources/categories/voli_commerciali> ;
     aio:pastValue 96987.0 ;
-    aio:variation -69.4200000000000017053025658242404460906982421875 .
+    aio:variation -69.42 .
 
 <http://purl.org/net/italian_airports/resources/summaries/LIPZ-voli_commerciali-internazionale-2019> a aio:TrafficData ;
     rdfs:label "voli commerciali 2019"^^xsd:string ;
@@ -5366,7 +5366,7 @@
     aio:currentValue 19354.29999999999927240423858165740966796875 ;
     aio:hasCategory <http://purl.org/net/italian_airports/resources/categories/merci_e_posta> ;
     aio:pastValue 18075.0 ;
-    aio:variation 7.0800000000000000710542735760100185871124267578125 .
+    aio:variation 7.08 .
 
 <http://purl.org/net/italian_airports/resources/summaries/LIRA-merci_e_posta-internazionale-2019> a aio:TrafficData ;
     rdfs:label "merci e posta 2019"^^xsd:string ;
@@ -5406,7 +5406,7 @@
     aio:currentValue 1605781 ;
     aio:hasCategory <http://purl.org/net/italian_airports/resources/categories/passeggeri> ;
     aio:pastValue 5852023 ;
-    aio:variation -72.56000000000000227373675443232059478759765625 .
+    aio:variation -72.56 .
 
 <http://purl.org/net/italian_airports/resources/summaries/LIRA-passeggeri-intarnazionale-2020> a aio:TrafficData ;
     rdfs:label "passeggeri 2020"^^xsd:string ;
@@ -5446,7 +5446,7 @@
     aio:currentValue 14522.0 ;
     aio:hasCategory <http://purl.org/net/italian_airports/resources/categories/voli_commerciali> ;
     aio:pastValue 35370.0 ;
-    aio:variation -58.93999999999999772626324556767940521240234375 .
+    aio:variation -58.94 .
 
 <http://purl.org/net/italian_airports/resources/summaries/LIRA-voli_commerciali-internazionale-2019> a aio:TrafficData ;
     rdfs:label "voli commerciali 2019"^^xsd:string ;
@@ -5486,7 +5486,7 @@
     aio:currentValue 74504.0 ;
     aio:hasCategory <http://purl.org/net/italian_airports/resources/categories/merci_e_posta> ;
     aio:pastValue 256300.0 ;
-    aio:variation -70.93000000000000682121026329696178436279296875 .
+    aio:variation -70.93 .
 
 <http://purl.org/net/italian_airports/resources/summaries/LIRF-merci_e_posta-internazionale-2019> a aio:TrafficData ;
     rdfs:label "merci e posta 2019"^^xsd:string ;
@@ -5526,7 +5526,7 @@
     aio:currentValue 9754768 ;
     aio:hasCategory <http://purl.org/net/italian_airports/resources/categories/passeggeri> ;
     aio:pastValue 61169345 ;
-    aio:variation -84.0499999999999971578290569595992565155029296875 .
+    aio:variation -84.05 .
 
 <http://purl.org/net/italian_airports/resources/summaries/LIRF-passeggeri-intarnazionale-2020> a aio:TrafficData ;
     rdfs:label "passeggeri 2020"^^xsd:string ;
@@ -5566,7 +5566,7 @@
     aio:currentValue 100046.0 ;
     aio:hasCategory <http://purl.org/net/italian_airports/resources/categories/voli_commerciali> ;
     aio:pastValue 457677.0 ;
-    aio:variation -78.1400000000000005684341886080801486968994140625 .
+    aio:variation -78.14 .
 
 <http://purl.org/net/italian_airports/resources/summaries/LIRF-voli_commerciali-internazionale-2019> a aio:TrafficData ;
     rdfs:label "voli commerciali 2019"^^xsd:string ;
@@ -5606,7 +5606,7 @@
     aio:currentValue 0.0 ;
     aio:hasCategory <http://purl.org/net/italian_airports/resources/categories/merci_e_posta> ;
     aio:pastValue 0.0 ;
-    aio:variation 0.0 .
+    aio:variation 0.00 .
 
 <http://purl.org/net/italian_airports/resources/summaries/LIRI-merci_e_posta-internazionale-2019> a aio:TrafficData ;
     rdfs:label "merci e posta 2019"^^xsd:string ;
@@ -5646,7 +5646,7 @@
     aio:currentValue 0 ;
     aio:hasCategory <http://purl.org/net/italian_airports/resources/categories/passeggeri> ;
     aio:pastValue 0 ;
-    aio:variation 0.0 .
+    aio:variation 0.00 .
 
 <http://purl.org/net/italian_airports/resources/summaries/LIRI-passeggeri-intarnazionale-2020> a aio:TrafficData ;
     rdfs:label "passeggeri 2020"^^xsd:string ;
@@ -5686,7 +5686,7 @@
     aio:currentValue 0.0 ;
     aio:hasCategory <http://purl.org/net/italian_airports/resources/categories/voli_commerciali> ;
     aio:pastValue 0.0 ;
-    aio:variation 0.0 .
+    aio:variation 0.00 .
 
 <http://purl.org/net/italian_airports/resources/summaries/LIRI-voli_commerciali-internazionale-2019> a aio:TrafficData ;
     rdfs:label "voli commerciali 2019"^^xsd:string ;
@@ -5726,7 +5726,7 @@
     aio:currentValue 0.0 ;
     aio:hasCategory <http://purl.org/net/italian_airports/resources/categories/merci_e_posta> ;
     aio:pastValue 0.0 ;
-    aio:variation 0.0 .
+    aio:variation 0.00 .
 
 <http://purl.org/net/italian_airports/resources/summaries/LIRJ-merci_e_posta-internazionale-2019> a aio:TrafficData ;
     rdfs:label "merci e posta 2019"^^xsd:string ;
@@ -5766,7 +5766,7 @@
     aio:currentValue 1749 ;
     aio:hasCategory <http://purl.org/net/italian_airports/resources/categories/passeggeri> ;
     aio:pastValue 1869 ;
-    aio:variation -6.4199999999999999289457264239899814128875732421875 .
+    aio:variation -6.42 .
 
 <http://purl.org/net/italian_airports/resources/summaries/LIRJ-passeggeri-intarnazionale-2020> a aio:TrafficData ;
     rdfs:label "passeggeri 2020"^^xsd:string ;
@@ -5806,7 +5806,7 @@
     aio:currentValue 501.0 ;
     aio:hasCategory <http://purl.org/net/italian_airports/resources/categories/voli_commerciali> ;
     aio:pastValue 119.0 ;
-    aio:variation 321.009999999999990905052982270717620849609375 .
+    aio:variation 321.01 .
 
 <http://purl.org/net/italian_airports/resources/summaries/LIRJ-voli_commerciali-internazionale-2019> a aio:TrafficData ;
     rdfs:label "voli commerciali 2019"^^xsd:string ;
@@ -5846,7 +5846,7 @@
     aio:currentValue 8691.399999999999636202119290828704833984375 ;
     aio:hasCategory <http://purl.org/net/italian_airports/resources/categories/merci_e_posta> ;
     aio:pastValue 11323.0 ;
-    aio:variation -23.239999999999998436805981327779591083526611328125 .
+    aio:variation -23.24 .
 
 <http://purl.org/net/italian_airports/resources/summaries/LIRN-merci_e_posta-internazionale-2019> a aio:TrafficData ;
     rdfs:label "merci e posta 2019"^^xsd:string ;
@@ -5886,7 +5886,7 @@
     aio:currentValue 2761062 ;
     aio:hasCategory <http://purl.org/net/italian_airports/resources/categories/passeggeri> ;
     aio:pastValue 11790088 ;
-    aio:variation -76.5799999999999982946974341757595539093017578125 .
+    aio:variation -76.58 .
 
 <http://purl.org/net/italian_airports/resources/summaries/LIRN-passeggeri-intarnazionale-2020> a aio:TrafficData ;
     rdfs:label "passeggeri 2020"^^xsd:string ;
@@ -5926,7 +5926,7 @@
     aio:currentValue 25534.0 ;
     aio:hasCategory <http://purl.org/net/italian_airports/resources/categories/voli_commerciali> ;
     aio:pastValue 88616.0 ;
-    aio:variation -71.18999999999999772626324556767940521240234375 .
+    aio:variation -71.19 .
 
 <http://purl.org/net/italian_airports/resources/summaries/LIRN-voli_commerciali-internazionale-2019> a aio:TrafficData ;
     rdfs:label "voli commerciali 2019"^^xsd:string ;
@@ -5966,7 +5966,7 @@
     aio:currentValue 12461.399999999999636202119290828704833984375 ;
     aio:hasCategory <http://purl.org/net/italian_airports/resources/categories/merci_e_posta> ;
     aio:pastValue 12650.0 ;
-    aio:variation -1.4899999999999999911182158029987476766109466552734375 .
+    aio:variation -1.49 .
 
 <http://purl.org/net/italian_airports/resources/summaries/LIRP-merci_e_posta-internazionale-2019> a aio:TrafficData ;
     rdfs:label "merci e posta 2019"^^xsd:string ;
@@ -6006,7 +6006,7 @@
     aio:currentValue 1303200 ;
     aio:hasCategory <http://purl.org/net/italian_airports/resources/categories/passeggeri> ;
     aio:pastValue 5720734 ;
-    aio:variation -77.219999999999998863131622783839702606201171875 .
+    aio:variation -77.22 .
 
 <http://purl.org/net/italian_airports/resources/summaries/LIRP-passeggeri-intarnazionale-2020> a aio:TrafficData ;
     rdfs:label "passeggeri 2020"^^xsd:string ;
@@ -6046,7 +6046,7 @@
     aio:currentValue 12995.0 ;
     aio:hasCategory <http://purl.org/net/italian_airports/resources/categories/voli_commerciali> ;
     aio:pastValue 42144.0 ;
-    aio:variation -69.1700000000000017053025658242404460906982421875 .
+    aio:variation -69.17 .
 
 <http://purl.org/net/italian_airports/resources/summaries/LIRP-voli_commerciali-internazionale-2019> a aio:TrafficData ;
     rdfs:label "voli commerciali 2019"^^xsd:string ;
@@ -6086,7 +6086,7 @@
     aio:currentValue 7.800000000000000710542735760100185871124267578125 ;
     aio:hasCategory <http://purl.org/net/italian_airports/resources/categories/merci_e_posta> ;
     aio:pastValue 85.0 ;
-    aio:variation -90.81999999999999317878973670303821563720703125 .
+    aio:variation -90.82 .
 
 <http://purl.org/net/italian_airports/resources/summaries/LIRQ-merci_e_posta-internazionale-2019> a aio:TrafficData ;
     rdfs:label "merci e posta 2019"^^xsd:string ;
@@ -6166,7 +6166,7 @@
     aio:currentValue 9885.0 ;
     aio:hasCategory <http://purl.org/net/italian_airports/resources/categories/voli_commerciali> ;
     aio:pastValue 35750.0 ;
-    aio:variation -72.349999999999994315658113919198513031005859375 .
+    aio:variation -72.35 .
 
 <http://purl.org/net/italian_airports/resources/summaries/LIRQ-voli_commerciali-internazionale-2019> a aio:TrafficData ;
     rdfs:label "voli commerciali 2019"^^xsd:string ;
@@ -6206,7 +6206,7 @@
     aio:currentValue 0.0 ;
     aio:hasCategory <http://purl.org/net/italian_airports/resources/categories/merci_e_posta> ;
     aio:pastValue 0.0 ;
-    aio:variation 0.0 .
+    aio:variation 0.00 .
 
 <http://purl.org/net/italian_airports/resources/summaries/LIRS-merci_e_posta-internazionale-2019> a aio:TrafficData ;
     rdfs:label "merci e posta 2019"^^xsd:string ;
@@ -6246,7 +6246,7 @@
     aio:currentValue 307 ;
     aio:hasCategory <http://purl.org/net/italian_airports/resources/categories/passeggeri> ;
     aio:pastValue 247 ;
-    aio:variation 24.28999999999999914734871708787977695465087890625 .
+    aio:variation 24.29 .
 
 <http://purl.org/net/italian_airports/resources/summaries/LIRS-passeggeri-intarnazionale-2020> a aio:TrafficData ;
     rdfs:label "passeggeri 2020"^^xsd:string ;
@@ -6286,7 +6286,7 @@
     aio:currentValue 8.0 ;
     aio:hasCategory <http://purl.org/net/italian_airports/resources/categories/voli_commerciali> ;
     aio:pastValue 6.0 ;
-    aio:variation 33.3299999999999982946974341757595539093017578125 .
+    aio:variation 33.33 .
 
 <http://purl.org/net/italian_airports/resources/summaries/LIRS-voli_commerciali-internazionale-2019> a aio:TrafficData ;
     rdfs:label "voli commerciali 2019"^^xsd:string ;
@@ -6326,7 +6326,7 @@
     aio:currentValue 0.0 ;
     aio:hasCategory <http://purl.org/net/italian_airports/resources/categories/merci_e_posta> ;
     aio:pastValue 0.0 ;
-    aio:variation 0.0 .
+    aio:variation 0.00 .
 
 <http://purl.org/net/italian_airports/resources/summaries/LIRZ-merci_e_posta-internazionale-2019> a aio:TrafficData ;
     rdfs:label "merci e posta 2019"^^xsd:string ;
@@ -6366,7 +6366,7 @@
     aio:currentValue 76009 ;
     aio:hasCategory <http://purl.org/net/italian_airports/resources/categories/passeggeri> ;
     aio:pastValue 222895 ;
-    aio:variation -65.900000000000005684341886080801486968994140625 .
+    aio:variation -65.90 .
 
 <http://purl.org/net/italian_airports/resources/summaries/LIRZ-passeggeri-intarnazionale-2020> a aio:TrafficData ;
     rdfs:label "passeggeri 2020"^^xsd:string ;
@@ -6406,7 +6406,7 @@
     aio:currentValue 838.0 ;
     aio:hasCategory <http://purl.org/net/italian_airports/resources/categories/voli_commerciali> ;
     aio:pastValue 1616.0 ;
-    aio:variation -48.1400000000000005684341886080801486968994140625 .
+    aio:variation -48.14 .
 
 <http://purl.org/net/italian_airports/resources/summaries/LIRZ-voli_commerciali-internazionale-2019> a aio:TrafficData ;
     rdfs:label "voli commerciali 2019"^^xsd:string ;

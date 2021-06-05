@@ -78,5 +78,6 @@ def __combine_traffic_data(traffic_2019, traffic_2020):
                 variation = Decimal(100.0)
             else:
                 variation = ((Decimal(value_2020) - Decimal(value_2019)) / Decimal(value_2019)) * 100
+                variation = round(variation, 2)
             combined_rows.append([airport, cat, value_2020, value_2019, round(variation, 2)])
     return combined_rows

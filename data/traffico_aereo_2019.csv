@@ -251,21 +251,21 @@ Id,Aeroporto,Categoria,Origine,Valore,Anno
 249,LIPX,merci e posta,nazionale,16.0,2019
 250,LIPX,voli commerciali,nazionale,15331.0,2019
 251,LIPX,passeggeri,nazionale,1665069.0,2019
-252,LIMG,passeggeri,internazionale,0.0,2019
-253,LIMG,passeggeri,nazionale,0.0,2019
-254,LIMG,merci e posta,internazionale,0.0,2019
-255,LIMG,merci e posta,nazionale,0.0,2019
-256,LIMG,voli commerciali,internazionale,0.0,2019
-257,LIMG,voli commerciali,nazionale,0.0,2019
-258,LIRI,passeggeri,internazionale,0.0,2019
-259,LIRI,passeggeri,nazionale,0.0,2019
-260,LIRI,merci e posta,internazionale,0.0,2019
-261,LIRI,merci e posta,nazionale,0.0,2019
-262,LIRI,voli commerciali,internazionale,0.0,2019
-263,LIRI,voli commerciali,nazionale,0.0,2019
-264,LIMW,passeggeri,internazionale,0.0,2019
-265,LIMW,passeggeri,nazionale,0.0,2019
-266,LIMW,merci e posta,internazionale,0.0,2019
-267,LIMW,merci e posta,nazionale,0.0,2019
-268,LIMW,voli commerciali,internazionale,0.0,2019
-269,LIMW,voli commerciali,nazionale,0.0,2019
+252,LIMW,passeggeri,internazionale,0.0,2019
+253,LIMW,passeggeri,nazionale,0.0,2019
+254,LIMW,merci e posta,internazionale,0.0,2019
+255,LIMW,merci e posta,nazionale,0.0,2019
+256,LIMW,voli commerciali,internazionale,0.0,2019
+257,LIMW,voli commerciali,nazionale,0.0,2019
+258,LIMG,passeggeri,internazionale,0.0,2019
+259,LIMG,passeggeri,nazionale,0.0,2019
+260,LIMG,merci e posta,internazionale,0.0,2019
+261,LIMG,merci e posta,nazionale,0.0,2019
+262,LIMG,voli commerciali,internazionale,0.0,2019
+263,LIMG,voli commerciali,nazionale,0.0,2019
+264,LIRI,passeggeri,internazionale,0.0,2019
+265,LIRI,passeggeri,nazionale,0.0,2019
+266,LIRI,merci e posta,internazionale,0.0,2019
+267,LIRI,merci e posta,nazionale,0.0,2019
+268,LIRI,voli commerciali,internazionale,0.0,2019
+269,LIRI,voli commerciali,nazionale,0.0,2019

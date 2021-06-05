@@ -173,6 +173,7 @@ def __add_traffic_summary_triples(row, graph, category_uri, airport_uri):
         xsd_val_type = XSD.integer
         value_past = int(row["Valore 2019"])
         value_present = int(row["Valore 2020"])
+    variation = round(Decimal(row["Variazione Percentuale"]), 2)
     res_name = "-".join([row["Aeroporto"], __urify_string(row["Categoria"]), "2020-2019"])
     summary_uri = URIRef(base_domain + "/summaries/" + res_name)
     # TrafficSummary type definition
@@ -181,7 +182,7 @@ def __add_traffic_summary_triples(row, graph, category_uri, airport_uri):
     graph.add((summary_uri, aio.currentValue, Literal(value_present, datatype=xsd_val_type)))
     graph.add((summary_uri, aio.pastValue, Literal(value_past, datatype=xsd_val_type)))
     graph.add((summary_uri, aio.pastValue, Literal(value_past, datatype=xsd_val_type)))
-    graph.add((summary_uri, aio.variation, Literal(Decimal(row["Variazione Percentuale"]), datatype=XSD.decimal)))
+    graph.add((summary_uri, aio.variation, Literal(variation, datatype=XSD.decimal)))
     # Let's add objects properties
     graph.add((airport_uri, aio.summaryData, summary_uri))
     graph.add((summary_uri, aio.hasCategory, category_uri))
