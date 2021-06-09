@@ -1,156 +1,347 @@
-@prefix : <http://purl.org/net/italian_airports/ontology#> .
-@prefix aio: <http://purl.org/net/aeroporti_italiani/ontologia> .
+@prefix : <http://purl.org/net/aeroporti_italiani/ontologia.owl/> .
+@prefix aio: <http://purl.org/net/aeroporti_italiani/ontologia.owl/> .
+@prefix geo: <https://schema.org/GeoCoordinates> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix schema: <https://schema.org> .
-@base <http://purl.org/net/italian_airports/ontology> .
+@prefix schema: <https://schema.org/> .
+@base <http://purl.org/net/aeroporti_italiani/ontologia.owl> .
 
-<http://purl.org/net/italian_airports/ontology> rdf:type owl:Ontology .
+<http://purl.org/net/aeroporti_italiani/ontologia.owl> rdf:type owl:Ontology ;
+                                                        rdfs:comment "Ontologia sugli aeroporti commerciali italiani censiti dall'ENAC e dal Ministero dei Trasporti e i rispettivi dati di traffico"@it ;
+                                                        owl:versionInfo "1.0.0" .
 
 #################################################################
 #    Object Properties
 #################################################################
 
-###  http://purl.org/net/italian_airports/ontology#belongsTo
-:belongsTo rdf:type owl:ObjectProperty ;
-           owl:inverseOf :hasTrafficData ;
-           rdfs:domain :TrafficData ;
-           rdfs:range :Airport .
+###  http://purl.org/net/aeroporti_italiani/ontologia.owl/comune
+aio:comune rdf:type owl:ObjectProperty ;
+          rdfs:domain aio:Comune ;
+          rdfs:range aio:Comune ;
+          rdfs:comment "Comune associato all'indirizzo"@it .
 
 
-###  http://purl.org/net/italian_airports/ontology#hasTrafficData
-:hasTrafficData rdf:type owl:ObjectProperty ;
-                rdfs:domain :Airport ;
-                rdfs:range :TrafficData .
+###  http://purl.org/net/aeroporti_italiani/ontologia.owl/geoDati
+aio:geoDati rdf:type owl:ObjectProperty ;
+            rdfs:domain aio:Indirizzo ;
+            rdfs:range schema:GeoCoordinates ;
+            rdfs:comment "Geodati associati ad un Indirizzo relativo ad un aeroporto"@it .
 
 
-###  http://purl.org/net/italian_airports/ontology#isManagedBy
-:isManagedBy rdf:type owl:ObjectProperty ;
-             owl:inverseOf :isManagerOf ;
-             rdfs:domain :Airport ;
-             rdfs:range :ManagingAuthority .
+###  http://purl.org/net/aeroporti_italiani/ontologia.owl/gestisceAeroporto
+aio:gestisceAeroporto rdf:type owl:ObjectProperty ;
+                      owl:inverseOf aio:haGestore ;
+                      rdfs:domain aio:Gestore ;
+                      rdfs:range aio:Aeroporto ;
+                      rdfs:comment "Codice ICAO dell'aeroporto gestito dalla società di gestione"@it .
 
 
-###  http://purl.org/net/italian_airports/ontology#isManagerOf
-:isManagerOf rdf:type owl:ObjectProperty ;
-             rdfs:subPropertyOf owl:topObjectProperty ;
-             rdfs:domain :ManagingAuthority ;
-             rdfs:range :Airport .
+###  http://purl.org/net/aeroporti_italiani/ontologia.owl/haCategoria
+aio:haCategoria rdf:type owl:ObjectProperty ;
+                rdfs:domain aio:DatoTraffico ,
+                            aio:RiepilogoDatiTraffico ;
+                rdfs:comment "Categoria a cui è associato un particolare oggetto di DatoTraffico o RiepilogoDatiTraffico. Possibili valori: \"merci e posta\", \"passeggeri\", \"voli commerciali\""@it .
+
+
+###  http://purl.org/net/aeroporti_italiani/ontologia.owl/haComune
+aio:haComune rdf:type owl:ObjectProperty ;
+            owl:inverseOf aio:inRegione ;
+            rdfs:domain aio:Regione ;
+            rdfs:range aio:Comune ;
+            rdfs:comment "Una Regione ha dei comuni"@it .
+
+
+###  http://purl.org/net/aeroporti_italiani/ontologia.owl/haDatoTraffico
+aio:haDatoTraffico rdf:type owl:ObjectProperty ;
+                   owl:inverseOf aio:riferitoAdAeroporto ;
+                   rdfs:domain aio:Aeroporto ;
+                   rdfs:range aio:DatoTraffico ;
+                   rdfs:comment "URI degli oggetti di tipo DatoTraffico associato ad un aeroporto"@it .
+
+
+###  http://purl.org/net/aeroporti_italiani/ontologia.owl/haGestore
+aio:haGestore rdf:type owl:ObjectProperty ;
+              rdfs:domain aio:Aeroporto ;
+              rdfs:range aio:Gestore ;
+              rdfs:comment "Società a cui l'aeroporto è dato in gestione"@it .
+
+
+###  http://purl.org/net/aeroporti_italiani/ontologia.owl/haIndirizzo
+aio:haIndirizzo rdf:type owl:ObjectProperty ;
+                rdfs:domain aio:Aeroporto ;
+                rdfs:range aio:Indirizzo ;
+                rdfs:comment "Indirizzo in cui si trova l'aeroporto"@it .
+
+
+###  http://purl.org/net/aeroporti_italiani/ontologia.owl/haProvincia
+aio:haProvincia rdf:type owl:ObjectProperty ;
+                owl:inverseOf aio:inRegione ;
+                rdfs:domain aio:Regione ;
+                rdfs:range aio:Provincia ;
+                rdfs:comment "Una Regione ha delle Province"@it .
+
+
+###  http://purl.org/net/aeroporti_italiani/ontologia.owl/haRiepilogoTraffico
+aio:haRiepilogoTraffico rdf:type owl:ObjectProperty ;
+                        owl:inverseOf aio:riferitoAdAeroporto ;
+                        rdfs:domain aio:Aeroporto ;
+                        rdfs:range aio:RiepilogoDatiTraffico ;
+                        rdfs:comment "URI degli oggetti di tipo RiepologoDatiTraffico associato ad un aeroporto"@it .
+
+
+###  http://purl.org/net/aeroporti_italiani/ontologia.owl/haZonaAmministrativa
+aio:haZonaAmministrativa rdf:type owl:ObjectProperty ;
+                         rdfs:domain aio:Stato ;
+                         rdfs:range aio:Regione ;
+                         rdfs:comment "Zona amministrativa appartenente ad uno Stato"@it .
+
+
+###  http://purl.org/net/aeroporti_italiani/ontologia.owl/inProvinciaDi
+aio:inProvinciaDi rdf:type owl:ObjectProperty ;
+                  owl:inverseOf aio:èProvinciaDi ;
+                  rdfs:domain aio:Comune ;
+                  rdfs:range aio:Provincia ;
+                  rdfs:comment "Un Comune ha una Provincia"@it .
+
+
+###  http://purl.org/net/aeroporti_italiani/ontologia.owl/inRegione
+aio:inRegione rdf:type owl:ObjectProperty ;
+              rdfs:domain aio:Comune ,
+                          aio:Provincia ;
+              rdfs:range aio:Regione ;
+              rdfs:comment "Un Comune appartiene ad una Regione"@it .
+
+
+###  http://purl.org/net/aeroporti_italiani/ontologia.owl/inStato
+aio:inStato rdf:type owl:ObjectProperty ;
+            rdfs:domain aio:Comune ,
+                        aio:Provincia ,
+                        aio:Regione ;
+            rdfs:range aio:Stato ;
+            rdfs:comment "Stato a cui appartengono o una Regione, o un Comune"@it .
+
+
+###  http://purl.org/net/aeroporti_italiani/ontologia.owl/intitolatoA
+aio:intitolatoA rdf:type owl:ObjectProperty ;
+                rdfs:domain aio:Aeroporto ;
+                rdfs:range aio:Persona ;
+                rdfs:comment "URI che punta alla risorsa di tipo Persona assiciata alla persona a cui è intitolato l'aeroporto"@it .
+
+
+###  http://purl.org/net/aeroporti_italiani/ontologia.owl/provincia
+aio:provincia rdf:type owl:ObjectProperty ;
+              rdfs:domain aio:Indirizzo ;
+              rdfs:comment "Provincia associata al comune dell'indirizzo"@it .
+
+
+###  http://purl.org/net/aeroporti_italiani/ontologia.owl/regione
+aio:regione rdf:type owl:ObjectProperty ;
+            rdfs:domain aio:Indirizzo ;
+            rdfs:range aio:Regione ;
+            rdfs:comment "Regione in cui si trova l'aeroporto, dato appartenente all'indirizzo"@it .
+
+
+###  http://purl.org/net/aeroporti_italiani/ontologia.owl/riferitoAdAeroporto
+aio:riferitoAdAeroporto rdf:type owl:ObjectProperty ;
+                        rdfs:domain aio:DatoTraffico ,
+                                    aio:RiepilogoDatiTraffico ;
+                        rdfs:range aio:Aeroporto ;
+                        rdfs:comment "Codice ICAO dell'aeroporto a cui è riferito il dato/riepilogo del dato sul traffico"@it .
+
+
+###  http://purl.org/net/aeroporti_italiani/ontologia.owl/stato
+aio:stato rdf:type owl:ObjectProperty ;
+          rdfs:domain aio:Indirizzo ;
+          rdfs:range aio:Stato ;
+          rdfs:comment "Stato associato all'indirizzo"@it .
+
+
+###  http://purl.org/net/aeroporti_italiani/ontologia.owl/èProvinciaDi
+aio:èProvinciaDi rdf:type owl:ObjectProperty ;
+                 rdfs:domain aio:Provincia ;
+                 rdfs:range aio:Comune ;
+                 rdfs:comment "Una Provincia è provincia di un altro comune"@it .
 
 
 ###  http://www.w3.org/2002/07/owl#sameAs
 owl:sameAs rdf:type owl:ObjectProperty ;
            rdfs:domain owl:Thing ;
-           rdfs:range owl:Thing .
-
-
-###  https://schema.org/address
-<https://schema.org/address> rdf:type owl:ObjectProperty ;
-                             rdfs:domain <https://schema.org/GeoCoodinates> ;
-                             rdfs:range <https://schema.org/PostalAddress> .
+           rdfs:range owl:Thing ;
+           rdfs:comment "Proprietà sameAs di OWL per specificare l'equivalenza tra un oggetto ed un altro appartenente ad un altro grafo di conoscenza"@it .
 
 
 #################################################################
 #    Data properties
 #################################################################
 
-###  http://purl.org/net/italian_airports/ontology#category
-:category rdf:type owl:DatatypeProperty ;
-          rdfs:domain :TrafficData ;
-          rdfs:range xsd:string .
+###  http://purl.org/net/aeroporti_italiani/ontologia.owl/anno
+aio:anno rdf:type owl:DatatypeProperty ;
+         rdfs:domain aio:DatoTraffico ;
+         rdfs:range xsd:integer ;
+         rdfs:comment "Anno di riferimento del dato di traffico"@it .
 
 
-###  http://purl.org/net/italian_airports/ontology#commercialName
-:commercialName rdf:type owl:DatatypeProperty ;
-                rdfs:domain :Airport ;
-                rdfs:range xsd:string .
+###  http://purl.org/net/aeroporti_italiani/ontologia.owl/codiceIata
+aio:codiceIata rdf:type owl:DatatypeProperty ;
+               rdfs:domain aio:Aeroporto ;
+               rdfs:range xsd:string ;
+               rdfs:comment "Codice IATA"@it .
 
 
-###  http://purl.org/net/italian_airports/ontology#iataCode
-:iataCode rdf:type owl:DatatypeProperty ;
-          rdfs:domain :Airport ;
-          rdfs:range xsd:string .
+###  http://purl.org/net/aeroporti_italiani/ontologia.owl/codiceIcao
+aio:codiceIcao rdf:type owl:DatatypeProperty ;
+               rdfs:domain aio:Aeroporto ;
+               rdfs:range xsd:string ;
+               rdfs:comment "Codice ICAO"@it .
 
 
-###  http://purl.org/net/italian_airports/ontology#icaoCode
-:icaoCode rdf:type owl:DatatypeProperty ;
-          rdfs:domain :Airport ;
-          rdfs:range xsd:string .
+###  http://purl.org/net/aeroporti_italiani/ontologia.owl/codicePaese
+aio:codicePaese rdf:type owl:DatatypeProperty ;
+                rdfs:subPropertyOf owl:topDataProperty ;
+                rdfs:domain aio:Stato ;
+                rdfs:range xsd:string ;
+                rdfs:comment "Codice ISO di uno Stato"@it .
 
 
-###  http://purl.org/net/italian_airports/ontology#name
-:name rdf:type owl:DatatypeProperty ;
-      rdfs:domain :Airport ,
-                  :ManagingAuthority ;
-      rdfs:range xsd:string .
+###  http://purl.org/net/aeroporti_italiani/ontologia.owl/haSitoWeb
+aio:haSitoWeb rdf:type owl:DatatypeProperty ;
+              rdfs:domain aio:Aeroporto ;
+              rdfs:range xsd:anyURI ;
+              rdfs:comment "Portale web aeroportuale"@it .
 
 
-###  http://purl.org/net/italian_airports/ontology#namedAfter
-:namedAfter rdf:type owl:DatatypeProperty ;
-            rdfs:subPropertyOf owl:topDataProperty ;
-            rdfs:domain :Airport ;
-            rdfs:range xsd:string .
+###  http://purl.org/net/aeroporti_italiani/ontologia.owl/nomeCommerciale
+aio:nomeCommerciale rdf:type owl:DatatypeProperty ;
+                    rdfs:domain aio:Aeroporto ;
+                    rdfs:range xsd:string .
 
 
-###  http://purl.org/net/italian_airports/ontology#value
-:value rdf:type owl:DatatypeProperty ;
-       rdfs:domain :TrafficData ;
-       rdfs:range xsd:decimal ,
-                  xsd:long .
+###  http://purl.org/net/aeroporti_italiani/ontologia.owl/origineTraffico
+aio:origineTraffico rdf:type owl:DatatypeProperty ;
+                    rdfs:domain aio:DatoTraffico ;
+                    rdfs:range xsd:string ;
+                    rdfs:comment "Origine del dato di traffico, uno tra: \"nazionale\", \"internazionale\""@it .
 
 
-###  http://purl.org/net/italian_airports/ontology#website
-:website rdf:type owl:DatatypeProperty ;
-         rdfs:domain :Airport ;
-         rdfs:range xsd:anyURI .
+###  http://purl.org/net/aeroporti_italiani/ontologia.owl/totale
+aio:totale rdf:type owl:DatatypeProperty ;
+           rdfs:domain aio:DatoTraffico ;
+           rdfs:range xsd:decimal ,
+                      xsd:integer ;
+           rdfs:comment "Totale numerico, intero o decimale, che quantifica il valore del traffico"@it .
 
 
-###  http://purl.org/net/italian_airports/ontology#year
-:year rdf:type owl:DatatypeProperty ;
-      rdfs:domain :TrafficData ;
-      rdfs:range xsd:int .
+###  http://purl.org/net/aeroporti_italiani/ontologia.owl/totaleCorrente
+aio:totaleCorrente rdf:type owl:DatatypeProperty ;
+                   rdfs:domain aio:RiepilogoDatiTraffico ;
+                   rdfs:range xsd:decimal ,
+                              xsd:integer ;
+                   rdfs:comment "Valore totale del traffico aereo dell'anno corrente, sia nazionale che internazionale, per categoria di traffico"@it .
+
+
+###  http://purl.org/net/aeroporti_italiani/ontologia.owl/totalePassato
+aio:totalePassato rdf:type owl:DatatypeProperty ;
+                  rdfs:domain aio:RiepilogoDatiTraffico ;
+                  rdfs:range xsd:decimal ,
+                             xsd:integer ;
+                  rdfs:comment "Valore totale del traffico aereo dell'anno passato, sia nazionale che internazionale, per categoria di traffico"@it .
+
+
+###  http://purl.org/net/aeroporti_italiani/ontologia.owl/variazionePercentuale
+aio:variazionePercentuale rdf:type owl:DatatypeProperty ;
+                          rdfs:domain aio:RiepilogoDatiTraffico ;
+                          rdfs:range xsd:decimal ;
+                          rdfs:comment "Variazione percentuale tra il valore totale del traffico per l'anno corrente e quello dell'anno passato, riferita ad una categoria di traffico"@it .
+
+
+###  https://schema.org/address
+schema:address rdf:type owl:DatatypeProperty ;
+                            rdfs:domain schema:GeoCoordinates ;
+                            rdfs:range xsd:string ;
+                            rdfs:comment "Indirizzo sotto forma testuale"@it .
+
+
+###  https://schema.org/latitude
+schema:latitude rdf:type owl:DatatypeProperty ;
+                             rdfs:domain schema:GeoCoordinates ;
+                             rdfs:range xsd:decimal ,
+                                        xsd:string ;
+                             rdfs:comment "Longitudine"@it .
+
+
+###  https://schema.org/longitude
+schema:longitude rdf:type owl:DatatypeProperty ;
+                              rdfs:domain schema:GeoCoordinates ;
+                              rdfs:range xsd:decimal ,
+                                         xsd:string ;
+                              rdfs:comment "Longitudine"@it .
 
 
 #################################################################
 #    Classes
 #################################################################
 
-###  http://purl.org/net/italian_airports/ontology#Airport
-:Airport rdf:type owl:Class .
+###  http://purl.org/net/aeroporti_italiani/ontologia.owl/Aeroporto
+aio:Aeroporto rdf:type owl:Class ;
+              rdfs:comment "Classe che rappresenta un aeroporto"@it .
 
 
-###  http://purl.org/net/italian_airports/ontology#CargoTraffic
-:CargoTraffic rdf:type owl:Class ;
-              rdfs:subClassOf :TrafficData .
+###  http://purl.org/net/aeroporti_italiani/ontologia.owl/Categoria
+aio:Categoria rdf:type owl:Class ;
+              rdfs:comment "Classe che rappresenta una categoria di traffico aereo"@it .
 
 
-###  http://purl.org/net/italian_airports/ontology#FlightsTraffic
-:FlightsTraffic rdf:type owl:Class ;
-                rdfs:subClassOf :TrafficData .
+###  http://purl.org/net/aeroporti_italiani/ontologia.owl/Comune
+aio:Comune rdf:type owl:Class ;
+          rdfs:comment "Classe che rappresenta la comune in cui si trova l'aeroporto"@it .
 
 
-###  http://purl.org/net/italian_airports/ontology#ManagingAuthority
-:ManagingAuthority rdf:type owl:Class .
+###  http://purl.org/net/aeroporti_italiani/ontologia.owl/DatoTraffico
+aio:DatoTraffico rdf:type owl:Class ;
+                 rdfs:comment "Classe per rappresentare i dati sul traffico aereo per un aeroporto"@it .
 
 
-###  http://purl.org/net/italian_airports/ontology#PassengersTraffic
-:PassengersTraffic rdf:type owl:Class ;
-                   rdfs:subClassOf :TrafficData .
+###  http://purl.org/net/aeroporti_italiani/ontologia.owl/Gestore
+aio:Gestore rdf:type owl:Class ;
+            rdfs:comment "Classe per rappresentare il gestore di un aeroporto"@it .
 
 
-###  http://purl.org/net/italian_airports/ontology#TrafficData
-:TrafficData rdf:type owl:Class .
+###  http://purl.org/net/aeroporti_italiani/ontologia.owl/Indirizzo
+aio:Indirizzo rdf:type owl:Class ;
+              rdfs:comment "Classe per rappresentare l'indirizzo completo di un aeroporto"@it .
 
 
-###  https://schema.org/GeoCoodinates
-<https://schema.org/GeoCoodinates> rdf:type owl:Class .
+###  http://purl.org/net/aeroporti_italiani/ontologia.owl/Persona
+aio:Persona rdf:type owl:Class ;
+            rdfs:comment "Classe per rappresentare la persona a cui è intitolato un aeroporto"@it .
 
 
-###  https://schema.org/PostalAddress
-<https://schema.org/PostalAddress> rdf:type owl:Class .
+###  http://purl.org/net/aeroporti_italiani/ontologia.owl/Provincia
+aio:Provincia rdf:type owl:Class ;
+              rdfs:comment "Classe per rappresentare la provincia in cui su trova l'aeroporto"@it .
+
+
+###  http://purl.org/net/aeroporti_italiani/ontologia.owl/Regione
+aio:Regione rdf:type owl:Class ;
+            rdfs:comment "Classe per rappresentare la regione in cui si trova l'aeroporto"@it .
+
+
+###  http://purl.org/net/aeroporti_italiani/ontologia.owl/RiepilogoDatiTraffico
+aio:RiepilogoDatiTraffico rdf:type owl:Class ;
+                          rdfs:comment "Classe per rappresentare i dati di riepilogo sul traffico aereo associato ad un aeroporto"@it .
+
+
+###  http://purl.org/net/aeroporti_italiani/ontologia.owl/Stato
+aio:Stato rdf:type owl:Class ;
+          rdfs:comment "Classe per rappresentare lo stato in cui si trova l'aeroporto"@it .
+
+
+###  https://schema.org/GeoCoordinates
+schema:GeoCoordinates rdf:type owl:Class ;
+                      rdfs:comment "Classe per rappresentare le coordinate geografiche e l'indirizzo dell'aeroporto"@it .
 
 
 ###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi

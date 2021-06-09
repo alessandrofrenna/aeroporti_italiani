@@ -1,0 +1,1217 @@
+{
+  "type": "umap",
+  "uri": "http://umap.openstreetmap.fr/en/map/aeroporti-italiani_624143",
+  "properties": {
+    "easing": true,
+    "tilelayersControl": false,
+    "embedControl": true,
+    "editinosmControl": false,
+    "fullscreenControl": true,
+    "searchControl": true,
+    "datalayersControl": true,
+    "zoomControl": true,
+    "longCredit": "Per i dati sugli aeroporti si ringraziano l'ENAC e il Ministero delle Infrastrutture e dei Trasporti",
+    "shortCredit": "Alessandro Frenna 2021",
+    "labelInteractive": true,
+    "labelDirection": "top",
+    "showLabel": null,
+    "labelKey": "Nome Commerciale",
+    "sortKey": "Aeroporto",
+    "slideshow": {
+      "active": false
+    },
+    "captionBar": false,
+    "zoomTo": 10,
+    "popupContentTemplate": "# {Nome Commerciale}",
+    "popupShape": "Panel",
+    "opacity": "1",
+    "smoothFactor": "2",
+    "iconUrl": "/uploads/pictogram/airport-24_1.png",
+    "iconClass": "Drop",
+    "color": "DarkSlateGray",
+    "limitBounds": {
+      "east": 33.134766,
+      "west": -9.052734,
+      "north": 49.567978,
+      "south": 33.797409
+    },
+    "tilelayer": {
+      "minZoom": 0,
+      "maxZoom": 18,
+      "attribution": "Tiles courtesy of [[https://www.jawg.io/|jawgmaps]] - Map data [[http://osm.org/copyright/|&copy; OpenStreetMap contributors]], under ODbL.",
+      "url_template": "https://tile.jawg.io/dark/{z}/{x}/{y}.png?api-key=community",
+      "name": "OSM Dark (jawgmaps)",
+      "tms": false
+    },
+    "licence": {
+      "name": "ODbl",
+      "url": "http://opendatacommons.org/licenses/odbl/"
+    },
+    "description": "Mappa degli aeroporti commerciali italiani ",
+    "name": "Aeroporti italiani",
+    "onLoadPanel": "none",
+    "displayPopupFooter": false,
+    "miniMap": true,
+    "moreControl": false,
+    "scaleControl": true,
+    "scrollWheelZoom": true,
+    "zoom": 6
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      13.051757812500002,
+      44.07969327425713
+    ]
+  },
+  "layers": [
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "Id": "0",
+            "Aeroporto": "Albenga",
+            "Nome Commerciale": "Aeroporto Internazionale di Villanova d'Albenga \"Clemente Panero\"",
+            "Eponimi": "Clemente Panero",
+            "ICAO": "LIMG",
+            "IATA": "ALL",
+            "Gestore": "A.V.A.",
+            "Indirizzo": "Viale Generale Disegna, 17038 Villanova d'Albenga (SV)",
+            "Comune": "Villanova d'Albenga",
+            "Provincia": "Savona",
+            "Regione": "Liguria",
+            "Paese": "Italia",
+            "ISO Paese": "IT"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              8.125556,
+              44.045833
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "Id": "1",
+            "Aeroporto": "Alghero Fertilia",
+            "Nome Commerciale": "Aeroporto Internazionale \"Riviera del Corallo\"",
+            "Eponimi": "",
+            "ICAO": "LIEA",
+            "IATA": "AHO",
+            "Gestore": "SO.GE.A.AL S.P.A.",
+            "Indirizzo": "Regione Nuraghe Biancu, 07041 Alghero (SS)",
+            "Comune": "Alghero",
+            "Provincia": "Sassari",
+            "Regione": "Sardegna",
+            "Paese": "Italia",
+            "ISO Paese": "IT"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              8.289652,
+              40.633294
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "Id": "2",
+            "Aeroporto": "Ancona Falconara",
+            "Nome Commerciale": "Aeroporto delle Marche \"Raffaello Sanzio\"",
+            "Eponimi": "Raffaello Sanzio",
+            "ICAO": "LIPY",
+            "IATA": "AOI",
+            "Gestore": "AERDORICA S.P.A.",
+            "Indirizzo": "Piazzale Sandro Sordoni, 60015 Falconara Marittima (AN)",
+            "Comune": "Ancona",
+            "Provincia": "Ancona",
+            "Regione": "Marche",
+            "Paese": "Italia",
+            "ISO Paese": "IT"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              13.3625,
+              43.615278
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "Id": "3",
+            "Aeroporto": "Aosta",
+            "Nome Commerciale": "Aeroporto della Valle d'Aosta \"Corrado Gex\"",
+            "Eponimi": "Corrado Gex",
+            "ICAO": "LIMW",
+            "IATA": "AOT",
+            "Gestore": "A.V.D.A.",
+            "Indirizzo": "Loc. Aeroporto, 6, 11020 Saint-christophe (AO)",
+            "Comune": "Brissogne",
+            "Provincia": "Aosta",
+            "Regione": "Valle d'Aosta",
+            "Paese": "Italia",
+            "ISO Paese": "IT"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              7.3625,
+              45.738611
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "Id": "4",
+            "Aeroporto": "Bari Palese Macchie",
+            "Nome Commerciale": "Aeroporto di Bari \"Karol Wojtyła\"",
+            "Eponimi": "Karol Wojtyła",
+            "ICAO": "LIBD",
+            "IATA": "BRI",
+            "Gestore": "SOC. AEROPORTI DI PUGLIA",
+            "Indirizzo": "Viale Enzo Ferrari, 70128 (BA)",
+            "Comune": "Bitonto",
+            "Provincia": "Bari",
+            "Regione": "Puglia",
+            "Paese": "Italia",
+            "ISO Paese": "IT"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              16.765,
+              41.138056
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "Id": "5",
+            "Aeroporto": "Bergamo Orio Al Serio",
+            "Nome Commerciale": "Aeroporto Internazionale \"Il Caravaggio\"",
+            "Eponimi": "Caravaggio",
+            "ICAO": "LIME",
+            "IATA": "BGY",
+            "Gestore": "SACBO",
+            "Indirizzo": "Via Aeroporto, 13, 24050 Orio al Serio (BG)",
+            "Comune": "Orio al Serio",
+            "Provincia": "Bergamo",
+            "Regione": "Lombardia",
+            "Paese": "Italia",
+            "ISO Paese": "IT"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              9.700278,
+              45.668889
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "Id": "6",
+            "Aeroporto": "Bologna Borgo Panigale",
+            "Nome Commerciale": "Aeroporto Internazionale \"Guglielmo Marconi\"",
+            "Eponimi": "Guglielmo Marconi",
+            "ICAO": "LIPE",
+            "IATA": "BLQ",
+            "Gestore": "AEROPORTO GUGLIELMO MARCONI DI BOLOGNA S.P.A.",
+            "Indirizzo": "Via del Triumvirato, 84, 40132 (BO)",
+            "Comune": "Calderara di Reno",
+            "Provincia": "Bologna",
+            "Regione": "Emilia Romagna",
+            "Paese": "Italia",
+            "ISO Paese": "IT"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.3,
+              44.533333
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "Id": "7",
+            "Aeroporto": "Bolzano",
+            "Nome Commerciale": "Aeroporto Bolzano-Dolomiti",
+            "Eponimi": "",
+            "ICAO": "LIPB",
+            "IATA": "BZO",
+            "Gestore": "ADB",
+            "Indirizzo": "Via Aeroporto Francesco Baracca, 1, 39100 Bolzano (BZ)",
+            "Comune": "Bolzano",
+            "Provincia": "Bolzano",
+            "Regione": "Trentino Alto Adige",
+            "Paese": "Italia",
+            "ISO Paese": "IT"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.326389,
+              46.460278
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "Id": "8",
+            "Aeroporto": "Brescia Montichiari",
+            "Nome Commerciale": "Aeroporto \"Gabriele D'Annunzio\"",
+            "Eponimi": "Gabriele D'Annunzio",
+            "ICAO": "LIPO",
+            "IATA": "VBS",
+            "Gestore": "VALERIO CATULLO",
+            "Indirizzo": "Via Aeroporto, 34, 25018 Montichiari (BS)",
+            "Comune": "Montichiari",
+            "Provincia": "Brescia",
+            "Regione": "Lombardia",
+            "Paese": "Italia",
+            "ISO Paese": "IT"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              10.326944,
+              45.425556
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "Id": "9",
+            "Aeroporto": "Brindisi Casale",
+            "Nome Commerciale": "Aeroporto \"Papola Casale\" di Brindisi",
+            "Eponimi": "",
+            "ICAO": "LIBR",
+            "IATA": "BDS",
+            "Gestore": "SOC. AEROPORTI DI PUGLIA",
+            "Indirizzo": "Contrada Baroncino, 72100 Brindisi (BR)",
+            "Comune": "Brindisi",
+            "Provincia": "Brindisi",
+            "Regione": "Puglia",
+            "Paese": "Italia",
+            "ISO Paese": "IT"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              17.946667,
+              40.658056
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "Id": "10",
+            "Aeroporto": "Cagliari Elmas",
+            "Nome Commerciale": "Aeroporto \"Mario Mameli\" di Cagliari",
+            "Eponimi": "Mario Mameli",
+            "ICAO": "LIEE",
+            "IATA": "CAG",
+            "Gestore": "SO.G.AER. S.P.A.",
+            "Indirizzo": "Via dei Trasvolatori, 09030 Elmas (CA)",
+            "Comune": "Elmas",
+            "Provincia": "Cagliari",
+            "Regione": "Sardegna",
+            "Paese": "Italia",
+            "ISO Paese": "IT"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              9.05,
+              39.25
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "Id": "11",
+            "Aeroporto": "Catania Fontanarossa",
+            "Nome Commerciale": "Aeroporto Internazionale \"Vincenzo Bellini\"",
+            "Eponimi": "Vincenzo Bellini",
+            "ICAO": "LICC",
+            "IATA": "CTA",
+            "Gestore": "S.A.C.",
+            "Indirizzo": "Via Fontanarossa, 95121 Catania (CT)",
+            "Comune": "Catania",
+            "Provincia": "Catania",
+            "Regione": "Sicilia",
+            "Paese": "Italia",
+            "ISO Paese": "IT"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              15.0639,
+              37.466781
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "Id": "12",
+            "Aeroporto": "Comiso",
+            "Nome Commerciale": "Aeroporto di Comiso \"Pio La Torre\"",
+            "Eponimi": "Pio La Torre",
+            "ICAO": "LICB",
+            "IATA": "CIY",
+            "Gestore": "SO.A.CO.",
+            "Indirizzo": "Strada Provinciale 5, 97013 Comiso (RG)",
+            "Comune": "Comiso",
+            "Provincia": "Ragusa",
+            "Regione": "Sicilia",
+            "Paese": "Italia",
+            "ISO Paese": "IT"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              14.606944,
+              36.991667
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "Id": "13",
+            "Aeroporto": "Crotone S. Anna",
+            "Nome Commerciale": "Aeroporto di Crotone-Sant'Anna \"Pitagora\"",
+            "Eponimi": "Pitagora",
+            "ICAO": "LIBC",
+            "IATA": "CRV",
+            "Gestore": "SOC. AEROPORTO S.ANNA",
+            "Indirizzo": "Strada Statale 106, 88841 Isola di Capo Rizzuto (KR)",
+            "Comune": "Isola di Capo Rizzuto",
+            "Provincia": "Crotone",
+            "Regione": "Calabria",
+            "Paese": "Italia",
+            "ISO Paese": "IT"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              17.079167,
+              38.996667
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "Id": "14",
+            "Aeroporto": "Cuneo Levaldigi",
+            "Nome Commerciale": "Aeroporto di Cuneo",
+            "Eponimi": "",
+            "ICAO": "LIMZ",
+            "IATA": "CUF",
+            "Gestore": "GEAC",
+            "Indirizzo": "Strada Provinciale 20, n.1 ï¿½ 12038 Levaldigi (CN)",
+            "Comune": "Fossano",
+            "Provincia": "Cuneo",
+            "Regione": "Piemonte",
+            "Paese": "Italia",
+            "ISO Paese": "IT"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              7.623217,
+              44.547019
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "Id": "15",
+            "Aeroporto": "Firenze Peretola",
+            "Nome Commerciale": "Aeroporto di Firenze \"Amerigo Vespucci\"",
+            "Eponimi": "Amerigo Vespucci",
+            "ICAO": "LIRQ",
+            "IATA": "FLR",
+            "Gestore": "TOSCANA AEROPORTI SPA",
+            "Indirizzo": "Via del Termine, 11, 50127 Firenze",
+            "Comune": "Sesto Fiorentino",
+            "Provincia": "Firenze",
+            "Regione": "Toscana",
+            "Paese": "Italia",
+            "ISO Paese": "IT"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.203889,
+              43.809722
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "Id": "16",
+            "Aeroporto": "Foggia",
+            "Nome Commerciale": "Aeroporto di Foggia \"Gino Lisa\"",
+            "Eponimi": "Gino Lisa",
+            "ICAO": "LIBF",
+            "IATA": "FOG",
+            "Gestore": "SOC. AEROPORTI DI PUGLIA",
+            "Indirizzo": "Via Aviatori, 1, 71100 Foggia (FG)",
+            "Comune": "Foggia",
+            "Provincia": "Foggia",
+            "Regione": "Puglia",
+            "Paese": "Italia",
+            "ISO Paese": "IT"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              15.535833,
+              41.433889
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "Id": "17",
+            "Aeroporto": "Forlì",
+            "Nome Commerciale": "Aeroporto di Forlì \"Luigi Ridolfi\"",
+            "Eponimi": "Luigi Ridolfi",
+            "ICAO": "LIPK",
+            "IATA": "FRL",
+            "Gestore": "AIRROMAGNA S.P.A.",
+            "Indirizzo": "Via Carlo Seganti, 103, 47121 Forlï¿½ (FC)",
+            "Comune": "Forlì",
+            "Provincia": "Forlì-Cesena",
+            "Regione": "Emilia Romagna",
+            "Paese": "Italia",
+            "ISO Paese": "IT"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              12.069722,
+              44.195
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "Id": "18",
+            "Aeroporto": "Genova Sestri",
+            "Nome Commerciale": "Aeroporto di Genova \"Cristoforo Colombo\"",
+            "Eponimi": "Cristoforo Colombo",
+            "ICAO": "LIMJ",
+            "IATA": "GOA",
+            "Gestore": "AEROPORTO DI GENOVA S.P.A.",
+            "Indirizzo": "Via Pionieri e Aviatori d'Italia, 1, 16154 Genova",
+            "Comune": "Genova",
+            "Provincia": "Genova",
+            "Regione": "Liguria",
+            "Paese": "Italia",
+            "ISO Paese": "IT"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              8.838611,
+              44.414444
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "Id": "19",
+            "Aeroporto": "Grosseto",
+            "Nome Commerciale": "Aeroporto della Maremma\"Corrado Baccarini\"",
+            "Eponimi": "Corrado Baccarini",
+            "ICAO": "LIRS",
+            "IATA": "GRS",
+            "Gestore": "S.E.A.M. S.P.A.",
+            "Indirizzo": "Via Orcagna 125, 58100 Grosseto (GR)",
+            "Comune": "Grosseto",
+            "Provincia": "Grosseto",
+            "Regione": "Toscana",
+            "Paese": "Italia",
+            "ISO Paese": "IT"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.066667,
+              42.75
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "Id": "20",
+            "Aeroporto": "Lamezia Terme",
+            "Nome Commerciale": "Aeroporto Internazionale di Lamezia Terme",
+            "Eponimi": "",
+            "ICAO": "LICA",
+            "IATA": "SUF",
+            "Gestore": "SA.CAL.",
+            "Indirizzo": "Via Aeroporto, 88046 Lamezia Terme (CZ)",
+            "Comune": "Lamezia Terme",
+            "Provincia": "Catanzaro",
+            "Regione": "Calabria",
+            "Paese": "Italia",
+            "ISO Paese": "IT"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              16.233333,
+              38.9
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "Id": "21",
+            "Aeroporto": "Lampedusa",
+            "Nome Commerciale": "Aeroporto di Lampedusa",
+            "Eponimi": "",
+            "ICAO": "LICD",
+            "IATA": "LMP",
+            "Gestore": "ASTAEROSERVIZI",
+            "Indirizzo": "Contrada Cala Francese, 92010 Lampedusa E Linosa (AG)",
+            "Comune": "Lampedusa",
+            "Provincia": "Agrigento",
+            "Regione": "Sicilia",
+            "Paese": "Italia",
+            "ISO Paese": "IT"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              12.611111,
+              35.495833
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "Id": "22",
+            "Aeroporto": "Marina Di Campo",
+            "Nome Commerciale": "Aeroporto di Marina di Campo",
+            "Eponimi": "",
+            "ICAO": "LIRJ",
+            "IATA": "EBA",
+            "Gestore": "ALATOSCANA S.P.A.",
+            "Indirizzo": "Via dell'Aeroporto Località La Pila, 208, 57034 Marina di Campo (LI)",
+            "Comune": "Marina di Campo",
+            "Provincia": "Livorno",
+            "Regione": "Toscana",
+            "Paese": "Italia",
+            "ISO Paese": "IT"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              10.240556,
+              42.762778
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "Id": "23",
+            "Aeroporto": "Milano Linate",
+            "Nome Commerciale": "Aeroporto di Milano-Linate \"Enrico Forlanini\"",
+            "Eponimi": "Enrico Forlanini",
+            "ICAO": "LIML",
+            "IATA": "LIN",
+            "Gestore": "SEA",
+            "Indirizzo": "Viale Enrico Forlanini, 20090 (MI)",
+            "Comune": "Peschiera Borromeo",
+            "Provincia": "Milano",
+            "Regione": "Lombardia",
+            "Paese": "Italia",
+            "ISO Paese": "IT"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              9.278333,
+              45.449444
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "Id": "24",
+            "Aeroporto": "Milano Malpensa",
+            "Nome Commerciale": "Aeroporto di Milano-Malpensa",
+            "Eponimi": "",
+            "ICAO": "LIMC",
+            "IATA": "MXP",
+            "Gestore": "SEA",
+            "Indirizzo": "Aeroporto Milano Malpensa - 21010 Ferno (VA)",
+            "Comune": "Lonate Pozzolo",
+            "Provincia": "Varese",
+            "Regione": "Lombardia",
+            "Paese": "Italia",
+            "ISO Paese": "IT"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              8.723056,
+              45.63
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "Id": "25",
+            "Aeroporto": "Napoli Capodichino",
+            "Nome Commerciale": "Aeroporto di Napoli-Capodichino \"Ugo Niutta\"",
+            "Eponimi": "Ugo Niutta",
+            "ICAO": "LIRN",
+            "IATA": "NAP",
+            "Gestore": "GE.S.A.C.",
+            "Indirizzo": "Viale F. Ruffo di Calabria, 80144 Napoli",
+            "Comune": "Napoli",
+            "Provincia": "Napoli",
+            "Regione": "Campania",
+            "Paese": "Italia",
+            "ISO Paese": "IT"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              14.283333,
+              40.883333
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "Id": "26",
+            "Aeroporto": "Olbia",
+            "Nome Commerciale": "Aeroporto di Olbia \"Costa Smeralda\"",
+            "Eponimi": "",
+            "ICAO": "LIEO",
+            "IATA": "OLB",
+            "Gestore": "GEASAR S.P.A.",
+            "Indirizzo": "Aeroporto Costa Smeralda, 07026 Olbia (OT)",
+            "Comune": "Olbia",
+            "Provincia": "Sassari",
+            "Regione": "Sardegna",
+            "Paese": "Italia",
+            "ISO Paese": "IT"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              9.5175,
+              40.898611
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "Id": "27",
+            "Aeroporto": "Palermo Punta Raisi",
+            "Nome Commerciale": "Aeroporto Internazionale \"Falcone e Borsellino\"",
+            "Eponimi": "Giovanni Falcone, Paolo Borsellino",
+            "ICAO": "LICJ",
+            "IATA": "PMO",
+            "Gestore": "GES.A.P.",
+            "Indirizzo": "Località Punta Raisi, 90145 Cinisi (PA)",
+            "Comune": "Cinisi",
+            "Provincia": "Palermo",
+            "Regione": "Sicilia",
+            "Paese": "Italia",
+            "ISO Paese": "IT",
+            "_umap_options": {
+              "iconClass": "Drop",
+              "iconUrl": "/uploads/pictogram/airport-24_1.png"
+            }
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              13.099444,
+              38.181389
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "Id": "28",
+            "Aeroporto": "Parma",
+            "Nome Commerciale": "Aeroporto di Parma \"Giuseppe Verdi\"",
+            "Eponimi": "Giuseppe Verdi",
+            "ICAO": "LIMP",
+            "IATA": "PMF",
+            "Gestore": "S.O.G.E.A.P.",
+            "Indirizzo": "Via Licinio Ferretti, 50A, 43126 Parma (PR)",
+            "Comune": "Parma",
+            "Provincia": "Parma",
+            "Regione": "Emilia Romagna",
+            "Paese": "Italia",
+            "ISO Paese": "IT"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              10.295278,
+              44.822222
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "Id": "29",
+            "Aeroporto": "Perugia",
+            "Nome Commerciale": "Aeroporto Internazionale dell'Umbria-Perugia \"San Francesco d'Assisi\"",
+            "Eponimi": "San Francesco d'Assisi",
+            "ICAO": "LIRZ",
+            "IATA": "PEG",
+            "Gestore": "SASE S.P.A.",
+            "Indirizzo": "Via dell'aeroporto snc, Sant'Egidio, Perugia, 06134 Perugia (PG)",
+            "Comune": "Perugia",
+            "Provincia": "Perugia",
+            "Regione": "Umbria",
+            "Paese": "Italia",
+            "ISO Paese": "IT"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              12.511389,
+              43.096944
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "Id": "30",
+            "Aeroporto": "Pescara",
+            "Nome Commerciale": "Aeroporto Internazionale d'Abruzzo",
+            "Eponimi": "",
+            "ICAO": "LIBP",
+            "IATA": "PSR",
+            "Gestore": "S.A.G.A. S.P.A.",
+            "Indirizzo": "Via Tiburtina Km 229,100, 65131 Pescara (PE)",
+            "Comune": "Pescara",
+            "Provincia": "Pescara",
+            "Regione": "Abruzzo",
+            "Paese": "Italia",
+            "ISO Paese": "IT"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              14.187222,
+              42.437222
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "Id": "31",
+            "Aeroporto": "Pisa S. Giusto",
+            "Nome Commerciale": "Aeroporto Internazionale \"Galileo Galilei\"",
+            "Eponimi": "Galileo Galilei",
+            "ICAO": "LIRP",
+            "IATA": "PSA",
+            "Gestore": "TOSCANA AEROPORTI SPA",
+            "Indirizzo": "Piazzale D'ascanio, 1, 56121 Pisa (PI)",
+            "Comune": "Pisa",
+            "Provincia": "Pisa",
+            "Regione": "Toscana",
+            "Paese": "Italia",
+            "ISO Paese": "IT"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              10.395556,
+              43.682778
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "Id": "32",
+            "Aeroporto": "Reggio Calabria",
+            "Nome Commerciale": "Aeroporto dello Stretto \"Tito Minniti\"",
+            "Eponimi": "Tito Minniti",
+            "ICAO": "LICR",
+            "IATA": "REG",
+            "Gestore": "SOGAS",
+            "Indirizzo": "Via Ravagnese, 11, 89131 Reggio Calabria (RC)",
+            "Comune": "Reggio di Calabria",
+            "Provincia": "Reggio di Calabria",
+            "Regione": "Calabria",
+            "Paese": "Italia",
+            "ISO Paese": "IT"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              15.653611,
+              38.071944
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "Id": "33",
+            "Aeroporto": "Rimini Miramare",
+            "Nome Commerciale": "Aeroporto Internazionale di Rimini - San Marino \"Federico Fellini\"",
+            "Eponimi": "Federico Fellini",
+            "ICAO": "LIPR",
+            "IATA": "RMI",
+            "Gestore": "AIRIMINUM 2014",
+            "Indirizzo": "Via Flaminia, 409, 47924 Miramare, Rimini (RN)",
+            "Comune": "Rimini",
+            "Provincia": "Rimini",
+            "Regione": "Emilia Romagna",
+            "Paese": "Italia",
+            "ISO Paese": "IT"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              12.609444,
+              44.019444
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "Id": "34",
+            "Aeroporto": "Roma Ciampino",
+            "Nome Commerciale": "Aeroporto Internazionale \"Giovan Battista Pastine\"",
+            "Eponimi": "Giovan Battista Pastine",
+            "ICAO": "LIRA",
+            "IATA": "CIA",
+            "Gestore": "ADR S.P.A.",
+            "Indirizzo": "Via Appia Nuova, 1651, 00040 Ciampino (RM)",
+            "Comune": "Roma",
+            "Provincia": "Roma",
+            "Regione": "Lazio",
+            "Paese": "Italia",
+            "ISO Paese": "IT"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              12.597222,
+              41.799444
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "Id": "35",
+            "Aeroporto": "Roma Fiumicino",
+            "Nome Commerciale": "Aeroporto Internazionale \"Leonardo da Vinci\"",
+            "Eponimi": "Leonardo da Vinci",
+            "ICAO": "LIRF",
+            "IATA": "FCO",
+            "Gestore": "ADR S.P.A.",
+            "Indirizzo": "Via dell'Aeroporto di Fiumicino 320 - 00054 Fiumicino (RM)",
+            "Comune": "Fiumicino",
+            "Provincia": "Roma",
+            "Regione": "Lazio",
+            "Paese": "Italia",
+            "ISO Paese": "IT"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              12.238889,
+              41.800278
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "Id": "36",
+            "Aeroporto": "Trieste Ronchi Dei Legionari",
+            "Nome Commerciale": "Aeroporto di Trieste-Ronchi dei Legionari \"Pietro Savorgnan di Brazzà\"",
+            "Eponimi": "Pietro Savorgnan di Brazzà",
+            "ICAO": "LIPQ",
+            "IATA": "TRS",
+            "Gestore": "AEROP. FRIULI VENEZIA GIULIA",
+            "Indirizzo": "Via Aquileia, 46, 34077 Ronchi dei Legionari (GO)",
+            "Comune": "Turriaco",
+            "Provincia": "Gorizia",
+            "Regione": "Friuli Venezia Giulia",
+            "Paese": "Italia",
+            "ISO Paese": "IT"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              13.472222,
+              45.8275
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "Id": "37",
+            "Aeroporto": "Salerno Pontecagnano",
+            "Nome Commerciale": "Aeroporto di Salerno-Costa d'Amalfi",
+            "Eponimi": "",
+            "ICAO": "LIRI",
+            "IATA": "QSR",
+            "Gestore": "SOC. AEROP. DI SALERNO",
+            "Indirizzo": "Via Olmo, 84092 Bellizzi (SA)",
+            "Comune": "Bellizzi",
+            "Provincia": "Salerno",
+            "Regione": "Campania",
+            "Paese": "Italia",
+            "ISO Paese": "IT"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              14.9125,
+              40.62
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "Id": "38",
+            "Aeroporto": "Taranto Grottaglie",
+            "Nome Commerciale": "Aeroporto di Grottaglie \"Marcello Arlotta\"",
+            "Eponimi": "Marcello Arlotta",
+            "ICAO": "LIBG",
+            "IATA": "TAR",
+            "Gestore": "SOC. AEROPORTI DI PUGLIA",
+            "Indirizzo": "SP 83, 74023 Grottaglie (TA)",
+            "Comune": "Grottaglie",
+            "Provincia": "Taranto",
+            "Regione": "Puglia",
+            "Paese": "Italia",
+            "ISO Paese": "IT"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              17.404786,
+              40.516172
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "Id": "39",
+            "Aeroporto": "Torino Caselle",
+            "Nome Commerciale": "Aeroporto Internazionale di Torino-Caselle \"Sandro Pertini\"",
+            "Eponimi": "Sandro Pertini",
+            "ICAO": "LIMF",
+            "IATA": "TRN",
+            "Gestore": "S.A.G.A.T.",
+            "Indirizzo": "Strada Aeroporto, 12, 10072 Caselle Torinese (TO)",
+            "Comune": "San Francesco al Campo",
+            "Provincia": "Torino",
+            "Regione": "Piemonte",
+            "Paese": "Italia",
+            "ISO Paese": "IT"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              7.649444,
+              45.2025
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "Id": "40",
+            "Aeroporto": "Trapani Birgi",
+            "Nome Commerciale": "Aeroporto di Trapani-Birgi \"Vincenzo Florio\"",
+            "Eponimi": "Vincenzo Florio",
+            "ICAO": "LICT",
+            "IATA": "TPS",
+            "Gestore": "AIRGEST",
+            "Indirizzo": "91020 Birgi, Trapani (TP)",
+            "Comune": "Marausa",
+            "Provincia": "Trapani",
+            "Regione": "Sicilia",
+            "Paese": "Italia",
+            "ISO Paese": "IT"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              12.493333,
+              37.911944
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "Id": "41",
+            "Aeroporto": "Treviso S. Angelo",
+            "Nome Commerciale": "Aeroporto di Treviso-Sant'Angelo \"Antonio Canova\"",
+            "Eponimi": "Antonio Canova",
+            "ICAO": "LIPH",
+            "IATA": "TSF",
+            "Gestore": "AERTRE",
+            "Indirizzo": "Via Noalese, 63E, 31100 Treviso (TV)",
+            "Comune": "Quinto di Treviso",
+            "Provincia": "Treviso",
+            "Regione": "Veneto",
+            "Paese": "Italia",
+            "ISO Paese": "IT"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              12.197778,
+              45.650833
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "Id": "42",
+            "Aeroporto": "Venezia Tessera",
+            "Nome Commerciale": "Aeroporto di Venezia-Tessera \"Marco Polo\"",
+            "Eponimi": "Marco Polo",
+            "ICAO": "LIPZ",
+            "IATA": "VCE",
+            "Gestore": "SAVE",
+            "Indirizzo": "Viale G. Galilei, 30/1 - 30173 Tessera-Venezia (VE)",
+            "Comune": "Mestre",
+            "Provincia": "Venezia",
+            "Regione": "Veneto",
+            "Paese": "Italia",
+            "ISO Paese": "IT"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              12.351944,
+              45.505278
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "Id": "43",
+            "Aeroporto": "Verona Villafranca",
+            "Nome Commerciale": "Aeroporto di Verona-Villafranca \"Valerio Catullo\"",
+            "Eponimi": "Valerio Catullo",
+            "ICAO": "LIPX",
+            "IATA": "VRN",
+            "Gestore": "AEROP. VALERIO CATULLO",
+            "Indirizzo": "37066 Caselle (VR)",
+            "Comune": "Villafranca di Verona",
+            "Provincia": "Verona",
+            "Regione": "Veneto",
+            "Paese": "Italia",
+            "ISO Paese": "IT"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              10.888056,
+              45.396389
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "Id": "44",
+            "Aeroporto": "Pantelleria",
+            "Nome Commerciale": "Aeroporto di Pantelleria",
+            "Eponimi": "Italo D'Amico",
+            "ICAO": "LICG",
+            "IATA": "PNL",
+            "Gestore": "G.A.P. S.P.A.",
+            "Indirizzo": "Via Zubebi alto - 91017 Pantelleria (TP)",
+            "Comune": "Pantelleria",
+            "Provincia": "Trapani",
+            "Regione": "Sicilia",
+            "Paese": "Italia",
+            "ISO Paese": "IT"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.962351,
+              36.813768
+            ]
+          }
+        }
+      ],
+      "_umap_options": {
+        "displayOnLoad": true,
+        "browsable": true,
+        "name": "Aeroporti italiani",
+        "remoteData": {},
+        "description": "Mappa degli aeroporti commerciali italiani sotto giurisdizione ENAC.",
+        "type": "Default",
+        "cluster": {},
+        "heat": {},
+        "id": 1787351,
+        "zoomTo": 10,
+        "popupShape": "Panel",
+        "popupTemplate": "Table"
+      }
+    }
+  ]
+}
