@@ -111,7 +111,7 @@ def extract_rdf_from_data():
         if type(row["Eponimi"]) is str:
             humans = [name for name in row["Eponimi"].split(", ")]
             for human in humans:
-                human_uri = URIRef(base_domain + "/people/" + __urify_string(human))
+                human_uri = URIRef(base_domain + "/persone/" + __urify_string(human))
                 g.add((human_uri, RDF.type, aio.Persona))
                 g.add((human_uri, RDFS.label, Literal(human, datatype=XSD.string)))
                 if human in wikidata_humans:

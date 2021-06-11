@@ -4730,142 +4730,142 @@
     rdfs:label "SASE S.P.A."^^xsd:string ;
     aio:gestisceAeroporto <http://purl.org/net/aeroporti_italiani/risorse/aeroporti/LIRZ> .
 
-<http://purl.org/net/aeroporti_italiani/risorse/people/Amerigo_Vespucci> a aio:Persona ;
+<http://purl.org/net/aeroporti_italiani/risorse/persone/Amerigo_Vespucci> a aio:Persona ;
     rdfs:label "Amerigo Vespucci"^^xsd:string ;
     owl:sameAs <http://www.wikidata.org/entity/Q47674> .
 
-<http://purl.org/net/aeroporti_italiani/risorse/people/Antonio_Canova> a aio:Persona ;
+<http://purl.org/net/aeroporti_italiani/risorse/persone/Antonio_Canova> a aio:Persona ;
     rdfs:label "Antonio Canova"^^xsd:string ;
     owl:sameAs <http://www.wikidata.org/entity/Q5547> .
 
-<http://purl.org/net/aeroporti_italiani/risorse/people/Caravaggio> a aio:Persona ;
+<http://purl.org/net/aeroporti_italiani/risorse/persone/Caravaggio> a aio:Persona ;
     rdfs:label "Caravaggio"^^xsd:string ;
     owl:sameAs <http://www.wikidata.org/entity/Q42207> .
 
-<http://purl.org/net/aeroporti_italiani/risorse/people/Clemente_Panero> a aio:Persona ;
+<http://purl.org/net/aeroporti_italiani/risorse/persone/Clemente_Panero> a aio:Persona ;
     rdfs:label "Clemente Panero"^^xsd:string .
 
-<http://purl.org/net/aeroporti_italiani/risorse/people/Corrado_Baccarini> a aio:Persona ;
+<http://purl.org/net/aeroporti_italiani/risorse/persone/Corrado_Baccarini> a aio:Persona ;
     rdfs:label "Corrado Baccarini"^^xsd:string ;
     owl:sameAs <http://www.wikidata.org/entity/Q3694186> .
 
-<http://purl.org/net/aeroporti_italiani/risorse/people/Corrado_Gex> a aio:Persona ;
+<http://purl.org/net/aeroporti_italiani/risorse/persone/Corrado_Gex> a aio:Persona ;
     rdfs:label "Corrado Gex"^^xsd:string ;
     owl:sameAs <http://www.wikidata.org/entity/Q2993597> .
 
-<http://purl.org/net/aeroporti_italiani/risorse/people/Cristoforo_Colombo> a aio:Persona ;
+<http://purl.org/net/aeroporti_italiani/risorse/persone/Cristoforo_Colombo> a aio:Persona ;
     rdfs:label "Cristoforo Colombo"^^xsd:string ;
     owl:sameAs <http://www.wikidata.org/entity/Q7322> .
 
-<http://purl.org/net/aeroporti_italiani/risorse/people/Enrico_Forlanini> a aio:Persona ;
+<http://purl.org/net/aeroporti_italiani/risorse/persone/Enrico_Forlanini> a aio:Persona ;
     rdfs:label "Enrico Forlanini"^^xsd:string ;
     owl:sameAs <http://www.wikidata.org/entity/Q939768> .
 
-<http://purl.org/net/aeroporti_italiani/risorse/people/Federico_Fellini> a aio:Persona ;
+<http://purl.org/net/aeroporti_italiani/risorse/persone/Federico_Fellini> a aio:Persona ;
     rdfs:label "Federico Fellini"^^xsd:string ;
     owl:sameAs <http://www.wikidata.org/entity/Q7371> .
 
-<http://purl.org/net/aeroporti_italiani/risorse/people/Gabriele_D'Annunzio> a aio:Persona ;
+<http://purl.org/net/aeroporti_italiani/risorse/persone/Gabriele_D'Annunzio> a aio:Persona ;
     rdfs:label "Gabriele D'Annunzio"^^xsd:string ;
     owl:sameAs <http://www.wikidata.org/entity/Q193236> .
 
-<http://purl.org/net/aeroporti_italiani/risorse/people/Galileo_Galilei> a aio:Persona ;
+<http://purl.org/net/aeroporti_italiani/risorse/persone/Galileo_Galilei> a aio:Persona ;
     rdfs:label "Galileo Galilei"^^xsd:string ;
     owl:sameAs <http://www.wikidata.org/entity/Q307> .
 
-<http://purl.org/net/aeroporti_italiani/risorse/people/Gino_Lisa> a aio:Persona ;
+<http://purl.org/net/aeroporti_italiani/risorse/persone/Gino_Lisa> a aio:Persona ;
     rdfs:label "Gino Lisa"^^xsd:string ;
     owl:sameAs <http://www.wikidata.org/entity/Q3764649> .
 
-<http://purl.org/net/aeroporti_italiani/risorse/people/Giovan_Battista_Pastine> a aio:Persona ;
+<http://purl.org/net/aeroporti_italiani/risorse/persone/Giovan_Battista_Pastine> a aio:Persona ;
     rdfs:label "Giovan Battista Pastine"^^xsd:string ;
     owl:sameAs <http://www.wikidata.org/entity/Q3766089> .
 
-<http://purl.org/net/aeroporti_italiani/risorse/people/Giovanni_Falcone> a aio:Persona ;
+<http://purl.org/net/aeroporti_italiani/risorse/persone/Giovanni_Falcone> a aio:Persona ;
     rdfs:label "Giovanni Falcone"^^xsd:string ;
     owl:sameAs <http://www.wikidata.org/entity/Q207073> .
 
-<http://purl.org/net/aeroporti_italiani/risorse/people/Giuseppe_Verdi> a aio:Persona ;
+<http://purl.org/net/aeroporti_italiani/risorse/persone/Giuseppe_Verdi> a aio:Persona ;
     rdfs:label "Giuseppe Verdi"^^xsd:string ;
     owl:sameAs <http://www.wikidata.org/entity/Q7317> .
 
-<http://purl.org/net/aeroporti_italiani/risorse/people/Guglielmo_Marconi> a aio:Persona ;
+<http://purl.org/net/aeroporti_italiani/risorse/persone/Guglielmo_Marconi> a aio:Persona ;
     rdfs:label "Guglielmo Marconi"^^xsd:string ;
     owl:sameAs <http://www.wikidata.org/entity/Q36488> .
 
-<http://purl.org/net/aeroporti_italiani/risorse/people/Italo_D'Amico> a aio:Persona ;
+<http://purl.org/net/aeroporti_italiani/risorse/persone/Italo_D'Amico> a aio:Persona ;
     rdfs:label "Italo D'Amico"^^xsd:string ;
     owl:sameAs <http://www.wikidata.org/entity/Q16566782> .
 
-<http://purl.org/net/aeroporti_italiani/risorse/people/Karol_Wojtyła> a aio:Persona ;
+<http://purl.org/net/aeroporti_italiani/risorse/persone/Karol_Wojtyła> a aio:Persona ;
     rdfs:label "Karol Wojtyła"^^xsd:string ;
     owl:sameAs <http://www.wikidata.org/entity/Q989> .
 
-<http://purl.org/net/aeroporti_italiani/risorse/people/Leonardo_da_Vinci> a aio:Persona ;
+<http://purl.org/net/aeroporti_italiani/risorse/persone/Leonardo_da_Vinci> a aio:Persona ;
     rdfs:label "Leonardo da Vinci"^^xsd:string ;
     owl:sameAs <http://www.wikidata.org/entity/Q762> .
 
-<http://purl.org/net/aeroporti_italiani/risorse/people/Luigi_Ridolfi> a aio:Persona ;
+<http://purl.org/net/aeroporti_italiani/risorse/persone/Luigi_Ridolfi> a aio:Persona ;
     rdfs:label "Luigi Ridolfi"^^xsd:string ;
     owl:sameAs <http://www.wikidata.org/entity/Q3840082> .
 
-<http://purl.org/net/aeroporti_italiani/risorse/people/Marcello_Arlotta> a aio:Persona ;
+<http://purl.org/net/aeroporti_italiani/risorse/persone/Marcello_Arlotta> a aio:Persona ;
     rdfs:label "Marcello Arlotta"^^xsd:string ;
     owl:sameAs <http://www.wikidata.org/entity/Q972523> .
 
-<http://purl.org/net/aeroporti_italiani/risorse/people/Marco_Polo> a aio:Persona ;
+<http://purl.org/net/aeroporti_italiani/risorse/persone/Marco_Polo> a aio:Persona ;
     rdfs:label "Marco Polo"^^xsd:string ;
     owl:sameAs <http://www.wikidata.org/entity/Q6101> .
 
-<http://purl.org/net/aeroporti_italiani/risorse/people/Mario_Mameli> a aio:Persona ;
+<http://purl.org/net/aeroporti_italiani/risorse/persone/Mario_Mameli> a aio:Persona ;
     rdfs:label "Mario Mameli"^^xsd:string ;
     owl:sameAs <http://www.wikidata.org/entity/Q30076292> .
 
-<http://purl.org/net/aeroporti_italiani/risorse/people/Paolo_Borsellino> a aio:Persona ;
+<http://purl.org/net/aeroporti_italiani/risorse/persone/Paolo_Borsellino> a aio:Persona ;
     rdfs:label "Paolo Borsellino"^^xsd:string ;
     owl:sameAs <http://www.wikidata.org/entity/Q312302> .
 
-<http://purl.org/net/aeroporti_italiani/risorse/people/Pietro_Savorgnan_di_Brazzà> a aio:Persona ;
+<http://purl.org/net/aeroporti_italiani/risorse/persone/Pietro_Savorgnan_di_Brazzà> a aio:Persona ;
     rdfs:label "Pietro Savorgnan di Brazzà"^^xsd:string ;
     owl:sameAs <http://www.wikidata.org/entity/Q319834> .
 
-<http://purl.org/net/aeroporti_italiani/risorse/people/Pio_La_Torre> a aio:Persona ;
+<http://purl.org/net/aeroporti_italiani/risorse/persone/Pio_La_Torre> a aio:Persona ;
     rdfs:label "Pio La Torre"^^xsd:string ;
     owl:sameAs <http://www.wikidata.org/entity/Q1696807> .
 
-<http://purl.org/net/aeroporti_italiani/risorse/people/Pitagora> a aio:Persona ;
+<http://purl.org/net/aeroporti_italiani/risorse/persone/Pitagora> a aio:Persona ;
     rdfs:label "Pitagora"^^xsd:string ;
     owl:sameAs <http://www.wikidata.org/entity/Q10261> .
 
-<http://purl.org/net/aeroporti_italiani/risorse/people/Raffaello_Sanzio> a aio:Persona ;
+<http://purl.org/net/aeroporti_italiani/risorse/persone/Raffaello_Sanzio> a aio:Persona ;
     rdfs:label "Raffaello Sanzio"^^xsd:string ;
     owl:sameAs <http://www.wikidata.org/entity/Q5597> .
 
-<http://purl.org/net/aeroporti_italiani/risorse/people/San_Francesco_d'Assisi> a aio:Persona ;
+<http://purl.org/net/aeroporti_italiani/risorse/persone/San_Francesco_d'Assisi> a aio:Persona ;
     rdfs:label "San Francesco d'Assisi"^^xsd:string ;
     owl:sameAs <http://www.wikidata.org/entity/Q676555> .
 
-<http://purl.org/net/aeroporti_italiani/risorse/people/Sandro_Pertini> a aio:Persona ;
+<http://purl.org/net/aeroporti_italiani/risorse/persone/Sandro_Pertini> a aio:Persona ;
     rdfs:label "Sandro Pertini"^^xsd:string ;
     owl:sameAs <http://www.wikidata.org/entity/Q1233> .
 
-<http://purl.org/net/aeroporti_italiani/risorse/people/Tito_Minniti> a aio:Persona ;
+<http://purl.org/net/aeroporti_italiani/risorse/persone/Tito_Minniti> a aio:Persona ;
     rdfs:label "Tito Minniti"^^xsd:string ;
     owl:sameAs <http://www.wikidata.org/entity/Q3991887> .
 
-<http://purl.org/net/aeroporti_italiani/risorse/people/Ugo_Niutta> a aio:Persona ;
+<http://purl.org/net/aeroporti_italiani/risorse/persone/Ugo_Niutta> a aio:Persona ;
     rdfs:label "Ugo Niutta"^^xsd:string ;
     owl:sameAs <http://www.wikidata.org/entity/Q4002856> .
 
-<http://purl.org/net/aeroporti_italiani/risorse/people/Valerio_Catullo> a aio:Persona ;
+<http://purl.org/net/aeroporti_italiani/risorse/persone/Valerio_Catullo> a aio:Persona ;
     rdfs:label "Valerio Catullo"^^xsd:string ;
     owl:sameAs <http://www.wikidata.org/entity/Q163079> .
 
-<http://purl.org/net/aeroporti_italiani/risorse/people/Vincenzo_Bellini> a aio:Persona ;
+<http://purl.org/net/aeroporti_italiani/risorse/persone/Vincenzo_Bellini> a aio:Persona ;
     rdfs:label "Vincenzo Bellini"^^xsd:string ;
     owl:sameAs <http://www.wikidata.org/entity/Q170209> .
 
-<http://purl.org/net/aeroporti_italiani/risorse/people/Vincenzo_Florio> a aio:Persona ;
+<http://purl.org/net/aeroporti_italiani/risorse/persone/Vincenzo_Florio> a aio:Persona ;
     rdfs:label "Vincenzo Florio"^^xsd:string ;
     owl:sameAs <http://www.wikidata.org/entity/Q3898406> .
 
@@ -6984,7 +6984,7 @@
         <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIBC-passeggeri-2020-2019>,
         <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIBC-voli_commerciali-2020-2019> ;
     aio:haSitoWeb "http://www.aeroporto.kr.it"^^xsd:anyURI ;
-    aio:intitolatoA <http://purl.org/net/aeroporti_italiani/risorse/people/Pitagora> ;
+    aio:intitolatoA <http://purl.org/net/aeroporti_italiani/risorse/persone/Pitagora> ;
     aio:nomeCommerciale "Aeroporto di Crotone-Sant'Anna \"Pitagora\""^^xsd:string ;
     owl:sameAs <http://www.wikidata.org/entity/Q687300> .
 
@@ -7010,7 +7010,7 @@
         <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIBD-passeggeri-2020-2019>,
         <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIBD-voli_commerciali-2020-2019> ;
     aio:haSitoWeb "http://www.aeroportidipuglia.it/homepagebari"^^xsd:anyURI ;
-    aio:intitolatoA <http://purl.org/net/aeroporti_italiani/risorse/people/Karol_Wojtyła> ;
+    aio:intitolatoA <http://purl.org/net/aeroporti_italiani/risorse/persone/Karol_Wojtyła> ;
     aio:nomeCommerciale "Aeroporto di Bari \"Karol Wojtyła\""^^xsd:string ;
     owl:sameAs <http://www.wikidata.org/entity/Q779805> .
 
@@ -7036,7 +7036,7 @@
         <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIBF-passeggeri-2020-2019>,
         <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIBF-voli_commerciali-2020-2019> ;
     aio:haSitoWeb "http://www.aeroportidipuglia.it/homepagefoggia"^^xsd:anyURI ;
-    aio:intitolatoA <http://purl.org/net/aeroporti_italiani/risorse/people/Gino_Lisa> ;
+    aio:intitolatoA <http://purl.org/net/aeroporti_italiani/risorse/persone/Gino_Lisa> ;
     aio:nomeCommerciale "Aeroporto di Foggia \"Gino Lisa\""^^xsd:string ;
     owl:sameAs <http://www.wikidata.org/entity/Q1431308> .
 
@@ -7062,7 +7062,7 @@
         <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIBG-passeggeri-2020-2019>,
         <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIBG-voli_commerciali-2020-2019> ;
     aio:haSitoWeb "http://www.aeroportidipuglia.it/homepagegrottaglie"^^xsd:anyURI ;
-    aio:intitolatoA <http://purl.org/net/aeroporti_italiani/risorse/people/Marcello_Arlotta> ;
+    aio:intitolatoA <http://purl.org/net/aeroporti_italiani/risorse/persone/Marcello_Arlotta> ;
     aio:nomeCommerciale "Aeroporto di Grottaglie \"Marcello Arlotta\""^^xsd:string ;
     owl:sameAs <http://www.wikidata.org/entity/Q1056589> .
 
@@ -7163,7 +7163,7 @@
         <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LICB-passeggeri-2020-2019>,
         <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LICB-voli_commerciali-2020-2019> ;
     aio:haSitoWeb "https://aeroportodicomiso.eu/"^^xsd:anyURI ;
-    aio:intitolatoA <http://purl.org/net/aeroporti_italiani/risorse/people/Pio_La_Torre> ;
+    aio:intitolatoA <http://purl.org/net/aeroporti_italiani/risorse/persone/Pio_La_Torre> ;
     aio:nomeCommerciale "Aeroporto di Comiso \"Pio La Torre\""^^xsd:string ;
     owl:sameAs <http://www.wikidata.org/entity/Q1431127> .
 
@@ -7189,7 +7189,7 @@
         <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LICC-passeggeri-2020-2019>,
         <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LICC-voli_commerciali-2020-2019> ;
     aio:haSitoWeb "http://www.aeroporto.catania.it/"^^xsd:anyURI ;
-    aio:intitolatoA <http://purl.org/net/aeroporti_italiani/risorse/people/Vincenzo_Bellini> ;
+    aio:intitolatoA <http://purl.org/net/aeroporti_italiani/risorse/persone/Vincenzo_Bellini> ;
     aio:nomeCommerciale "Aeroporto Internazionale \"Vincenzo Bellini\""^^xsd:string ;
     owl:sameAs <http://www.wikidata.org/entity/Q540273> .
 
@@ -7240,7 +7240,7 @@
         <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LICG-passeggeri-2020-2019>,
         <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LICG-voli_commerciali-2020-2019> ;
     aio:haSitoWeb "http://www.aeroportodipantelleria.it"^^xsd:anyURI ;
-    aio:intitolatoA <http://purl.org/net/aeroporti_italiani/risorse/people/Italo_D'Amico> ;
+    aio:intitolatoA <http://purl.org/net/aeroporti_italiani/risorse/persone/Italo_D'Amico> ;
     aio:nomeCommerciale "Aeroporto di Pantelleria"^^xsd:string ;
     owl:sameAs <http://www.wikidata.org/entity/Q510715> .
 
@@ -7266,8 +7266,8 @@
         <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LICJ-passeggeri-2020-2019>,
         <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LICJ-voli_commerciali-2020-2019> ;
     aio:haSitoWeb "https://www.aeroportodipalermo.it/"^^xsd:anyURI ;
-    aio:intitolatoA <http://purl.org/net/aeroporti_italiani/risorse/people/Giovanni_Falcone>,
-        <http://purl.org/net/aeroporti_italiani/risorse/people/Paolo_Borsellino> ;
+    aio:intitolatoA <http://purl.org/net/aeroporti_italiani/risorse/persone/Giovanni_Falcone>,
+        <http://purl.org/net/aeroporti_italiani/risorse/persone/Paolo_Borsellino> ;
     aio:nomeCommerciale "Aeroporto Internazionale \"Falcone e Borsellino\""^^xsd:string ;
     owl:sameAs <http://www.wikidata.org/entity/Q630645> .
 
@@ -7293,7 +7293,7 @@
         <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LICR-passeggeri-2020-2019>,
         <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LICR-voli_commerciali-2020-2019> ;
     aio:haSitoWeb "https://reggiocalabriaairport.it/"^^xsd:anyURI ;
-    aio:intitolatoA <http://purl.org/net/aeroporti_italiani/risorse/people/Tito_Minniti> ;
+    aio:intitolatoA <http://purl.org/net/aeroporti_italiani/risorse/persone/Tito_Minniti> ;
     aio:nomeCommerciale "Aeroporto dello Stretto \"Tito Minniti\""^^xsd:string ;
     owl:sameAs <http://www.wikidata.org/entity/Q1432582> .
 
@@ -7319,7 +7319,7 @@
         <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LICT-passeggeri-2020-2019>,
         <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LICT-voli_commerciali-2020-2019> ;
     aio:haSitoWeb "http://www.airgest.it"^^xsd:anyURI ;
-    aio:intitolatoA <http://purl.org/net/aeroporti_italiani/risorse/people/Vincenzo_Florio> ;
+    aio:intitolatoA <http://purl.org/net/aeroporti_italiani/risorse/persone/Vincenzo_Florio> ;
     aio:nomeCommerciale "Aeroporto di Trapani-Birgi \"Vincenzo Florio\""^^xsd:string ;
     owl:sameAs <http://www.wikidata.org/entity/Q658537> .
 
@@ -7370,7 +7370,7 @@
         <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIEE-passeggeri-2020-2019>,
         <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIEE-voli_commerciali-2020-2019> ;
     aio:haSitoWeb "http://www.sogaer.it"^^xsd:anyURI ;
-    aio:intitolatoA <http://purl.org/net/aeroporti_italiani/risorse/people/Mario_Mameli> ;
+    aio:intitolatoA <http://purl.org/net/aeroporti_italiani/risorse/persone/Mario_Mameli> ;
     aio:nomeCommerciale "Aeroporto \"Mario Mameli\" di Cagliari"^^xsd:string ;
     owl:sameAs <http://www.wikidata.org/entity/Q139983> .
 
@@ -7446,7 +7446,7 @@
         <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIME-passeggeri-2020-2019>,
         <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIME-voli_commerciali-2020-2019> ;
     aio:haSitoWeb "https://www.milanbergamoairport.it/"^^xsd:anyURI ;
-    aio:intitolatoA <http://purl.org/net/aeroporti_italiani/risorse/people/Caravaggio> ;
+    aio:intitolatoA <http://purl.org/net/aeroporti_italiani/risorse/persone/Caravaggio> ;
     aio:nomeCommerciale "Aeroporto Internazionale \"Il Caravaggio\""^^xsd:string ;
     owl:sameAs <http://www.wikidata.org/entity/Q517873> .
 
@@ -7472,7 +7472,7 @@
         <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIMF-passeggeri-2020-2019>,
         <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIMF-voli_commerciali-2020-2019> ;
     aio:haSitoWeb "http://www.aeroportoditorino.it"^^xsd:anyURI ;
-    aio:intitolatoA <http://purl.org/net/aeroporti_italiani/risorse/people/Sandro_Pertini> ;
+    aio:intitolatoA <http://purl.org/net/aeroporti_italiani/risorse/persone/Sandro_Pertini> ;
     aio:nomeCommerciale "Aeroporto Internazionale di Torino-Caselle \"Sandro Pertini\""^^xsd:string ;
     owl:sameAs <http://www.wikidata.org/entity/Q528184> .
 
@@ -7498,7 +7498,7 @@
         <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIMG-passeggeri-2020-2019>,
         <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIMG-voli_commerciali-2020-2019> ;
     aio:haSitoWeb "http://www.riviera-airport.it"^^xsd:anyURI ;
-    aio:intitolatoA <http://purl.org/net/aeroporti_italiani/risorse/people/Clemente_Panero> ;
+    aio:intitolatoA <http://purl.org/net/aeroporti_italiani/risorse/persone/Clemente_Panero> ;
     aio:nomeCommerciale "Aeroporto Internazionale di Villanova d'Albenga \"Clemente Panero\""^^xsd:string ;
     owl:sameAs <http://www.wikidata.org/entity/Q1054212> .
 
@@ -7524,7 +7524,7 @@
         <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIMJ-passeggeri-2020-2019>,
         <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIMJ-voli_commerciali-2020-2019> ;
     aio:haSitoWeb "http://www.airport.genova.it"^^xsd:anyURI ;
-    aio:intitolatoA <http://purl.org/net/aeroporti_italiani/risorse/people/Cristoforo_Colombo> ;
+    aio:intitolatoA <http://purl.org/net/aeroporti_italiani/risorse/persone/Cristoforo_Colombo> ;
     aio:nomeCommerciale "Aeroporto di Genova \"Cristoforo Colombo\""^^xsd:string ;
     owl:sameAs <http://www.wikidata.org/entity/Q1431383> .
 
@@ -7550,7 +7550,7 @@
         <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIML-passeggeri-2020-2019>,
         <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIML-voli_commerciali-2020-2019> ;
     aio:haSitoWeb "http://www.milanolinate-airport.com/en"^^xsd:anyURI ;
-    aio:intitolatoA <http://purl.org/net/aeroporti_italiani/risorse/people/Enrico_Forlanini> ;
+    aio:intitolatoA <http://purl.org/net/aeroporti_italiani/risorse/persone/Enrico_Forlanini> ;
     aio:nomeCommerciale "Aeroporto di Milano-Linate \"Enrico Forlanini\""^^xsd:string ;
     owl:sameAs <http://www.wikidata.org/entity/Q828386> .
 
@@ -7576,7 +7576,7 @@
         <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIMP-passeggeri-2020-2019>,
         <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIMP-voli_commerciali-2020-2019> ;
     aio:haSitoWeb "http://www.parma-airport.it"^^xsd:anyURI ;
-    aio:intitolatoA <http://purl.org/net/aeroporti_italiani/risorse/people/Giuseppe_Verdi> ;
+    aio:intitolatoA <http://purl.org/net/aeroporti_italiani/risorse/persone/Giuseppe_Verdi> ;
     aio:nomeCommerciale "Aeroporto di Parma \"Giuseppe Verdi\""^^xsd:string ;
     owl:sameAs <http://www.wikidata.org/entity/Q1432326> .
 
@@ -7602,7 +7602,7 @@
         <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIMW-passeggeri-2020-2019>,
         <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIMW-voli_commerciali-2020-2019> ;
     aio:haSitoWeb "http://www.avda-aosta.it"^^xsd:anyURI ;
-    aio:intitolatoA <http://purl.org/net/aeroporti_italiani/risorse/people/Corrado_Gex> ;
+    aio:intitolatoA <http://purl.org/net/aeroporti_italiani/risorse/persone/Corrado_Gex> ;
     aio:nomeCommerciale "Aeroporto della Valle d'Aosta \"Corrado Gex\""^^xsd:string ;
     owl:sameAs <http://www.wikidata.org/entity/Q1430828> .
 
@@ -7678,7 +7678,7 @@
         <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIPE-passeggeri-2020-2019>,
         <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIPE-voli_commerciali-2020-2019> ;
     aio:haSitoWeb "http://www.bologna-airport.it"^^xsd:anyURI ;
-    aio:intitolatoA <http://purl.org/net/aeroporti_italiani/risorse/people/Guglielmo_Marconi> ;
+    aio:intitolatoA <http://purl.org/net/aeroporti_italiani/risorse/persone/Guglielmo_Marconi> ;
     aio:nomeCommerciale "Aeroporto Internazionale \"Guglielmo Marconi\""^^xsd:string ;
     owl:sameAs <http://www.wikidata.org/entity/Q389241> .
 
@@ -7704,7 +7704,7 @@
         <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIPH-passeggeri-2020-2019>,
         <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIPH-voli_commerciali-2020-2019> ;
     aio:haSitoWeb "http://www.trevisoairport.it"^^xsd:anyURI ;
-    aio:intitolatoA <http://purl.org/net/aeroporti_italiani/risorse/people/Antonio_Canova> ;
+    aio:intitolatoA <http://purl.org/net/aeroporti_italiani/risorse/persone/Antonio_Canova> ;
     aio:nomeCommerciale "Aeroporto di Treviso-Sant'Angelo \"Antonio Canova\""^^xsd:string ;
     owl:sameAs <http://www.wikidata.org/entity/Q513474> .
 
@@ -7730,7 +7730,7 @@
         <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIPK-passeggeri-2020-2019>,
         <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIPK-voli_commerciali-2020-2019> ;
     aio:haSitoWeb "https://www.forli-airport.com/"^^xsd:anyURI ;
-    aio:intitolatoA <http://purl.org/net/aeroporti_italiani/risorse/people/Luigi_Ridolfi> ;
+    aio:intitolatoA <http://purl.org/net/aeroporti_italiani/risorse/persone/Luigi_Ridolfi> ;
     aio:nomeCommerciale "Aeroporto di Forlì \"Luigi Ridolfi\""^^xsd:string ;
     owl:sameAs <http://www.wikidata.org/entity/Q942017> .
 
@@ -7756,7 +7756,7 @@
         <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIPO-passeggeri-2020-2019>,
         <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIPO-voli_commerciali-2020-2019> ;
     aio:haSitoWeb "http://www.aeroportobrescia.it"^^xsd:anyURI ;
-    aio:intitolatoA <http://purl.org/net/aeroporti_italiani/risorse/people/Gabriele_D'Annunzio> ;
+    aio:intitolatoA <http://purl.org/net/aeroporti_italiani/risorse/persone/Gabriele_D'Annunzio> ;
     aio:nomeCommerciale "Aeroporto \"Gabriele D'Annunzio\""^^xsd:string ;
     owl:sameAs <http://www.wikidata.org/entity/Q1430989> .
 
@@ -7782,7 +7782,7 @@
         <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIPQ-passeggeri-2020-2019>,
         <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIPQ-voli_commerciali-2020-2019> ;
     aio:haSitoWeb "https://www.triesteairport.it"^^xsd:anyURI ;
-    aio:intitolatoA <http://purl.org/net/aeroporti_italiani/risorse/people/Pietro_Savorgnan_di_Brazzà> ;
+    aio:intitolatoA <http://purl.org/net/aeroporti_italiani/risorse/persone/Pietro_Savorgnan_di_Brazzà> ;
     aio:nomeCommerciale "Aeroporto di Trieste-Ronchi dei Legionari \"Pietro Savorgnan di Brazzà\""^^xsd:string ;
     owl:sameAs <http://www.wikidata.org/entity/Q893154> .
 
@@ -7808,7 +7808,7 @@
         <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIPR-passeggeri-2020-2019>,
         <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIPR-voli_commerciali-2020-2019> ;
     aio:haSitoWeb "http://www.riminiairport.com"^^xsd:anyURI ;
-    aio:intitolatoA <http://purl.org/net/aeroporti_italiani/risorse/people/Federico_Fellini> ;
+    aio:intitolatoA <http://purl.org/net/aeroporti_italiani/risorse/persone/Federico_Fellini> ;
     aio:nomeCommerciale "Aeroporto Internazionale di Rimini - San Marino \"Federico Fellini\""^^xsd:string ;
     owl:sameAs <http://www.wikidata.org/entity/Q1140972> .
 
@@ -7834,7 +7834,7 @@
         <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIPX-passeggeri-2020-2019>,
         <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIPX-voli_commerciali-2020-2019> ;
     aio:haSitoWeb "https://www.aeroportoverona.it/"^^xsd:anyURI ;
-    aio:intitolatoA <http://purl.org/net/aeroporti_italiani/risorse/people/Valerio_Catullo> ;
+    aio:intitolatoA <http://purl.org/net/aeroporti_italiani/risorse/persone/Valerio_Catullo> ;
     aio:nomeCommerciale "Aeroporto di Verona-Villafranca \"Valerio Catullo\""^^xsd:string ;
     owl:sameAs <http://www.wikidata.org/entity/Q1433197> .
 
@@ -7860,7 +7860,7 @@
         <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIPY-passeggeri-2020-2019>,
         <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIPY-voli_commerciali-2020-2019> ;
     aio:haSitoWeb "http://www.marcheairport.com"^^xsd:anyURI ;
-    aio:intitolatoA <http://purl.org/net/aeroporti_italiani/risorse/people/Raffaello_Sanzio> ;
+    aio:intitolatoA <http://purl.org/net/aeroporti_italiani/risorse/persone/Raffaello_Sanzio> ;
     aio:nomeCommerciale "Aeroporto delle Marche \"Raffaello Sanzio\""^^xsd:string ;
     owl:sameAs <http://www.wikidata.org/entity/Q1155932> .
 
@@ -7886,7 +7886,7 @@
         <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIPZ-passeggeri-2020-2019>,
         <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIPZ-voli_commerciali-2020-2019> ;
     aio:haSitoWeb "http://www.veniceairport.it"^^xsd:anyURI ;
-    aio:intitolatoA <http://purl.org/net/aeroporti_italiani/risorse/people/Marco_Polo> ;
+    aio:intitolatoA <http://purl.org/net/aeroporti_italiani/risorse/persone/Marco_Polo> ;
     aio:nomeCommerciale "Aeroporto di Venezia-Tessera \"Marco Polo\""^^xsd:string ;
     owl:sameAs <http://www.wikidata.org/entity/Q849347> .
 
@@ -7912,7 +7912,7 @@
         <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIRA-passeggeri-2020-2019>,
         <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIRA-voli_commerciali-2020-2019> ;
     aio:haSitoWeb "http://www.adr.it/ciampino"^^xsd:anyURI ;
-    aio:intitolatoA <http://purl.org/net/aeroporti_italiani/risorse/people/Giovan_Battista_Pastine> ;
+    aio:intitolatoA <http://purl.org/net/aeroporti_italiani/risorse/persone/Giovan_Battista_Pastine> ;
     aio:nomeCommerciale "Aeroporto Internazionale \"Giovan Battista Pastine\""^^xsd:string ;
     owl:sameAs <http://www.wikidata.org/entity/Q1132616> .
 
@@ -7938,7 +7938,7 @@
         <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIRF-passeggeri-2020-2019>,
         <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIRF-voli_commerciali-2020-2019> ;
     aio:haSitoWeb "http://www.adr.it/fiumicino"^^xsd:anyURI ;
-    aio:intitolatoA <http://purl.org/net/aeroporti_italiani/risorse/people/Leonardo_da_Vinci> ;
+    aio:intitolatoA <http://purl.org/net/aeroporti_italiani/risorse/persone/Leonardo_da_Vinci> ;
     aio:nomeCommerciale "Aeroporto Internazionale \"Leonardo da Vinci\""^^xsd:string ;
     owl:sameAs <http://www.wikidata.org/entity/Q19101> .
 
@@ -8014,7 +8014,7 @@
         <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIRN-passeggeri-2020-2019>,
         <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIRN-voli_commerciali-2020-2019> ;
     aio:haSitoWeb "https://www.aeroportodinapoli.it/"^^xsd:anyURI ;
-    aio:intitolatoA <http://purl.org/net/aeroporti_italiani/risorse/people/Ugo_Niutta> ;
+    aio:intitolatoA <http://purl.org/net/aeroporti_italiani/risorse/persone/Ugo_Niutta> ;
     aio:nomeCommerciale "Aeroporto di Napoli-Capodichino \"Ugo Niutta\""^^xsd:string ;
     owl:sameAs <http://www.wikidata.org/entity/Q849383> .
 
@@ -8040,7 +8040,7 @@
         <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIRP-passeggeri-2020-2019>,
         <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIRP-voli_commerciali-2020-2019> ;
     aio:haSitoWeb "http://www.pisa-airport.com"^^xsd:anyURI ;
-    aio:intitolatoA <http://purl.org/net/aeroporti_italiani/risorse/people/Galileo_Galilei> ;
+    aio:intitolatoA <http://purl.org/net/aeroporti_italiani/risorse/persone/Galileo_Galilei> ;
     aio:nomeCommerciale "Aeroporto Internazionale \"Galileo Galilei\""^^xsd:string ;
     owl:sameAs <http://www.wikidata.org/entity/Q709169> .
 
@@ -8066,7 +8066,7 @@
         <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIRQ-passeggeri-2020-2019>,
         <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIRQ-voli_commerciali-2020-2019> ;
     aio:haSitoWeb "https://www.aeroporto.firenze.it"^^xsd:anyURI ;
-    aio:intitolatoA <http://purl.org/net/aeroporti_italiani/risorse/people/Amerigo_Vespucci> ;
+    aio:intitolatoA <http://purl.org/net/aeroporti_italiani/risorse/persone/Amerigo_Vespucci> ;
     aio:nomeCommerciale "Aeroporto di Firenze \"Amerigo Vespucci\""^^xsd:string ;
     owl:sameAs <http://www.wikidata.org/entity/Q707731> .
 
@@ -8092,7 +8092,7 @@
         <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIRS-passeggeri-2020-2019>,
         <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIRS-voli_commerciali-2020-2019> ;
     aio:haSitoWeb "http://www.grossetoairport.com"^^xsd:anyURI ;
-    aio:intitolatoA <http://purl.org/net/aeroporti_italiani/risorse/people/Corrado_Baccarini> ;
+    aio:intitolatoA <http://purl.org/net/aeroporti_italiani/risorse/persone/Corrado_Baccarini> ;
     aio:nomeCommerciale "Aeroporto della Maremma\"Corrado Baccarini\""^^xsd:string ;
     owl:sameAs <http://www.wikidata.org/entity/Q1054219> .
 
@@ -8118,7 +8118,7 @@
         <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIRZ-passeggeri-2020-2019>,
         <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIRZ-voli_commerciali-2020-2019> ;
     aio:haSitoWeb "http://www.airport.umbria.it"^^xsd:anyURI ;
-    aio:intitolatoA <http://purl.org/net/aeroporti_italiani/risorse/people/San_Francesco_d'Assisi> ;
+    aio:intitolatoA <http://purl.org/net/aeroporti_italiani/risorse/persone/San_Francesco_d'Assisi> ;
     aio:nomeCommerciale "Aeroporto Internazionale dell'Umbria-Perugia \"San Francesco d'Assisi\""^^xsd:string ;
     owl:sameAs <http://www.wikidata.org/entity/Q1371018> .
 
