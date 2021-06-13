@@ -82,7 +82,6 @@ def extract_rdf_from_data():
         g.add((location_uri, aio.stato, country_uri))
         g.add((location_uri, aio.geoDati, location_uri))
         g.add((location_uri, aio.provincia, province_uri))
-
         g.add((country_uri, aio.haZonaAmministrativa, region_uri))
         # Let's add OWL sameAs to City, Province and Region types
         g.add((city_uri, owl.sameAs, URIRef(dbpedia_domain + urified_city)))

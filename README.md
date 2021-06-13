@@ -1,5 +1,7 @@
 # Aeroporti Italiani 
 
+<img src="./aeroporti_italiani_logo.svg" width="300" height="300" alt="Logo di Aeroporti italiani"/>
+
 Il progetto nasce dalla necessità di creare dei linked open data sugli aeroporti italiani a partire dai dati 
 messi a disposizione dall'ENAC (Ente Nazionale per l'Aviazione Civile) e dall'ISTAT (Istituto Nazionale di Statistica).
 I dati originali sono stati elaborati attraverso una pipeline di elaborazione che si può trovare 
@@ -14,6 +16,8 @@ La mappa degli aeroporti italiani è disponibile su [http://u.osmfr.org/m/624143
 ed è resa disponibile attraverso licenza [Open Data Commons Open Database License (ODbL)](https://opendatacommons.org/licenses/odbl/).
 
 # Italian Airports
+<img src="./aeroporti_italiani_logo.svg" width="300" height="300" alt="Italian airoports logo"/>
+
 The project was made to create a linked open data knowledge base about the italian airports provided by the ENAC
 (Italian National Organization for the Civil Aviation) and by ISTAT (Italian National Institute of Statistics).
 Original data were elaborated through a pipeline that can be found in the directory named `src`,
