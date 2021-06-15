@@ -33,9 +33,9 @@ def extract_airports():
     data_f = __normalize_airports_names(data_f, it_airports_names)
     airports_data_frame = pandas.DataFrame(__clean_enac_airports_dataset(data_f), columns=columns)
     airports_data_frame = __add_missing_airports(airports_data_frame, it_airports_names)
-    airports_data_frame.index.name = "Id"
+    # airports_data_frame.index.name = "Id"
     print("Saving airports data to the disk...")
-    airports_data_frame.to_csv(ITALIAN_AIRPORTS, header=columns)
+    airports_data_frame.to_csv(ITALIAN_AIRPORTS, header=columns, index=False)
 
 
 def __clean_enac_airports_dataset(data_frame):

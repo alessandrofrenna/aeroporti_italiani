@@ -64,9 +64,9 @@ def extract_rdf_from_data():
         g.add((location_uri, RDF.type, aio.Indirizzo))
         # Let's create a GeoCoordinates instance
         g.add((coordinates_uri, RDF.type, schema.GeoCoordinates))
-        g.add((coordinates_uri, geo.latitude, Literal(row[13], datatype=XSD.decimal)))
-        g.add((coordinates_uri, geo.longitude, Literal(row[14], datatype=XSD.decimal)))
-        g.add((coordinates_uri, geo.address, Literal(row[7], datatype=XSD.string)))
+        g.add((coordinates_uri, geo.latitude, Literal(row["Latitudine"], datatype=XSD.decimal)))
+        g.add((coordinates_uri, geo.longitude, Literal(row["Longitudine"], datatype=XSD.decimal)))
+        g.add((coordinates_uri, geo.address, Literal(row["Indirizzo"], datatype=XSD.string)))
         # Let's add City, Province, Region, Location object properties and
         g.add((city_uri, aio.inProvinciaDi, province_uri))
         g.add((city_uri, aio.inRegione, region_uri))

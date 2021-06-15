@@ -1,136 +1,136 @@
-Id,Aeroporto,Categoria,Valore 2020,Valore 2019,Variazione Percentuale
-0,LIBC,merci e posta,0.0,0.0,0.0
-1,LIBC,passeggeri,54130.0,171905.0,-68.51
-2,LIBC,voli commerciali,498.0,1061.0,-53.06
-3,LIBD,merci e posta,2511.6,4470.0,-43.81
-4,LIBD,passeggeri,1703656.0,6620558.0,-74.27
-5,LIBD,voli commerciali,16354.0,49108.0,-66.70
-6,LIBF,merci e posta,0.0,0.0,0.0
-7,LIBF,passeggeri,0.0,0.0,0.0
-8,LIBF,voli commerciali,0.0,0.0,0.0
-9,LIBG,merci e posta,5006.6,8506.0,-41.14
-10,LIBG,passeggeri,0.0,603.0,-100.00
-11,LIBG,voli commerciali,164.0,256.0,-35.94
-12,LIBP,merci e posta,0.0,267.0,-100.00
-13,LIBP,passeggeri,168362.0,756120.0,-77.73
-14,LIBP,voli commerciali,1658.0,6044.0,-72.57
-15,LIBR,merci e posta,41.800000000000004,18.0,132.22
-16,LIBR,passeggeri,1016495.0,3340765.0,-69.57
-17,LIBR,voli commerciali,8451.0,23337.0,-63.79
-18,LICA,merci e posta,30.1,2465.0,-98.78
-19,LICA,passeggeri,969535.0,3704297.0,-73.83
-20,LICA,voli commerciali,8247.0,28352.0,-70.91
-21,LICB,merci e posta,0.0,0.0,0.0
-22,LICB,passeggeri,92459.0,365519.0,-74.70
-23,LICB,voli commerciali,772.0,2542.0,-69.63
-24,LICC,merci e posta,4919.400000000001,10877.0,-54.77
-25,LICC,passeggeri,3647860.0,12183163.0,-70.06
-26,LICC,voli commerciali,32037.0,90963.0,-64.78
-27,LICD,merci e posta,13.8,18.0,-23.33
-28,LICD,passeggeri,174682.0,378218.0,-53.81
-29,LICD,voli commerciali,3122.0,4957.0,-37.02
-30,LICG,merci e posta,21.8,27.0,-19.26
-31,LICG,passeggeri,107800.0,190784.0,-43.50
-32,LICG,voli commerciali,2861.0,3912.0,-26.87
-33,LICJ,merci e posta,2492.6,2291.0,8.80
-34,LICJ,passeggeri,2699531.0,8392906.0,-67.84
-35,LICJ,voli commerciali,25833.0,63518.0,-59.33
-36,LICR,merci e posta,9.7,52.0,-81.35
-37,LICR,passeggeri,110216.0,723125.0,-84.76
-38,LICR,voli commerciali,1209.0,6634.0,-81.78
-39,LICT,merci e posta,30.1,12.0,150.83
-40,LICT,passeggeri,183264.0,533442.0,-65.64
-41,LICT,voli commerciali,2665.0,5912.0,-54.92
-42,LIEA,merci e posta,7.0,2.0,250.00
-43,LIEA,passeggeri,535396.0,1855752.0,-71.15
-44,LIEA,voli commerciali,5320.0,14016.0,-62.04
-45,LIEE,merci e posta,4915.8,8282.0,-40.64
-46,LIEE,passeggeri,1771733.0,6439011.0,-72.48
-47,LIEE,voli commerciali,18253.0,48591.0,-62.44
-48,LIEO,merci e posta,5.8,173.0,-96.65
-49,LIEO,passeggeri,1002433.0,3709835.0,-72.98
-50,LIEO,voli commerciali,9274.0,29175.0,-68.21
-51,LIMC,merci e posta,516388.60000000003,650415.0,-20.61
-52,LIMC,passeggeri,7201030.0,33501167.0,-78.51
-53,LIMC,voli commerciali,86275.0,274583.0,-68.58
-54,LIME,merci e posta,51507.8,119065.0,-56.74
-55,LIME,passeggeri,3830163.0,14350171.0,-73.31
-56,LIME,voli commerciali,35795.0,96205.0,-62.79
-57,LIMF,merci e posta,216.4,288.0,-24.86
-58,LIMF,passeggeri,1413772.0,4827385.0,-70.71
-59,LIMF,voli commerciali,13816.0,44305.0,-68.82
-60,LIMG,merci e posta,0.0,0.0,0.0
-61,LIMG,passeggeri,0.0,0.0,0.0
-62,LIMG,voli commerciali,0.0,0.0,0.0
-63,LIMJ,merci e posta,77.2,249.0,-69.00
-64,LIMJ,passeggeri,394490.0,1957918.0,-79.85
-65,LIMJ,voli commerciali,4382.0,19195.0,-77.17
-66,LIML,merci e posta,1240.1,8765.0,-85.85
-67,LIML,passeggeri,2250374.0,10834257.0,-79.23
-68,LIML,voli commerciali,28305.0,119899.0,-76.39
-69,LIMP,merci e posta,0.0,0.0,0.0
-70,LIMP,passeggeri,26873.0,72876.0,-63.13
-71,LIMP,voli commerciali,328.0,523.0,-37.28
-72,LIMW,merci e posta,0.0,0.0,0.0
-73,LIMW,passeggeri,0.0,0.0,0.0
-74,LIMW,voli commerciali,0.0,0.0,0.0
-75,LIMZ,merci e posta,0.0,0.0,0.0
-76,LIMZ,passeggeri,51941.0,89809.0,-42.17
-77,LIMZ,voli commerciali,472.0,618.0,-23.62
-78,LIPB,merci e posta,0.0,0.0,0.0
-79,LIPB,passeggeri,124.0,1176.0,-89.46
-80,LIPB,voli commerciali,3.0,39.0,-92.31
-81,LIPE,merci e posta,34673.9,38130.0,-9.06
-82,LIPE,passeggeri,2518282.0,10594048.0,-76.23
-83,LIPE,voli commerciali,27332.0,83845.0,-67.40
-84,LIPH,merci e posta,0.0,0.0,0.0
-85,LIPH,passeggeri,461006.0,3247607.0,-85.80
-86,LIPH,voli commerciali,3259.0,19025.0,-82.87
-87,LIPK,merci e posta,0.0,0.0,0.0
-88,LIPK,passeggeri,204.0,0.0,100.00
-89,LIPK,voli commerciali,4.0,0.0,100.00
-90,LIPO,merci e posta,21503.7,24270.0,-11.40
-91,LIPO,passeggeri,569.0,16263.0,-96.50
-92,LIPO,voli commerciali,5255.0,6424.0,-18.20
-93,LIPQ,merci e posta,39.1,98.0,-60.10
-94,LIPQ,passeggeri,206653.0,1088479.0,-81.01
-95,LIPQ,voli commerciali,2656.0,12288.0,-78.39
-96,LIPR,merci e posta,154.7,4.0,3767.50
-97,LIPR,passeggeri,37516.0,396726.0,-90.54
-98,LIPR,voli commerciali,613.0,2596.0,-76.39
-99,LIPX,merci e posta,259.6,691.0,-62.43
-100,LIPX,passeggeri,1029982.0,4800032.0,-78.54
-101,LIPX,voli commerciali,9487.0,41838.0,-77.32
-102,LIPY,merci e posta,5570.5,6943.0,-19.77
-103,LIPY,passeggeri,148117.0,531083.0,-72.11
-104,LIPY,voli commerciali,2379.0,6210.0,-61.69
-105,LIPZ,merci e posta,37225.2,52067.0,-28.51
-106,LIPZ,passeggeri,2785673.0,12336823.0,-77.42
-107,LIPZ,voli commerciali,29663.0,96987.0,-69.42
-108,LIRA,merci e posta,19354.3,18075.0,7.08
-109,LIRA,passeggeri,1605781.0,5852023.0,-72.56
-110,LIRA,voli commerciali,14522.0,35370.0,-58.94
-111,LIRF,merci e posta,74504.0,256300.0,-70.93
-112,LIRF,passeggeri,9754768.0,61169345.0,-84.05
-113,LIRF,voli commerciali,100046.0,457677.0,-78.14
-114,LIRI,merci e posta,0.0,0.0,0.0
-115,LIRI,passeggeri,0.0,0.0,0.0
-116,LIRI,voli commerciali,0.0,0.0,0.0
-117,LIRJ,merci e posta,0.0,0.0,0.0
-118,LIRJ,passeggeri,1749.0,1869.0,-6.42
-119,LIRJ,voli commerciali,501.0,119.0,321.01
-120,LIRN,merci e posta,8691.4,11323.0,-23.24
-121,LIRN,passeggeri,2761062.0,11790088.0,-76.58
-122,LIRN,voli commerciali,25534.0,88616.0,-71.19
-123,LIRP,merci e posta,12461.4,12650.0,-1.49
-124,LIRP,passeggeri,1303200.0,5720734.0,-77.22
-125,LIRP,voli commerciali,12995.0,42144.0,-69.17
-126,LIRQ,merci e posta,7.800000000000001,85.0,-90.82
-127,LIRQ,passeggeri,662527.0,3441609.0,-80.75
-128,LIRQ,voli commerciali,9885.0,35750.0,-72.35
-129,LIRS,merci e posta,0.0,0.0,0.0
-130,LIRS,passeggeri,307.0,247.0,24.29
-131,LIRS,voli commerciali,8.0,6.0,33.33
-132,LIRZ,merci e posta,0.0,0.0,0.0
-133,LIRZ,passeggeri,76009.0,222895.0,-65.90
-134,LIRZ,voli commerciali,838.0,1616.0,-48.14
+Aeroporto,Categoria,Valore 2020,Valore 2019,Variazione Percentuale
+LIBC,merci e posta,0.0,0.0,0.0
+LIBC,passeggeri,54130.0,171905.0,-68.51
+LIBC,voli commerciali,498.0,1061.0,-53.06
+LIBD,merci e posta,2511.6,4470.0,-43.81
+LIBD,passeggeri,1703656.0,6620558.0,-74.27
+LIBD,voli commerciali,16354.0,49108.0,-66.7
+LIBF,merci e posta,0.0,0.0,0.0
+LIBF,passeggeri,0.0,0.0,0.0
+LIBF,voli commerciali,0.0,0.0,0.0
+LIBG,merci e posta,5006.6,8506.0,-41.14
+LIBG,passeggeri,0.0,603.0,-100.0
+LIBG,voli commerciali,164.0,256.0,-35.94
+LIBP,merci e posta,0.0,267.0,-100.0
+LIBP,passeggeri,168362.0,756120.0,-77.73
+LIBP,voli commerciali,1658.0,6044.0,-72.57
+LIBR,merci e posta,41.800000000000004,18.0,132.22
+LIBR,passeggeri,1016495.0,3340765.0,-69.57
+LIBR,voli commerciali,8451.0,23337.0,-63.79
+LICA,merci e posta,30.1,2465.0,-98.78
+LICA,passeggeri,969535.0,3704297.0,-73.83
+LICA,voli commerciali,8247.0,28352.0,-70.91
+LICB,merci e posta,0.0,0.0,0.0
+LICB,passeggeri,92459.0,365519.0,-74.7
+LICB,voli commerciali,772.0,2542.0,-69.63
+LICC,merci e posta,4919.400000000001,10877.0,-54.77
+LICC,passeggeri,3647860.0,12183163.0,-70.06
+LICC,voli commerciali,32037.0,90963.0,-64.78
+LICD,merci e posta,13.8,18.0,-23.33
+LICD,passeggeri,174682.0,378218.0,-53.81
+LICD,voli commerciali,3122.0,4957.0,-37.02
+LICG,merci e posta,21.8,27.0,-19.26
+LICG,passeggeri,107800.0,190784.0,-43.5
+LICG,voli commerciali,2861.0,3912.0,-26.87
+LICJ,merci e posta,2492.6,2291.0,8.8
+LICJ,passeggeri,2699531.0,8392906.0,-67.84
+LICJ,voli commerciali,25833.0,63518.0,-59.33
+LICR,merci e posta,9.7,52.0,-81.35
+LICR,passeggeri,110216.0,723125.0,-84.76
+LICR,voli commerciali,1209.0,6634.0,-81.78
+LICT,merci e posta,30.1,12.0,150.83
+LICT,passeggeri,183264.0,533442.0,-65.64
+LICT,voli commerciali,2665.0,5912.0,-54.92
+LIEA,merci e posta,7.0,2.0,250.0
+LIEA,passeggeri,535396.0,1855752.0,-71.15
+LIEA,voli commerciali,5320.0,14016.0,-62.04
+LIEE,merci e posta,4915.8,8282.0,-40.64
+LIEE,passeggeri,1771733.0,6439011.0,-72.48
+LIEE,voli commerciali,18253.0,48591.0,-62.44
+LIEO,merci e posta,5.8,173.0,-96.65
+LIEO,passeggeri,1002433.0,3709835.0,-72.98
+LIEO,voli commerciali,9274.0,29175.0,-68.21
+LIMC,merci e posta,516388.60000000003,650415.0,-20.61
+LIMC,passeggeri,7201030.0,33501167.0,-78.51
+LIMC,voli commerciali,86275.0,274583.0,-68.58
+LIME,merci e posta,51507.8,119065.0,-56.74
+LIME,passeggeri,3830163.0,14350171.0,-73.31
+LIME,voli commerciali,35795.0,96205.0,-62.79
+LIMF,merci e posta,216.4,288.0,-24.86
+LIMF,passeggeri,1413772.0,4827385.0,-70.71
+LIMF,voli commerciali,13816.0,44305.0,-68.82
+LIMG,merci e posta,0.0,0.0,0.0
+LIMG,passeggeri,0.0,0.0,0.0
+LIMG,voli commerciali,0.0,0.0,0.0
+LIMJ,merci e posta,77.2,249.0,-69.0
+LIMJ,passeggeri,394490.0,1957918.0,-79.85
+LIMJ,voli commerciali,4382.0,19195.0,-77.17
+LIML,merci e posta,1240.1,8765.0,-85.85
+LIML,passeggeri,2250374.0,10834257.0,-79.23
+LIML,voli commerciali,28305.0,119899.0,-76.39
+LIMP,merci e posta,0.0,0.0,0.0
+LIMP,passeggeri,26873.0,72876.0,-63.13
+LIMP,voli commerciali,328.0,523.0,-37.28
+LIMW,merci e posta,0.0,0.0,0.0
+LIMW,passeggeri,0.0,0.0,0.0
+LIMW,voli commerciali,0.0,0.0,0.0
+LIMZ,merci e posta,0.0,0.0,0.0
+LIMZ,passeggeri,51941.0,89809.0,-42.17
+LIMZ,voli commerciali,472.0,618.0,-23.62
+LIPB,merci e posta,0.0,0.0,0.0
+LIPB,passeggeri,124.0,1176.0,-89.46
+LIPB,voli commerciali,3.0,39.0,-92.31
+LIPE,merci e posta,34673.9,38130.0,-9.06
+LIPE,passeggeri,2518282.0,10594048.0,-76.23
+LIPE,voli commerciali,27332.0,83845.0,-67.4
+LIPH,merci e posta,0.0,0.0,0.0
+LIPH,passeggeri,461006.0,3247607.0,-85.8
+LIPH,voli commerciali,3259.0,19025.0,-82.87
+LIPK,merci e posta,0.0,0.0,0.0
+LIPK,passeggeri,204.0,0.0,100.0
+LIPK,voli commerciali,4.0,0.0,100.0
+LIPO,merci e posta,21503.7,24270.0,-11.4
+LIPO,passeggeri,569.0,16263.0,-96.5
+LIPO,voli commerciali,5255.0,6424.0,-18.2
+LIPQ,merci e posta,39.1,98.0,-60.1
+LIPQ,passeggeri,206653.0,1088479.0,-81.01
+LIPQ,voli commerciali,2656.0,12288.0,-78.39
+LIPR,merci e posta,154.7,4.0,3767.5
+LIPR,passeggeri,37516.0,396726.0,-90.54
+LIPR,voli commerciali,613.0,2596.0,-76.39
+LIPX,merci e posta,259.6,691.0,-62.43
+LIPX,passeggeri,1029982.0,4800032.0,-78.54
+LIPX,voli commerciali,9487.0,41838.0,-77.32
+LIPY,merci e posta,5570.5,6943.0,-19.77
+LIPY,passeggeri,148117.0,531083.0,-72.11
+LIPY,voli commerciali,2379.0,6210.0,-61.69
+LIPZ,merci e posta,37225.2,52067.0,-28.51
+LIPZ,passeggeri,2785673.0,12336823.0,-77.42
+LIPZ,voli commerciali,29663.0,96987.0,-69.42
+LIRA,merci e posta,19354.3,18075.0,7.08
+LIRA,passeggeri,1605781.0,5852023.0,-72.56
+LIRA,voli commerciali,14522.0,35370.0,-58.94
+LIRF,merci e posta,74504.0,256300.0,-70.93
+LIRF,passeggeri,9754768.0,61169345.0,-84.05
+LIRF,voli commerciali,100046.0,457677.0,-78.14
+LIRI,merci e posta,0.0,0.0,0.0
+LIRI,passeggeri,0.0,0.0,0.0
+LIRI,voli commerciali,0.0,0.0,0.0
+LIRJ,merci e posta,0.0,0.0,0.0
+LIRJ,passeggeri,1749.0,1869.0,-6.42
+LIRJ,voli commerciali,501.0,119.0,321.01
+LIRN,merci e posta,8691.4,11323.0,-23.24
+LIRN,passeggeri,2761062.0,11790088.0,-76.58
+LIRN,voli commerciali,25534.0,88616.0,-71.19
+LIRP,merci e posta,12461.4,12650.0,-1.49
+LIRP,passeggeri,1303200.0,5720734.0,-77.22
+LIRP,voli commerciali,12995.0,42144.0,-69.17
+LIRQ,merci e posta,7.800000000000001,85.0,-90.82
+LIRQ,passeggeri,662527.0,3441609.0,-80.75
+LIRQ,voli commerciali,9885.0,35750.0,-72.35
+LIRS,merci e posta,0.0,0.0,0.0
+LIRS,passeggeri,307.0,247.0,24.29
+LIRS,voli commerciali,8.0,6.0,33.33
+LIRZ,merci e posta,0.0,0.0,0.0
+LIRZ,passeggeri,76009.0,222895.0,-65.9
+LIRZ,voli commerciali,838.0,1616.0,-48.14

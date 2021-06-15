@@ -9,6 +9,7 @@ pandas = "*"
 geopy = "*"
 rdflib = "*"
 sparqlwrapper = "*"
+numpy = "*"
 
 [dev-packages]
 
