@@ -19,7 +19,7 @@ ed è resa disponibile attraverso licenza [Open Data Commons Open Database Licen
 Con l'aiuto di [Virtuoso](https://virtuoso.openlinksw.com/) possiamo caricare tramite la query `SPARQL`:
 
 ```SPARQL
-   LOAD <https://github.com/alessandrofrenna/aeroporti_italiani/blob/main/aeroporti_italiani.ttl>
+   LOAD <https://raw.githubusercontent.com/alessandrofrenna/aeroporti_italiani/main/aeroporti_italiani.ttl>
 ```
 
 possiamo caricare il nostro grafo RDF su uno storage che, tramite SPARQL, ci permetterà di interrogare il nostro grafo di conoscenza.
@@ -34,7 +34,7 @@ Alcune query di esempio sono:
         SELECT DISTINCT ?Nome_Aeroporto ?Categoria ?Totale_Passeggeri_2020 ?Variazione_Percentuale_2019  WHERE {
           ?aeroporto aio:nomeCommerciale ?Nome_Aeroporto ;
                      aio:haRiepilogoTraffico ?riepiloghi .
-          ?riepiloghi aio:hacategoria/rdfs:label ?Categoria;
+          ?riepiloghi aio:haCategoria/rdfs:label ?Categoria;
                       aio:totaleCorrente ?Totale_Passeggeri_2020 ;
                       aio:variazionePercentuale ?Variazione_Percentuale_2019
           FILTER (REGEX(?Categoria, "passeggeri")) .
@@ -82,7 +82,7 @@ The map is available under the [Open Data Commons Open Database License (ODbL)](
 With the help of the [Virtuoso](https://virtuoso.openlinksw.com/) storage, we can load our knowledge graph the `SPARQL` query:
 
 ```SPARQL
-    LOAD <https://github.com/alessandrofrenna/aeroporti_italiani/blob/main/aeroporti_italiani.ttl>
+    LOAD <https://raw.githubusercontent.com/alessandrofrenna/aeroporti_italiani/main/aeroporti_italiani.ttl>
 ```
 
 the knowledge graph will be queried using SPARQL to get new knowledge.
@@ -97,7 +97,7 @@ Here some SPARQL query as example:
     SELECT DISTINCT ?Nome_Aeroporto ?Categoria ?Totale_Passeggeri_2020 ?Variazione_Percentuale_2019  WHERE {
       ?aeroporto aio:nomeCommerciale ?Nome_Aeroporto ;
                  aio:haRiepilogoTraffico ?riepiloghi .
-      ?riepiloghi aio:hacategoria/rdfs:label ?Categoria;
+      ?riepiloghi aio:haCategoria/rdfs:label ?Categoria;
                   aio:totaleCorrente ?Totale_Passeggeri_2020 ;
                   aio:variazionePercentuale ?Variazione_Percentuale_2019
       FILTER (REGEX(?Categoria, "passeggeri")) .
