@@ -198,7 +198,7 @@ def __add_traffic_summary_triples(row, graph, category_uri, airport_uri):
     graph.add((summary_uri, aio.variazionePercentuale, Literal(variation, datatype=XSD.decimal)))
     # Let's add objects properties
     graph.add((airport_uri, aio.haRiepilogoTraffico, summary_uri))
-    graph.add((summary_uri, aio.hacategoria, category_uri))
+    graph.add((summary_uri, aio.haCategoria, category_uri))
     graph.add((summary_uri, aio.riferitoAdAeroporto, airport_uri))
     return graph
 

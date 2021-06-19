@@ -4871,7 +4871,7 @@
 
 <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIBC-merci_e_posta-2020-2019> a aio:RiepilogoDatiTraffico ;
     rdfs:label "merci e posta 2020-2019"^^xsd:string ;
-    aio:hacategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/merci_e_posta> ;
+    aio:haCategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/merci_e_posta> ;
     aio:riferitoAdAeroporto <http://purl.org/net/aeroporti_italiani/risorse/aeroporti/LIBC> ;
     aio:totaleCorrente 0.0 ;
     aio:totalePassato 0.0 ;
@@ -4879,7 +4879,7 @@
 
 <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIBC-passeggeri-2020-2019> a aio:RiepilogoDatiTraffico ;
     rdfs:label "passeggeri 2020-2019"^^xsd:string ;
-    aio:hacategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/passeggeri> ;
+    aio:haCategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/passeggeri> ;
     aio:riferitoAdAeroporto <http://purl.org/net/aeroporti_italiani/risorse/aeroporti/LIBC> ;
     aio:totaleCorrente 54130 ;
     aio:totalePassato 171905 ;
@@ -4887,7 +4887,7 @@
 
 <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIBC-voli_commerciali-2020-2019> a aio:RiepilogoDatiTraffico ;
     rdfs:label "voli commerciali 2020-2019"^^xsd:string ;
-    aio:hacategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/voli_commerciali> ;
+    aio:haCategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/voli_commerciali> ;
     aio:riferitoAdAeroporto <http://purl.org/net/aeroporti_italiani/risorse/aeroporti/LIBC> ;
     aio:totaleCorrente 498.0 ;
     aio:totalePassato 1061.0 ;
@@ -4895,7 +4895,7 @@
 
 <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIBD-merci_e_posta-2020-2019> a aio:RiepilogoDatiTraffico ;
     rdfs:label "merci e posta 2020-2019"^^xsd:string ;
-    aio:hacategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/merci_e_posta> ;
+    aio:haCategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/merci_e_posta> ;
     aio:riferitoAdAeroporto <http://purl.org/net/aeroporti_italiani/risorse/aeroporti/LIBD> ;
     aio:totaleCorrente 2511.59999999999990905052982270717620849609375 ;
     aio:totalePassato 4470.0 ;
@@ -4903,7 +4903,7 @@
 
 <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIBD-passeggeri-2020-2019> a aio:RiepilogoDatiTraffico ;
     rdfs:label "passeggeri 2020-2019"^^xsd:string ;
-    aio:hacategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/passeggeri> ;
+    aio:haCategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/passeggeri> ;
     aio:riferitoAdAeroporto <http://purl.org/net/aeroporti_italiani/risorse/aeroporti/LIBD> ;
     aio:totaleCorrente 1703656 ;
     aio:totalePassato 6620558 ;
@@ -4911,7 +4911,7 @@
 
 <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIBD-voli_commerciali-2020-2019> a aio:RiepilogoDatiTraffico ;
     rdfs:label "voli commerciali 2020-2019"^^xsd:string ;
-    aio:hacategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/voli_commerciali> ;
+    aio:haCategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/voli_commerciali> ;
     aio:riferitoAdAeroporto <http://purl.org/net/aeroporti_italiani/risorse/aeroporti/LIBD> ;
     aio:totaleCorrente 16354.0 ;
     aio:totalePassato 49108.0 ;
@@ -4919,7 +4919,7 @@
 
 <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIBF-merci_e_posta-2020-2019> a aio:RiepilogoDatiTraffico ;
     rdfs:label "merci e posta 2020-2019"^^xsd:string ;
-    aio:hacategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/merci_e_posta> ;
+    aio:haCategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/merci_e_posta> ;
     aio:riferitoAdAeroporto <http://purl.org/net/aeroporti_italiani/risorse/aeroporti/LIBF> ;
     aio:totaleCorrente 0.0 ;
     aio:totalePassato 0.0 ;
@@ -4927,7 +4927,7 @@
 
 <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIBF-passeggeri-2020-2019> a aio:RiepilogoDatiTraffico ;
     rdfs:label "passeggeri 2020-2019"^^xsd:string ;
-    aio:hacategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/passeggeri> ;
+    aio:haCategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/passeggeri> ;
     aio:riferitoAdAeroporto <http://purl.org/net/aeroporti_italiani/risorse/aeroporti/LIBF> ;
     aio:totaleCorrente 0 ;
     aio:totalePassato 0 ;
@@ -4935,7 +4935,7 @@
 
 <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIBF-voli_commerciali-2020-2019> a aio:RiepilogoDatiTraffico ;
     rdfs:label "voli commerciali 2020-2019"^^xsd:string ;
-    aio:hacategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/voli_commerciali> ;
+    aio:haCategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/voli_commerciali> ;
     aio:riferitoAdAeroporto <http://purl.org/net/aeroporti_italiani/risorse/aeroporti/LIBF> ;
     aio:totaleCorrente 0.0 ;
     aio:totalePassato 0.0 ;
@@ -4943,7 +4943,7 @@
 
 <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIBG-merci_e_posta-2020-2019> a aio:RiepilogoDatiTraffico ;
     rdfs:label "merci e posta 2020-2019"^^xsd:string ;
-    aio:hacategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/merci_e_posta> ;
+    aio:haCategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/merci_e_posta> ;
     aio:riferitoAdAeroporto <http://purl.org/net/aeroporti_italiani/risorse/aeroporti/LIBG> ;
     aio:totaleCorrente 5006.600000000000363797880709171295166015625 ;
     aio:totalePassato 8506.0 ;
@@ -4951,7 +4951,7 @@
 
 <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIBG-passeggeri-2020-2019> a aio:RiepilogoDatiTraffico ;
     rdfs:label "passeggeri 2020-2019"^^xsd:string ;
-    aio:hacategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/passeggeri> ;
+    aio:haCategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/passeggeri> ;
     aio:riferitoAdAeroporto <http://purl.org/net/aeroporti_italiani/risorse/aeroporti/LIBG> ;
     aio:totaleCorrente 0 ;
     aio:totalePassato 603 ;
@@ -4959,7 +4959,7 @@
 
 <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIBG-voli_commerciali-2020-2019> a aio:RiepilogoDatiTraffico ;
     rdfs:label "voli commerciali 2020-2019"^^xsd:string ;
-    aio:hacategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/voli_commerciali> ;
+    aio:haCategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/voli_commerciali> ;
     aio:riferitoAdAeroporto <http://purl.org/net/aeroporti_italiani/risorse/aeroporti/LIBG> ;
     aio:totaleCorrente 164.0 ;
     aio:totalePassato 256.0 ;
@@ -4967,7 +4967,7 @@
 
 <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIBP-merci_e_posta-2020-2019> a aio:RiepilogoDatiTraffico ;
     rdfs:label "merci e posta 2020-2019"^^xsd:string ;
-    aio:hacategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/merci_e_posta> ;
+    aio:haCategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/merci_e_posta> ;
     aio:riferitoAdAeroporto <http://purl.org/net/aeroporti_italiani/risorse/aeroporti/LIBP> ;
     aio:totaleCorrente 0.0 ;
     aio:totalePassato 267.0 ;
@@ -4975,7 +4975,7 @@
 
 <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIBP-passeggeri-2020-2019> a aio:RiepilogoDatiTraffico ;
     rdfs:label "passeggeri 2020-2019"^^xsd:string ;
-    aio:hacategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/passeggeri> ;
+    aio:haCategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/passeggeri> ;
     aio:riferitoAdAeroporto <http://purl.org/net/aeroporti_italiani/risorse/aeroporti/LIBP> ;
     aio:totaleCorrente 168362 ;
     aio:totalePassato 756120 ;
@@ -4983,7 +4983,7 @@
 
 <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIBP-voli_commerciali-2020-2019> a aio:RiepilogoDatiTraffico ;
     rdfs:label "voli commerciali 2020-2019"^^xsd:string ;
-    aio:hacategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/voli_commerciali> ;
+    aio:haCategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/voli_commerciali> ;
     aio:riferitoAdAeroporto <http://purl.org/net/aeroporti_italiani/risorse/aeroporti/LIBP> ;
     aio:totaleCorrente 1658.0 ;
     aio:totalePassato 6044.0 ;
@@ -4991,7 +4991,7 @@
 
 <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIBR-merci_e_posta-2020-2019> a aio:RiepilogoDatiTraffico ;
     rdfs:label "merci e posta 2020-2019"^^xsd:string ;
-    aio:hacategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/merci_e_posta> ;
+    aio:haCategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/merci_e_posta> ;
     aio:riferitoAdAeroporto <http://purl.org/net/aeroporti_italiani/risorse/aeroporti/LIBR> ;
     aio:totaleCorrente 41.7999999999999971578290569595992565155029296875 ;
     aio:totalePassato 18.0 ;
@@ -4999,7 +4999,7 @@
 
 <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIBR-passeggeri-2020-2019> a aio:RiepilogoDatiTraffico ;
     rdfs:label "passeggeri 2020-2019"^^xsd:string ;
-    aio:hacategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/passeggeri> ;
+    aio:haCategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/passeggeri> ;
     aio:riferitoAdAeroporto <http://purl.org/net/aeroporti_italiani/risorse/aeroporti/LIBR> ;
     aio:totaleCorrente 1016495 ;
     aio:totalePassato 3340765 ;
@@ -5007,7 +5007,7 @@
 
 <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIBR-voli_commerciali-2020-2019> a aio:RiepilogoDatiTraffico ;
     rdfs:label "voli commerciali 2020-2019"^^xsd:string ;
-    aio:hacategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/voli_commerciali> ;
+    aio:haCategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/voli_commerciali> ;
     aio:riferitoAdAeroporto <http://purl.org/net/aeroporti_italiani/risorse/aeroporti/LIBR> ;
     aio:totaleCorrente 8451.0 ;
     aio:totalePassato 23337.0 ;
@@ -5015,7 +5015,7 @@
 
 <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LICA-merci_e_posta-2020-2019> a aio:RiepilogoDatiTraffico ;
     rdfs:label "merci e posta 2020-2019"^^xsd:string ;
-    aio:hacategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/merci_e_posta> ;
+    aio:haCategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/merci_e_posta> ;
     aio:riferitoAdAeroporto <http://purl.org/net/aeroporti_italiani/risorse/aeroporti/LICA> ;
     aio:totaleCorrente 30.10000000000000142108547152020037174224853515625 ;
     aio:totalePassato 2465.0 ;
@@ -5023,7 +5023,7 @@
 
 <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LICA-passeggeri-2020-2019> a aio:RiepilogoDatiTraffico ;
     rdfs:label "passeggeri 2020-2019"^^xsd:string ;
-    aio:hacategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/passeggeri> ;
+    aio:haCategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/passeggeri> ;
     aio:riferitoAdAeroporto <http://purl.org/net/aeroporti_italiani/risorse/aeroporti/LICA> ;
     aio:totaleCorrente 969535 ;
     aio:totalePassato 3704297 ;
@@ -5031,7 +5031,7 @@
 
 <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LICA-voli_commerciali-2020-2019> a aio:RiepilogoDatiTraffico ;
     rdfs:label "voli commerciali 2020-2019"^^xsd:string ;
-    aio:hacategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/voli_commerciali> ;
+    aio:haCategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/voli_commerciali> ;
     aio:riferitoAdAeroporto <http://purl.org/net/aeroporti_italiani/risorse/aeroporti/LICA> ;
     aio:totaleCorrente 8247.0 ;
     aio:totalePassato 28352.0 ;
@@ -5039,7 +5039,7 @@
 
 <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LICB-merci_e_posta-2020-2019> a aio:RiepilogoDatiTraffico ;
     rdfs:label "merci e posta 2020-2019"^^xsd:string ;
-    aio:hacategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/merci_e_posta> ;
+    aio:haCategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/merci_e_posta> ;
     aio:riferitoAdAeroporto <http://purl.org/net/aeroporti_italiani/risorse/aeroporti/LICB> ;
     aio:totaleCorrente 0.0 ;
     aio:totalePassato 0.0 ;
@@ -5047,7 +5047,7 @@
 
 <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LICB-passeggeri-2020-2019> a aio:RiepilogoDatiTraffico ;
     rdfs:label "passeggeri 2020-2019"^^xsd:string ;
-    aio:hacategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/passeggeri> ;
+    aio:haCategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/passeggeri> ;
     aio:riferitoAdAeroporto <http://purl.org/net/aeroporti_italiani/risorse/aeroporti/LICB> ;
     aio:totaleCorrente 92459 ;
     aio:totalePassato 365519 ;
@@ -5055,7 +5055,7 @@
 
 <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LICB-voli_commerciali-2020-2019> a aio:RiepilogoDatiTraffico ;
     rdfs:label "voli commerciali 2020-2019"^^xsd:string ;
-    aio:hacategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/voli_commerciali> ;
+    aio:haCategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/voli_commerciali> ;
     aio:riferitoAdAeroporto <http://purl.org/net/aeroporti_italiani/risorse/aeroporti/LICB> ;
     aio:totaleCorrente 772.0 ;
     aio:totalePassato 2542.0 ;
@@ -5063,7 +5063,7 @@
 
 <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LICC-merci_e_posta-2020-2019> a aio:RiepilogoDatiTraffico ;
     rdfs:label "merci e posta 2020-2019"^^xsd:string ;
-    aio:hacategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/merci_e_posta> ;
+    aio:haCategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/merci_e_posta> ;
     aio:riferitoAdAeroporto <http://purl.org/net/aeroporti_italiani/risorse/aeroporti/LICC> ;
     aio:totaleCorrente 4919.4000000000005456968210637569427490234375 ;
     aio:totalePassato 10877.0 ;
@@ -5071,7 +5071,7 @@
 
 <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LICC-passeggeri-2020-2019> a aio:RiepilogoDatiTraffico ;
     rdfs:label "passeggeri 2020-2019"^^xsd:string ;
-    aio:hacategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/passeggeri> ;
+    aio:haCategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/passeggeri> ;
     aio:riferitoAdAeroporto <http://purl.org/net/aeroporti_italiani/risorse/aeroporti/LICC> ;
     aio:totaleCorrente 3647860 ;
     aio:totalePassato 12183163 ;
@@ -5079,7 +5079,7 @@
 
 <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LICC-voli_commerciali-2020-2019> a aio:RiepilogoDatiTraffico ;
     rdfs:label "voli commerciali 2020-2019"^^xsd:string ;
-    aio:hacategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/voli_commerciali> ;
+    aio:haCategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/voli_commerciali> ;
     aio:riferitoAdAeroporto <http://purl.org/net/aeroporti_italiani/risorse/aeroporti/LICC> ;
     aio:totaleCorrente 32037.0 ;
     aio:totalePassato 90963.0 ;
@@ -5087,7 +5087,7 @@
 
 <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LICD-merci_e_posta-2020-2019> a aio:RiepilogoDatiTraffico ;
     rdfs:label "merci e posta 2020-2019"^^xsd:string ;
-    aio:hacategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/merci_e_posta> ;
+    aio:haCategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/merci_e_posta> ;
     aio:riferitoAdAeroporto <http://purl.org/net/aeroporti_italiani/risorse/aeroporti/LICD> ;
     aio:totaleCorrente 13.800000000000000710542735760100185871124267578125 ;
     aio:totalePassato 18.0 ;
@@ -5095,7 +5095,7 @@
 
 <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LICD-passeggeri-2020-2019> a aio:RiepilogoDatiTraffico ;
     rdfs:label "passeggeri 2020-2019"^^xsd:string ;
-    aio:hacategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/passeggeri> ;
+    aio:haCategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/passeggeri> ;
     aio:riferitoAdAeroporto <http://purl.org/net/aeroporti_italiani/risorse/aeroporti/LICD> ;
     aio:totaleCorrente 174682 ;
     aio:totalePassato 378218 ;
@@ -5103,7 +5103,7 @@
 
 <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LICD-voli_commerciali-2020-2019> a aio:RiepilogoDatiTraffico ;
     rdfs:label "voli commerciali 2020-2019"^^xsd:string ;
-    aio:hacategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/voli_commerciali> ;
+    aio:haCategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/voli_commerciali> ;
     aio:riferitoAdAeroporto <http://purl.org/net/aeroporti_italiani/risorse/aeroporti/LICD> ;
     aio:totaleCorrente 3122.0 ;
     aio:totalePassato 4957.0 ;
@@ -5111,7 +5111,7 @@
 
 <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LICG-merci_e_posta-2020-2019> a aio:RiepilogoDatiTraffico ;
     rdfs:label "merci e posta 2020-2019"^^xsd:string ;
-    aio:hacategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/merci_e_posta> ;
+    aio:haCategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/merci_e_posta> ;
     aio:riferitoAdAeroporto <http://purl.org/net/aeroporti_italiani/risorse/aeroporti/LICG> ;
     aio:totaleCorrente 21.800000000000000710542735760100185871124267578125 ;
     aio:totalePassato 27.0 ;
@@ -5119,7 +5119,7 @@
 
 <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LICG-passeggeri-2020-2019> a aio:RiepilogoDatiTraffico ;
     rdfs:label "passeggeri 2020-2019"^^xsd:string ;
-    aio:hacategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/passeggeri> ;
+    aio:haCategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/passeggeri> ;
     aio:riferitoAdAeroporto <http://purl.org/net/aeroporti_italiani/risorse/aeroporti/LICG> ;
     aio:totaleCorrente 107800 ;
     aio:totalePassato 190784 ;
@@ -5127,7 +5127,7 @@
 
 <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LICG-voli_commerciali-2020-2019> a aio:RiepilogoDatiTraffico ;
     rdfs:label "voli commerciali 2020-2019"^^xsd:string ;
-    aio:hacategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/voli_commerciali> ;
+    aio:haCategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/voli_commerciali> ;
     aio:riferitoAdAeroporto <http://purl.org/net/aeroporti_italiani/risorse/aeroporti/LICG> ;
     aio:totaleCorrente 2861.0 ;
     aio:totalePassato 3912.0 ;
@@ -5135,7 +5135,7 @@
 
 <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LICJ-merci_e_posta-2020-2019> a aio:RiepilogoDatiTraffico ;
     rdfs:label "merci e posta 2020-2019"^^xsd:string ;
-    aio:hacategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/merci_e_posta> ;
+    aio:haCategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/merci_e_posta> ;
     aio:riferitoAdAeroporto <http://purl.org/net/aeroporti_italiani/risorse/aeroporti/LICJ> ;
     aio:totaleCorrente 2492.59999999999990905052982270717620849609375 ;
     aio:totalePassato 2291.0 ;
@@ -5143,7 +5143,7 @@
 
 <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LICJ-passeggeri-2020-2019> a aio:RiepilogoDatiTraffico ;
     rdfs:label "passeggeri 2020-2019"^^xsd:string ;
-    aio:hacategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/passeggeri> ;
+    aio:haCategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/passeggeri> ;
     aio:riferitoAdAeroporto <http://purl.org/net/aeroporti_italiani/risorse/aeroporti/LICJ> ;
     aio:totaleCorrente 2699531 ;
     aio:totalePassato 8392906 ;
@@ -5151,7 +5151,7 @@
 
 <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LICJ-voli_commerciali-2020-2019> a aio:RiepilogoDatiTraffico ;
     rdfs:label "voli commerciali 2020-2019"^^xsd:string ;
-    aio:hacategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/voli_commerciali> ;
+    aio:haCategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/voli_commerciali> ;
     aio:riferitoAdAeroporto <http://purl.org/net/aeroporti_italiani/risorse/aeroporti/LICJ> ;
     aio:totaleCorrente 25833.0 ;
     aio:totalePassato 63518.0 ;
@@ -5159,7 +5159,7 @@
 
 <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LICR-merci_e_posta-2020-2019> a aio:RiepilogoDatiTraffico ;
     rdfs:label "merci e posta 2020-2019"^^xsd:string ;
-    aio:hacategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/merci_e_posta> ;
+    aio:haCategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/merci_e_posta> ;
     aio:riferitoAdAeroporto <http://purl.org/net/aeroporti_italiani/risorse/aeroporti/LICR> ;
     aio:totaleCorrente 9.699999999999999289457264239899814128875732421875 ;
     aio:totalePassato 52.0 ;
@@ -5167,7 +5167,7 @@
 
 <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LICR-passeggeri-2020-2019> a aio:RiepilogoDatiTraffico ;
     rdfs:label "passeggeri 2020-2019"^^xsd:string ;
-    aio:hacategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/passeggeri> ;
+    aio:haCategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/passeggeri> ;
     aio:riferitoAdAeroporto <http://purl.org/net/aeroporti_italiani/risorse/aeroporti/LICR> ;
     aio:totaleCorrente 110216 ;
     aio:totalePassato 723125 ;
@@ -5175,7 +5175,7 @@
 
 <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LICR-voli_commerciali-2020-2019> a aio:RiepilogoDatiTraffico ;
     rdfs:label "voli commerciali 2020-2019"^^xsd:string ;
-    aio:hacategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/voli_commerciali> ;
+    aio:haCategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/voli_commerciali> ;
     aio:riferitoAdAeroporto <http://purl.org/net/aeroporti_italiani/risorse/aeroporti/LICR> ;
     aio:totaleCorrente 1209.0 ;
     aio:totalePassato 6634.0 ;
@@ -5183,7 +5183,7 @@
 
 <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LICT-merci_e_posta-2020-2019> a aio:RiepilogoDatiTraffico ;
     rdfs:label "merci e posta 2020-2019"^^xsd:string ;
-    aio:hacategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/merci_e_posta> ;
+    aio:haCategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/merci_e_posta> ;
     aio:riferitoAdAeroporto <http://purl.org/net/aeroporti_italiani/risorse/aeroporti/LICT> ;
     aio:totaleCorrente 30.10000000000000142108547152020037174224853515625 ;
     aio:totalePassato 12.0 ;
@@ -5191,7 +5191,7 @@
 
 <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LICT-passeggeri-2020-2019> a aio:RiepilogoDatiTraffico ;
     rdfs:label "passeggeri 2020-2019"^^xsd:string ;
-    aio:hacategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/passeggeri> ;
+    aio:haCategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/passeggeri> ;
     aio:riferitoAdAeroporto <http://purl.org/net/aeroporti_italiani/risorse/aeroporti/LICT> ;
     aio:totaleCorrente 183264 ;
     aio:totalePassato 533442 ;
@@ -5199,7 +5199,7 @@
 
 <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LICT-voli_commerciali-2020-2019> a aio:RiepilogoDatiTraffico ;
     rdfs:label "voli commerciali 2020-2019"^^xsd:string ;
-    aio:hacategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/voli_commerciali> ;
+    aio:haCategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/voli_commerciali> ;
     aio:riferitoAdAeroporto <http://purl.org/net/aeroporti_italiani/risorse/aeroporti/LICT> ;
     aio:totaleCorrente 2665.0 ;
     aio:totalePassato 5912.0 ;
@@ -5207,7 +5207,7 @@
 
 <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIEA-merci_e_posta-2020-2019> a aio:RiepilogoDatiTraffico ;
     rdfs:label "merci e posta 2020-2019"^^xsd:string ;
-    aio:hacategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/merci_e_posta> ;
+    aio:haCategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/merci_e_posta> ;
     aio:riferitoAdAeroporto <http://purl.org/net/aeroporti_italiani/risorse/aeroporti/LIEA> ;
     aio:totaleCorrente 7.0 ;
     aio:totalePassato 2.0 ;
@@ -5215,7 +5215,7 @@
 
 <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIEA-passeggeri-2020-2019> a aio:RiepilogoDatiTraffico ;
     rdfs:label "passeggeri 2020-2019"^^xsd:string ;
-    aio:hacategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/passeggeri> ;
+    aio:haCategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/passeggeri> ;
     aio:riferitoAdAeroporto <http://purl.org/net/aeroporti_italiani/risorse/aeroporti/LIEA> ;
     aio:totaleCorrente 535396 ;
     aio:totalePassato 1855752 ;
@@ -5223,7 +5223,7 @@
 
 <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIEA-voli_commerciali-2020-2019> a aio:RiepilogoDatiTraffico ;
     rdfs:label "voli commerciali 2020-2019"^^xsd:string ;
-    aio:hacategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/voli_commerciali> ;
+    aio:haCategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/voli_commerciali> ;
     aio:riferitoAdAeroporto <http://purl.org/net/aeroporti_italiani/risorse/aeroporti/LIEA> ;
     aio:totaleCorrente 5320.0 ;
     aio:totalePassato 14016.0 ;
@@ -5231,7 +5231,7 @@
 
 <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIEE-merci_e_posta-2020-2019> a aio:RiepilogoDatiTraffico ;
     rdfs:label "merci e posta 2020-2019"^^xsd:string ;
-    aio:hacategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/merci_e_posta> ;
+    aio:haCategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/merci_e_posta> ;
     aio:riferitoAdAeroporto <http://purl.org/net/aeroporti_italiani/risorse/aeroporti/LIEE> ;
     aio:totaleCorrente 4915.8000000000001818989403545856475830078125 ;
     aio:totalePassato 8282.0 ;
@@ -5239,7 +5239,7 @@
 
 <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIEE-passeggeri-2020-2019> a aio:RiepilogoDatiTraffico ;
     rdfs:label "passeggeri 2020-2019"^^xsd:string ;
-    aio:hacategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/passeggeri> ;
+    aio:haCategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/passeggeri> ;
     aio:riferitoAdAeroporto <http://purl.org/net/aeroporti_italiani/risorse/aeroporti/LIEE> ;
     aio:totaleCorrente 1771733 ;
     aio:totalePassato 6439011 ;
@@ -5247,7 +5247,7 @@
 
 <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIEE-voli_commerciali-2020-2019> a aio:RiepilogoDatiTraffico ;
     rdfs:label "voli commerciali 2020-2019"^^xsd:string ;
-    aio:hacategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/voli_commerciali> ;
+    aio:haCategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/voli_commerciali> ;
     aio:riferitoAdAeroporto <http://purl.org/net/aeroporti_italiani/risorse/aeroporti/LIEE> ;
     aio:totaleCorrente 18253.0 ;
     aio:totalePassato 48591.0 ;
@@ -5255,7 +5255,7 @@
 
 <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIEO-merci_e_posta-2020-2019> a aio:RiepilogoDatiTraffico ;
     rdfs:label "merci e posta 2020-2019"^^xsd:string ;
-    aio:hacategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/merci_e_posta> ;
+    aio:haCategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/merci_e_posta> ;
     aio:riferitoAdAeroporto <http://purl.org/net/aeroporti_italiani/risorse/aeroporti/LIEO> ;
     aio:totaleCorrente 5.79999999999999982236431605997495353221893310546875 ;
     aio:totalePassato 173.0 ;
@@ -5263,7 +5263,7 @@
 
 <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIEO-passeggeri-2020-2019> a aio:RiepilogoDatiTraffico ;
     rdfs:label "passeggeri 2020-2019"^^xsd:string ;
-    aio:hacategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/passeggeri> ;
+    aio:haCategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/passeggeri> ;
     aio:riferitoAdAeroporto <http://purl.org/net/aeroporti_italiani/risorse/aeroporti/LIEO> ;
     aio:totaleCorrente 1002433 ;
     aio:totalePassato 3709835 ;
@@ -5271,7 +5271,7 @@
 
 <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIEO-voli_commerciali-2020-2019> a aio:RiepilogoDatiTraffico ;
     rdfs:label "voli commerciali 2020-2019"^^xsd:string ;
-    aio:hacategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/voli_commerciali> ;
+    aio:haCategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/voli_commerciali> ;
     aio:riferitoAdAeroporto <http://purl.org/net/aeroporti_italiani/risorse/aeroporti/LIEO> ;
     aio:totaleCorrente 9274.0 ;
     aio:totalePassato 29175.0 ;
@@ -5279,7 +5279,7 @@
 
 <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIMC-merci_e_posta-2020-2019> a aio:RiepilogoDatiTraffico ;
     rdfs:label "merci e posta 2020-2019"^^xsd:string ;
-    aio:hacategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/merci_e_posta> ;
+    aio:haCategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/merci_e_posta> ;
     aio:riferitoAdAeroporto <http://purl.org/net/aeroporti_italiani/risorse/aeroporti/LIMC> ;
     aio:totaleCorrente 516388.599999999976716935634613037109375 ;
     aio:totalePassato 650415.0 ;
@@ -5287,7 +5287,7 @@
 
 <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIMC-passeggeri-2020-2019> a aio:RiepilogoDatiTraffico ;
     rdfs:label "passeggeri 2020-2019"^^xsd:string ;
-    aio:hacategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/passeggeri> ;
+    aio:haCategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/passeggeri> ;
     aio:riferitoAdAeroporto <http://purl.org/net/aeroporti_italiani/risorse/aeroporti/LIMC> ;
     aio:totaleCorrente 7201030 ;
     aio:totalePassato 33501167 ;
@@ -5295,7 +5295,7 @@
 
 <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIMC-voli_commerciali-2020-2019> a aio:RiepilogoDatiTraffico ;
     rdfs:label "voli commerciali 2020-2019"^^xsd:string ;
-    aio:hacategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/voli_commerciali> ;
+    aio:haCategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/voli_commerciali> ;
     aio:riferitoAdAeroporto <http://purl.org/net/aeroporti_italiani/risorse/aeroporti/LIMC> ;
     aio:totaleCorrente 86275.0 ;
     aio:totalePassato 274583.0 ;
@@ -5303,7 +5303,7 @@
 
 <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIME-merci_e_posta-2020-2019> a aio:RiepilogoDatiTraffico ;
     rdfs:label "merci e posta 2020-2019"^^xsd:string ;
-    aio:hacategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/merci_e_posta> ;
+    aio:haCategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/merci_e_posta> ;
     aio:riferitoAdAeroporto <http://purl.org/net/aeroporti_italiani/risorse/aeroporti/LIME> ;
     aio:totaleCorrente 51507.800000000002910383045673370361328125 ;
     aio:totalePassato 119065.0 ;
@@ -5311,7 +5311,7 @@
 
 <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIME-passeggeri-2020-2019> a aio:RiepilogoDatiTraffico ;
     rdfs:label "passeggeri 2020-2019"^^xsd:string ;
-    aio:hacategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/passeggeri> ;
+    aio:haCategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/passeggeri> ;
     aio:riferitoAdAeroporto <http://purl.org/net/aeroporti_italiani/risorse/aeroporti/LIME> ;
     aio:totaleCorrente 3830163 ;
     aio:totalePassato 14350171 ;
@@ -5319,7 +5319,7 @@
 
 <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIME-voli_commerciali-2020-2019> a aio:RiepilogoDatiTraffico ;
     rdfs:label "voli commerciali 2020-2019"^^xsd:string ;
-    aio:hacategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/voli_commerciali> ;
+    aio:haCategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/voli_commerciali> ;
     aio:riferitoAdAeroporto <http://purl.org/net/aeroporti_italiani/risorse/aeroporti/LIME> ;
     aio:totaleCorrente 35795.0 ;
     aio:totalePassato 96205.0 ;
@@ -5327,7 +5327,7 @@
 
 <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIMF-merci_e_posta-2020-2019> a aio:RiepilogoDatiTraffico ;
     rdfs:label "merci e posta 2020-2019"^^xsd:string ;
-    aio:hacategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/merci_e_posta> ;
+    aio:haCategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/merci_e_posta> ;
     aio:riferitoAdAeroporto <http://purl.org/net/aeroporti_italiani/risorse/aeroporti/LIMF> ;
     aio:totaleCorrente 216.400000000000005684341886080801486968994140625 ;
     aio:totalePassato 288.0 ;
@@ -5335,7 +5335,7 @@
 
 <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIMF-passeggeri-2020-2019> a aio:RiepilogoDatiTraffico ;
     rdfs:label "passeggeri 2020-2019"^^xsd:string ;
-    aio:hacategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/passeggeri> ;
+    aio:haCategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/passeggeri> ;
     aio:riferitoAdAeroporto <http://purl.org/net/aeroporti_italiani/risorse/aeroporti/LIMF> ;
     aio:totaleCorrente 1413772 ;
     aio:totalePassato 4827385 ;
@@ -5343,7 +5343,7 @@
 
 <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIMF-voli_commerciali-2020-2019> a aio:RiepilogoDatiTraffico ;
     rdfs:label "voli commerciali 2020-2019"^^xsd:string ;
-    aio:hacategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/voli_commerciali> ;
+    aio:haCategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/voli_commerciali> ;
     aio:riferitoAdAeroporto <http://purl.org/net/aeroporti_italiani/risorse/aeroporti/LIMF> ;
     aio:totaleCorrente 13816.0 ;
     aio:totalePassato 44305.0 ;
@@ -5351,7 +5351,7 @@
 
 <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIMG-merci_e_posta-2020-2019> a aio:RiepilogoDatiTraffico ;
     rdfs:label "merci e posta 2020-2019"^^xsd:string ;
-    aio:hacategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/merci_e_posta> ;
+    aio:haCategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/merci_e_posta> ;
     aio:riferitoAdAeroporto <http://purl.org/net/aeroporti_italiani/risorse/aeroporti/LIMG> ;
     aio:totaleCorrente 0.0 ;
     aio:totalePassato 0.0 ;
@@ -5359,7 +5359,7 @@
 
 <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIMG-passeggeri-2020-2019> a aio:RiepilogoDatiTraffico ;
     rdfs:label "passeggeri 2020-2019"^^xsd:string ;
-    aio:hacategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/passeggeri> ;
+    aio:haCategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/passeggeri> ;
     aio:riferitoAdAeroporto <http://purl.org/net/aeroporti_italiani/risorse/aeroporti/LIMG> ;
     aio:totaleCorrente 0 ;
     aio:totalePassato 0 ;
@@ -5367,7 +5367,7 @@
 
 <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIMG-voli_commerciali-2020-2019> a aio:RiepilogoDatiTraffico ;
     rdfs:label "voli commerciali 2020-2019"^^xsd:string ;
-    aio:hacategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/voli_commerciali> ;
+    aio:haCategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/voli_commerciali> ;
     aio:riferitoAdAeroporto <http://purl.org/net/aeroporti_italiani/risorse/aeroporti/LIMG> ;
     aio:totaleCorrente 0.0 ;
     aio:totalePassato 0.0 ;
@@ -5375,7 +5375,7 @@
 
 <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIMJ-merci_e_posta-2020-2019> a aio:RiepilogoDatiTraffico ;
     rdfs:label "merci e posta 2020-2019"^^xsd:string ;
-    aio:hacategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/merci_e_posta> ;
+    aio:haCategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/merci_e_posta> ;
     aio:riferitoAdAeroporto <http://purl.org/net/aeroporti_italiani/risorse/aeroporti/LIMJ> ;
     aio:totaleCorrente 77.2000000000000028421709430404007434844970703125 ;
     aio:totalePassato 249.0 ;
@@ -5383,7 +5383,7 @@
 
 <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIMJ-passeggeri-2020-2019> a aio:RiepilogoDatiTraffico ;
     rdfs:label "passeggeri 2020-2019"^^xsd:string ;
-    aio:hacategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/passeggeri> ;
+    aio:haCategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/passeggeri> ;
     aio:riferitoAdAeroporto <http://purl.org/net/aeroporti_italiani/risorse/aeroporti/LIMJ> ;
     aio:totaleCorrente 394490 ;
     aio:totalePassato 1957918 ;
@@ -5391,7 +5391,7 @@
 
 <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIMJ-voli_commerciali-2020-2019> a aio:RiepilogoDatiTraffico ;
     rdfs:label "voli commerciali 2020-2019"^^xsd:string ;
-    aio:hacategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/voli_commerciali> ;
+    aio:haCategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/voli_commerciali> ;
     aio:riferitoAdAeroporto <http://purl.org/net/aeroporti_italiani/risorse/aeroporti/LIMJ> ;
     aio:totaleCorrente 4382.0 ;
     aio:totalePassato 19195.0 ;
@@ -5399,7 +5399,7 @@
 
 <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIML-merci_e_posta-2020-2019> a aio:RiepilogoDatiTraffico ;
     rdfs:label "merci e posta 2020-2019"^^xsd:string ;
-    aio:hacategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/merci_e_posta> ;
+    aio:haCategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/merci_e_posta> ;
     aio:riferitoAdAeroporto <http://purl.org/net/aeroporti_italiani/risorse/aeroporti/LIML> ;
     aio:totaleCorrente 1240.09999999999990905052982270717620849609375 ;
     aio:totalePassato 8765.0 ;
@@ -5407,7 +5407,7 @@
 
 <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIML-passeggeri-2020-2019> a aio:RiepilogoDatiTraffico ;
     rdfs:label "passeggeri 2020-2019"^^xsd:string ;
-    aio:hacategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/passeggeri> ;
+    aio:haCategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/passeggeri> ;
     aio:riferitoAdAeroporto <http://purl.org/net/aeroporti_italiani/risorse/aeroporti/LIML> ;
     aio:totaleCorrente 2250374 ;
     aio:totalePassato 10834257 ;
@@ -5415,7 +5415,7 @@
 
 <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIML-voli_commerciali-2020-2019> a aio:RiepilogoDatiTraffico ;
     rdfs:label "voli commerciali 2020-2019"^^xsd:string ;
-    aio:hacategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/voli_commerciali> ;
+    aio:haCategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/voli_commerciali> ;
     aio:riferitoAdAeroporto <http://purl.org/net/aeroporti_italiani/risorse/aeroporti/LIML> ;
     aio:totaleCorrente 28305.0 ;
     aio:totalePassato 119899.0 ;
@@ -5423,7 +5423,7 @@
 
 <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIMP-merci_e_posta-2020-2019> a aio:RiepilogoDatiTraffico ;
     rdfs:label "merci e posta 2020-2019"^^xsd:string ;
-    aio:hacategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/merci_e_posta> ;
+    aio:haCategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/merci_e_posta> ;
     aio:riferitoAdAeroporto <http://purl.org/net/aeroporti_italiani/risorse/aeroporti/LIMP> ;
     aio:totaleCorrente 0.0 ;
     aio:totalePassato 0.0 ;
@@ -5431,7 +5431,7 @@
 
 <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIMP-passeggeri-2020-2019> a aio:RiepilogoDatiTraffico ;
     rdfs:label "passeggeri 2020-2019"^^xsd:string ;
-    aio:hacategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/passeggeri> ;
+    aio:haCategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/passeggeri> ;
     aio:riferitoAdAeroporto <http://purl.org/net/aeroporti_italiani/risorse/aeroporti/LIMP> ;
     aio:totaleCorrente 26873 ;
     aio:totalePassato 72876 ;
@@ -5439,7 +5439,7 @@
 
 <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIMP-voli_commerciali-2020-2019> a aio:RiepilogoDatiTraffico ;
     rdfs:label "voli commerciali 2020-2019"^^xsd:string ;
-    aio:hacategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/voli_commerciali> ;
+    aio:haCategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/voli_commerciali> ;
     aio:riferitoAdAeroporto <http://purl.org/net/aeroporti_italiani/risorse/aeroporti/LIMP> ;
     aio:totaleCorrente 328.0 ;
     aio:totalePassato 523.0 ;
@@ -5447,7 +5447,7 @@
 
 <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIMW-merci_e_posta-2020-2019> a aio:RiepilogoDatiTraffico ;
     rdfs:label "merci e posta 2020-2019"^^xsd:string ;
-    aio:hacategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/merci_e_posta> ;
+    aio:haCategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/merci_e_posta> ;
     aio:riferitoAdAeroporto <http://purl.org/net/aeroporti_italiani/risorse/aeroporti/LIMW> ;
     aio:totaleCorrente 0.0 ;
     aio:totalePassato 0.0 ;
@@ -5455,7 +5455,7 @@
 
 <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIMW-passeggeri-2020-2019> a aio:RiepilogoDatiTraffico ;
     rdfs:label "passeggeri 2020-2019"^^xsd:string ;
-    aio:hacategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/passeggeri> ;
+    aio:haCategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/passeggeri> ;
     aio:riferitoAdAeroporto <http://purl.org/net/aeroporti_italiani/risorse/aeroporti/LIMW> ;
     aio:totaleCorrente 0 ;
     aio:totalePassato 0 ;
@@ -5463,7 +5463,7 @@
 
 <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIMW-voli_commerciali-2020-2019> a aio:RiepilogoDatiTraffico ;
     rdfs:label "voli commerciali 2020-2019"^^xsd:string ;
-    aio:hacategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/voli_commerciali> ;
+    aio:haCategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/voli_commerciali> ;
     aio:riferitoAdAeroporto <http://purl.org/net/aeroporti_italiani/risorse/aeroporti/LIMW> ;
     aio:totaleCorrente 0.0 ;
     aio:totalePassato 0.0 ;
@@ -5471,7 +5471,7 @@
 
 <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIMZ-merci_e_posta-2020-2019> a aio:RiepilogoDatiTraffico ;
     rdfs:label "merci e posta 2020-2019"^^xsd:string ;
-    aio:hacategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/merci_e_posta> ;
+    aio:haCategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/merci_e_posta> ;
     aio:riferitoAdAeroporto <http://purl.org/net/aeroporti_italiani/risorse/aeroporti/LIMZ> ;
     aio:totaleCorrente 0.0 ;
     aio:totalePassato 0.0 ;
@@ -5479,7 +5479,7 @@
 
 <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIMZ-passeggeri-2020-2019> a aio:RiepilogoDatiTraffico ;
     rdfs:label "passeggeri 2020-2019"^^xsd:string ;
-    aio:hacategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/passeggeri> ;
+    aio:haCategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/passeggeri> ;
     aio:riferitoAdAeroporto <http://purl.org/net/aeroporti_italiani/risorse/aeroporti/LIMZ> ;
     aio:totaleCorrente 51941 ;
     aio:totalePassato 89809 ;
@@ -5487,7 +5487,7 @@
 
 <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIMZ-voli_commerciali-2020-2019> a aio:RiepilogoDatiTraffico ;
     rdfs:label "voli commerciali 2020-2019"^^xsd:string ;
-    aio:hacategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/voli_commerciali> ;
+    aio:haCategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/voli_commerciali> ;
     aio:riferitoAdAeroporto <http://purl.org/net/aeroporti_italiani/risorse/aeroporti/LIMZ> ;
     aio:totaleCorrente 472.0 ;
     aio:totalePassato 618.0 ;
@@ -5495,7 +5495,7 @@
 
 <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIPB-merci_e_posta-2020-2019> a aio:RiepilogoDatiTraffico ;
     rdfs:label "merci e posta 2020-2019"^^xsd:string ;
-    aio:hacategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/merci_e_posta> ;
+    aio:haCategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/merci_e_posta> ;
     aio:riferitoAdAeroporto <http://purl.org/net/aeroporti_italiani/risorse/aeroporti/LIPB> ;
     aio:totaleCorrente 0.0 ;
     aio:totalePassato 0.0 ;
@@ -5503,7 +5503,7 @@
 
 <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIPB-passeggeri-2020-2019> a aio:RiepilogoDatiTraffico ;
     rdfs:label "passeggeri 2020-2019"^^xsd:string ;
-    aio:hacategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/passeggeri> ;
+    aio:haCategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/passeggeri> ;
     aio:riferitoAdAeroporto <http://purl.org/net/aeroporti_italiani/risorse/aeroporti/LIPB> ;
     aio:totaleCorrente 124 ;
     aio:totalePassato 1176 ;
@@ -5511,7 +5511,7 @@
 
 <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIPB-voli_commerciali-2020-2019> a aio:RiepilogoDatiTraffico ;
     rdfs:label "voli commerciali 2020-2019"^^xsd:string ;
-    aio:hacategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/voli_commerciali> ;
+    aio:haCategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/voli_commerciali> ;
     aio:riferitoAdAeroporto <http://purl.org/net/aeroporti_italiani/risorse/aeroporti/LIPB> ;
     aio:totaleCorrente 3.0 ;
     aio:totalePassato 39.0 ;
@@ -5519,7 +5519,7 @@
 
 <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIPE-merci_e_posta-2020-2019> a aio:RiepilogoDatiTraffico ;
     rdfs:label "merci e posta 2020-2019"^^xsd:string ;
-    aio:hacategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/merci_e_posta> ;
+    aio:haCategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/merci_e_posta> ;
     aio:riferitoAdAeroporto <http://purl.org/net/aeroporti_italiani/risorse/aeroporti/LIPE> ;
     aio:totaleCorrente 34673.9000000000014551915228366851806640625 ;
     aio:totalePassato 38130.0 ;
@@ -5527,7 +5527,7 @@
 
 <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIPE-passeggeri-2020-2019> a aio:RiepilogoDatiTraffico ;
     rdfs:label "passeggeri 2020-2019"^^xsd:string ;
-    aio:hacategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/passeggeri> ;
+    aio:haCategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/passeggeri> ;
     aio:riferitoAdAeroporto <http://purl.org/net/aeroporti_italiani/risorse/aeroporti/LIPE> ;
     aio:totaleCorrente 2518282 ;
     aio:totalePassato 10594048 ;
@@ -5535,7 +5535,7 @@
 
 <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIPE-voli_commerciali-2020-2019> a aio:RiepilogoDatiTraffico ;
     rdfs:label "voli commerciali 2020-2019"^^xsd:string ;
-    aio:hacategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/voli_commerciali> ;
+    aio:haCategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/voli_commerciali> ;
     aio:riferitoAdAeroporto <http://purl.org/net/aeroporti_italiani/risorse/aeroporti/LIPE> ;
     aio:totaleCorrente 27332.0 ;
     aio:totalePassato 83845.0 ;
@@ -5543,7 +5543,7 @@
 
 <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIPH-merci_e_posta-2020-2019> a aio:RiepilogoDatiTraffico ;
     rdfs:label "merci e posta 2020-2019"^^xsd:string ;
-    aio:hacategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/merci_e_posta> ;
+    aio:haCategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/merci_e_posta> ;
     aio:riferitoAdAeroporto <http://purl.org/net/aeroporti_italiani/risorse/aeroporti/LIPH> ;
     aio:totaleCorrente 0.0 ;
     aio:totalePassato 0.0 ;
@@ -5551,7 +5551,7 @@
 
 <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIPH-passeggeri-2020-2019> a aio:RiepilogoDatiTraffico ;
     rdfs:label "passeggeri 2020-2019"^^xsd:string ;
-    aio:hacategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/passeggeri> ;
+    aio:haCategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/passeggeri> ;
     aio:riferitoAdAeroporto <http://purl.org/net/aeroporti_italiani/risorse/aeroporti/LIPH> ;
     aio:totaleCorrente 461006 ;
     aio:totalePassato 3247607 ;
@@ -5559,7 +5559,7 @@
 
 <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIPH-voli_commerciali-2020-2019> a aio:RiepilogoDatiTraffico ;
     rdfs:label "voli commerciali 2020-2019"^^xsd:string ;
-    aio:hacategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/voli_commerciali> ;
+    aio:haCategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/voli_commerciali> ;
     aio:riferitoAdAeroporto <http://purl.org/net/aeroporti_italiani/risorse/aeroporti/LIPH> ;
     aio:totaleCorrente 3259.0 ;
     aio:totalePassato 19025.0 ;
@@ -5567,7 +5567,7 @@
 
 <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIPK-merci_e_posta-2020-2019> a aio:RiepilogoDatiTraffico ;
     rdfs:label "merci e posta 2020-2019"^^xsd:string ;
-    aio:hacategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/merci_e_posta> ;
+    aio:haCategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/merci_e_posta> ;
     aio:riferitoAdAeroporto <http://purl.org/net/aeroporti_italiani/risorse/aeroporti/LIPK> ;
     aio:totaleCorrente 0.0 ;
     aio:totalePassato 0.0 ;
@@ -5575,7 +5575,7 @@
 
 <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIPK-passeggeri-2020-2019> a aio:RiepilogoDatiTraffico ;
     rdfs:label "passeggeri 2020-2019"^^xsd:string ;
-    aio:hacategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/passeggeri> ;
+    aio:haCategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/passeggeri> ;
     aio:riferitoAdAeroporto <http://purl.org/net/aeroporti_italiani/risorse/aeroporti/LIPK> ;
     aio:totaleCorrente 204 ;
     aio:totalePassato 0 ;
@@ -5583,7 +5583,7 @@
 
 <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIPK-voli_commerciali-2020-2019> a aio:RiepilogoDatiTraffico ;
     rdfs:label "voli commerciali 2020-2019"^^xsd:string ;
-    aio:hacategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/voli_commerciali> ;
+    aio:haCategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/voli_commerciali> ;
     aio:riferitoAdAeroporto <http://purl.org/net/aeroporti_italiani/risorse/aeroporti/LIPK> ;
     aio:totaleCorrente 4.0 ;
     aio:totalePassato 0.0 ;
@@ -5591,7 +5591,7 @@
 
 <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIPO-merci_e_posta-2020-2019> a aio:RiepilogoDatiTraffico ;
     rdfs:label "merci e posta 2020-2019"^^xsd:string ;
-    aio:hacategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/merci_e_posta> ;
+    aio:haCategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/merci_e_posta> ;
     aio:riferitoAdAeroporto <http://purl.org/net/aeroporti_italiani/risorse/aeroporti/LIPO> ;
     aio:totaleCorrente 21503.70000000000072759576141834259033203125 ;
     aio:totalePassato 24270.0 ;
@@ -5599,7 +5599,7 @@
 
 <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIPO-passeggeri-2020-2019> a aio:RiepilogoDatiTraffico ;
     rdfs:label "passeggeri 2020-2019"^^xsd:string ;
-    aio:hacategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/passeggeri> ;
+    aio:haCategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/passeggeri> ;
     aio:riferitoAdAeroporto <http://purl.org/net/aeroporti_italiani/risorse/aeroporti/LIPO> ;
     aio:totaleCorrente 569 ;
     aio:totalePassato 16263 ;
@@ -5607,7 +5607,7 @@
 
 <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIPO-voli_commerciali-2020-2019> a aio:RiepilogoDatiTraffico ;
     rdfs:label "voli commerciali 2020-2019"^^xsd:string ;
-    aio:hacategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/voli_commerciali> ;
+    aio:haCategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/voli_commerciali> ;
     aio:riferitoAdAeroporto <http://purl.org/net/aeroporti_italiani/risorse/aeroporti/LIPO> ;
     aio:totaleCorrente 5255.0 ;
     aio:totalePassato 6424.0 ;
@@ -5615,7 +5615,7 @@
 
 <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIPQ-merci_e_posta-2020-2019> a aio:RiepilogoDatiTraffico ;
     rdfs:label "merci e posta 2020-2019"^^xsd:string ;
-    aio:hacategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/merci_e_posta> ;
+    aio:haCategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/merci_e_posta> ;
     aio:riferitoAdAeroporto <http://purl.org/net/aeroporti_italiani/risorse/aeroporti/LIPQ> ;
     aio:totaleCorrente 39.10000000000000142108547152020037174224853515625 ;
     aio:totalePassato 98.0 ;
@@ -5623,7 +5623,7 @@
 
 <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIPQ-passeggeri-2020-2019> a aio:RiepilogoDatiTraffico ;
     rdfs:label "passeggeri 2020-2019"^^xsd:string ;
-    aio:hacategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/passeggeri> ;
+    aio:haCategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/passeggeri> ;
     aio:riferitoAdAeroporto <http://purl.org/net/aeroporti_italiani/risorse/aeroporti/LIPQ> ;
     aio:totaleCorrente 206653 ;
     aio:totalePassato 1088479 ;
@@ -5631,7 +5631,7 @@
 
 <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIPQ-voli_commerciali-2020-2019> a aio:RiepilogoDatiTraffico ;
     rdfs:label "voli commerciali 2020-2019"^^xsd:string ;
-    aio:hacategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/voli_commerciali> ;
+    aio:haCategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/voli_commerciali> ;
     aio:riferitoAdAeroporto <http://purl.org/net/aeroporti_italiani/risorse/aeroporti/LIPQ> ;
     aio:totaleCorrente 2656.0 ;
     aio:totalePassato 12288.0 ;
@@ -5639,7 +5639,7 @@
 
 <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIPR-merci_e_posta-2020-2019> a aio:RiepilogoDatiTraffico ;
     rdfs:label "merci e posta 2020-2019"^^xsd:string ;
-    aio:hacategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/merci_e_posta> ;
+    aio:haCategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/merci_e_posta> ;
     aio:riferitoAdAeroporto <http://purl.org/net/aeroporti_italiani/risorse/aeroporti/LIPR> ;
     aio:totaleCorrente 154.69999999999998863131622783839702606201171875 ;
     aio:totalePassato 4.0 ;
@@ -5647,7 +5647,7 @@
 
 <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIPR-passeggeri-2020-2019> a aio:RiepilogoDatiTraffico ;
     rdfs:label "passeggeri 2020-2019"^^xsd:string ;
-    aio:hacategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/passeggeri> ;
+    aio:haCategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/passeggeri> ;
     aio:riferitoAdAeroporto <http://purl.org/net/aeroporti_italiani/risorse/aeroporti/LIPR> ;
     aio:totaleCorrente 37516 ;
     aio:totalePassato 396726 ;
@@ -5655,7 +5655,7 @@
 
 <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIPR-voli_commerciali-2020-2019> a aio:RiepilogoDatiTraffico ;
     rdfs:label "voli commerciali 2020-2019"^^xsd:string ;
-    aio:hacategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/voli_commerciali> ;
+    aio:haCategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/voli_commerciali> ;
     aio:riferitoAdAeroporto <http://purl.org/net/aeroporti_italiani/risorse/aeroporti/LIPR> ;
     aio:totaleCorrente 613.0 ;
     aio:totalePassato 2596.0 ;
@@ -5663,7 +5663,7 @@
 
 <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIPX-merci_e_posta-2020-2019> a aio:RiepilogoDatiTraffico ;
     rdfs:label "merci e posta 2020-2019"^^xsd:string ;
-    aio:hacategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/merci_e_posta> ;
+    aio:haCategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/merci_e_posta> ;
     aio:riferitoAdAeroporto <http://purl.org/net/aeroporti_italiani/risorse/aeroporti/LIPX> ;
     aio:totaleCorrente 259.6000000000000227373675443232059478759765625 ;
     aio:totalePassato 691.0 ;
@@ -5671,7 +5671,7 @@
 
 <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIPX-passeggeri-2020-2019> a aio:RiepilogoDatiTraffico ;
     rdfs:label "passeggeri 2020-2019"^^xsd:string ;
-    aio:hacategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/passeggeri> ;
+    aio:haCategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/passeggeri> ;
     aio:riferitoAdAeroporto <http://purl.org/net/aeroporti_italiani/risorse/aeroporti/LIPX> ;
     aio:totaleCorrente 1029982 ;
     aio:totalePassato 4800032 ;
@@ -5679,7 +5679,7 @@
 
 <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIPX-voli_commerciali-2020-2019> a aio:RiepilogoDatiTraffico ;
     rdfs:label "voli commerciali 2020-2019"^^xsd:string ;
-    aio:hacategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/voli_commerciali> ;
+    aio:haCategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/voli_commerciali> ;
     aio:riferitoAdAeroporto <http://purl.org/net/aeroporti_italiani/risorse/aeroporti/LIPX> ;
     aio:totaleCorrente 9487.0 ;
     aio:totalePassato 41838.0 ;
@@ -5687,7 +5687,7 @@
 
 <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIPY-merci_e_posta-2020-2019> a aio:RiepilogoDatiTraffico ;
     rdfs:label "merci e posta 2020-2019"^^xsd:string ;
-    aio:hacategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/merci_e_posta> ;
+    aio:haCategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/merci_e_posta> ;
     aio:riferitoAdAeroporto <http://purl.org/net/aeroporti_italiani/risorse/aeroporti/LIPY> ;
     aio:totaleCorrente 5570.5 ;
     aio:totalePassato 6943.0 ;
@@ -5695,7 +5695,7 @@
 
 <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIPY-passeggeri-2020-2019> a aio:RiepilogoDatiTraffico ;
     rdfs:label "passeggeri 2020-2019"^^xsd:string ;
-    aio:hacategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/passeggeri> ;
+    aio:haCategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/passeggeri> ;
     aio:riferitoAdAeroporto <http://purl.org/net/aeroporti_italiani/risorse/aeroporti/LIPY> ;
     aio:totaleCorrente 148117 ;
     aio:totalePassato 531083 ;
@@ -5703,7 +5703,7 @@
 
 <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIPY-voli_commerciali-2020-2019> a aio:RiepilogoDatiTraffico ;
     rdfs:label "voli commerciali 2020-2019"^^xsd:string ;
-    aio:hacategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/voli_commerciali> ;
+    aio:haCategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/voli_commerciali> ;
     aio:riferitoAdAeroporto <http://purl.org/net/aeroporti_italiani/risorse/aeroporti/LIPY> ;
     aio:totaleCorrente 2379.0 ;
     aio:totalePassato 6210.0 ;
@@ -5711,7 +5711,7 @@
 
 <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIPZ-merci_e_posta-2020-2019> a aio:RiepilogoDatiTraffico ;
     rdfs:label "merci e posta 2020-2019"^^xsd:string ;
-    aio:hacategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/merci_e_posta> ;
+    aio:haCategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/merci_e_posta> ;
     aio:riferitoAdAeroporto <http://purl.org/net/aeroporti_italiani/risorse/aeroporti/LIPZ> ;
     aio:totaleCorrente 37225.199999999997089616954326629638671875 ;
     aio:totalePassato 52067.0 ;
@@ -5719,7 +5719,7 @@
 
 <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIPZ-passeggeri-2020-2019> a aio:RiepilogoDatiTraffico ;
     rdfs:label "passeggeri 2020-2019"^^xsd:string ;
-    aio:hacategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/passeggeri> ;
+    aio:haCategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/passeggeri> ;
     aio:riferitoAdAeroporto <http://purl.org/net/aeroporti_italiani/risorse/aeroporti/LIPZ> ;
     aio:totaleCorrente 2785673 ;
     aio:totalePassato 12336823 ;
@@ -5727,7 +5727,7 @@
 
 <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIPZ-voli_commerciali-2020-2019> a aio:RiepilogoDatiTraffico ;
     rdfs:label "voli commerciali 2020-2019"^^xsd:string ;
-    aio:hacategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/voli_commerciali> ;
+    aio:haCategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/voli_commerciali> ;
     aio:riferitoAdAeroporto <http://purl.org/net/aeroporti_italiani/risorse/aeroporti/LIPZ> ;
     aio:totaleCorrente 29663.0 ;
     aio:totalePassato 96987.0 ;
@@ -5735,7 +5735,7 @@
 
 <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIRA-merci_e_posta-2020-2019> a aio:RiepilogoDatiTraffico ;
     rdfs:label "merci e posta 2020-2019"^^xsd:string ;
-    aio:hacategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/merci_e_posta> ;
+    aio:haCategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/merci_e_posta> ;
     aio:riferitoAdAeroporto <http://purl.org/net/aeroporti_italiani/risorse/aeroporti/LIRA> ;
     aio:totaleCorrente 19354.29999999999927240423858165740966796875 ;
     aio:totalePassato 18075.0 ;
@@ -5743,7 +5743,7 @@
 
 <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIRA-passeggeri-2020-2019> a aio:RiepilogoDatiTraffico ;
     rdfs:label "passeggeri 2020-2019"^^xsd:string ;
-    aio:hacategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/passeggeri> ;
+    aio:haCategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/passeggeri> ;
     aio:riferitoAdAeroporto <http://purl.org/net/aeroporti_italiani/risorse/aeroporti/LIRA> ;
     aio:totaleCorrente 1605781 ;
     aio:totalePassato 5852023 ;
@@ -5751,7 +5751,7 @@
 
 <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIRA-voli_commerciali-2020-2019> a aio:RiepilogoDatiTraffico ;
     rdfs:label "voli commerciali 2020-2019"^^xsd:string ;
-    aio:hacategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/voli_commerciali> ;
+    aio:haCategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/voli_commerciali> ;
     aio:riferitoAdAeroporto <http://purl.org/net/aeroporti_italiani/risorse/aeroporti/LIRA> ;
     aio:totaleCorrente 14522.0 ;
     aio:totalePassato 35370.0 ;
@@ -5759,7 +5759,7 @@
 
 <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIRF-merci_e_posta-2020-2019> a aio:RiepilogoDatiTraffico ;
     rdfs:label "merci e posta 2020-2019"^^xsd:string ;
-    aio:hacategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/merci_e_posta> ;
+    aio:haCategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/merci_e_posta> ;
     aio:riferitoAdAeroporto <http://purl.org/net/aeroporti_italiani/risorse/aeroporti/LIRF> ;
     aio:totaleCorrente 74504.0 ;
     aio:totalePassato 256300.0 ;
@@ -5767,7 +5767,7 @@
 
 <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIRF-passeggeri-2020-2019> a aio:RiepilogoDatiTraffico ;
     rdfs:label "passeggeri 2020-2019"^^xsd:string ;
-    aio:hacategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/passeggeri> ;
+    aio:haCategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/passeggeri> ;
     aio:riferitoAdAeroporto <http://purl.org/net/aeroporti_italiani/risorse/aeroporti/LIRF> ;
     aio:totaleCorrente 9754768 ;
     aio:totalePassato 61169345 ;
@@ -5775,7 +5775,7 @@
 
 <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIRF-voli_commerciali-2020-2019> a aio:RiepilogoDatiTraffico ;
     rdfs:label "voli commerciali 2020-2019"^^xsd:string ;
-    aio:hacategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/voli_commerciali> ;
+    aio:haCategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/voli_commerciali> ;
     aio:riferitoAdAeroporto <http://purl.org/net/aeroporti_italiani/risorse/aeroporti/LIRF> ;
     aio:totaleCorrente 100046.0 ;
     aio:totalePassato 457677.0 ;
@@ -5783,7 +5783,7 @@
 
 <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIRI-merci_e_posta-2020-2019> a aio:RiepilogoDatiTraffico ;
     rdfs:label "merci e posta 2020-2019"^^xsd:string ;
-    aio:hacategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/merci_e_posta> ;
+    aio:haCategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/merci_e_posta> ;
     aio:riferitoAdAeroporto <http://purl.org/net/aeroporti_italiani/risorse/aeroporti/LIRI> ;
     aio:totaleCorrente 0.0 ;
     aio:totalePassato 0.0 ;
@@ -5791,7 +5791,7 @@
 
 <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIRI-passeggeri-2020-2019> a aio:RiepilogoDatiTraffico ;
     rdfs:label "passeggeri 2020-2019"^^xsd:string ;
-    aio:hacategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/passeggeri> ;
+    aio:haCategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/passeggeri> ;
     aio:riferitoAdAeroporto <http://purl.org/net/aeroporti_italiani/risorse/aeroporti/LIRI> ;
     aio:totaleCorrente 0 ;
     aio:totalePassato 0 ;
@@ -5799,7 +5799,7 @@
 
 <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIRI-voli_commerciali-2020-2019> a aio:RiepilogoDatiTraffico ;
     rdfs:label "voli commerciali 2020-2019"^^xsd:string ;
-    aio:hacategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/voli_commerciali> ;
+    aio:haCategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/voli_commerciali> ;
     aio:riferitoAdAeroporto <http://purl.org/net/aeroporti_italiani/risorse/aeroporti/LIRI> ;
     aio:totaleCorrente 0.0 ;
     aio:totalePassato 0.0 ;
@@ -5807,7 +5807,7 @@
 
 <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIRJ-merci_e_posta-2020-2019> a aio:RiepilogoDatiTraffico ;
     rdfs:label "merci e posta 2020-2019"^^xsd:string ;
-    aio:hacategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/merci_e_posta> ;
+    aio:haCategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/merci_e_posta> ;
     aio:riferitoAdAeroporto <http://purl.org/net/aeroporti_italiani/risorse/aeroporti/LIRJ> ;
     aio:totaleCorrente 0.0 ;
     aio:totalePassato 0.0 ;
@@ -5815,7 +5815,7 @@
 
 <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIRJ-passeggeri-2020-2019> a aio:RiepilogoDatiTraffico ;
     rdfs:label "passeggeri 2020-2019"^^xsd:string ;
-    aio:hacategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/passeggeri> ;
+    aio:haCategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/passeggeri> ;
     aio:riferitoAdAeroporto <http://purl.org/net/aeroporti_italiani/risorse/aeroporti/LIRJ> ;
     aio:totaleCorrente 1749 ;
     aio:totalePassato 1869 ;
@@ -5823,7 +5823,7 @@
 
 <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIRJ-voli_commerciali-2020-2019> a aio:RiepilogoDatiTraffico ;
     rdfs:label "voli commerciali 2020-2019"^^xsd:string ;
-    aio:hacategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/voli_commerciali> ;
+    aio:haCategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/voli_commerciali> ;
     aio:riferitoAdAeroporto <http://purl.org/net/aeroporti_italiani/risorse/aeroporti/LIRJ> ;
     aio:totaleCorrente 501.0 ;
     aio:totalePassato 119.0 ;
@@ -5831,7 +5831,7 @@
 
 <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIRN-merci_e_posta-2020-2019> a aio:RiepilogoDatiTraffico ;
     rdfs:label "merci e posta 2020-2019"^^xsd:string ;
-    aio:hacategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/merci_e_posta> ;
+    aio:haCategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/merci_e_posta> ;
     aio:riferitoAdAeroporto <http://purl.org/net/aeroporti_italiani/risorse/aeroporti/LIRN> ;
     aio:totaleCorrente 8691.399999999999636202119290828704833984375 ;
     aio:totalePassato 11323.0 ;
@@ -5839,7 +5839,7 @@
 
 <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIRN-passeggeri-2020-2019> a aio:RiepilogoDatiTraffico ;
     rdfs:label "passeggeri 2020-2019"^^xsd:string ;
-    aio:hacategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/passeggeri> ;
+    aio:haCategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/passeggeri> ;
     aio:riferitoAdAeroporto <http://purl.org/net/aeroporti_italiani/risorse/aeroporti/LIRN> ;
     aio:totaleCorrente 2761062 ;
     aio:totalePassato 11790088 ;
@@ -5847,7 +5847,7 @@
 
 <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIRN-voli_commerciali-2020-2019> a aio:RiepilogoDatiTraffico ;
     rdfs:label "voli commerciali 2020-2019"^^xsd:string ;
-    aio:hacategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/voli_commerciali> ;
+    aio:haCategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/voli_commerciali> ;
     aio:riferitoAdAeroporto <http://purl.org/net/aeroporti_italiani/risorse/aeroporti/LIRN> ;
     aio:totaleCorrente 25534.0 ;
     aio:totalePassato 88616.0 ;
@@ -5855,7 +5855,7 @@
 
 <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIRP-merci_e_posta-2020-2019> a aio:RiepilogoDatiTraffico ;
     rdfs:label "merci e posta 2020-2019"^^xsd:string ;
-    aio:hacategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/merci_e_posta> ;
+    aio:haCategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/merci_e_posta> ;
     aio:riferitoAdAeroporto <http://purl.org/net/aeroporti_italiani/risorse/aeroporti/LIRP> ;
     aio:totaleCorrente 12461.399999999999636202119290828704833984375 ;
     aio:totalePassato 12650.0 ;
@@ -5863,7 +5863,7 @@
 
 <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIRP-passeggeri-2020-2019> a aio:RiepilogoDatiTraffico ;
     rdfs:label "passeggeri 2020-2019"^^xsd:string ;
-    aio:hacategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/passeggeri> ;
+    aio:haCategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/passeggeri> ;
     aio:riferitoAdAeroporto <http://purl.org/net/aeroporti_italiani/risorse/aeroporti/LIRP> ;
     aio:totaleCorrente 1303200 ;
     aio:totalePassato 5720734 ;
@@ -5871,7 +5871,7 @@
 
 <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIRP-voli_commerciali-2020-2019> a aio:RiepilogoDatiTraffico ;
     rdfs:label "voli commerciali 2020-2019"^^xsd:string ;
-    aio:hacategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/voli_commerciali> ;
+    aio:haCategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/voli_commerciali> ;
     aio:riferitoAdAeroporto <http://purl.org/net/aeroporti_italiani/risorse/aeroporti/LIRP> ;
     aio:totaleCorrente 12995.0 ;
     aio:totalePassato 42144.0 ;
@@ -5879,7 +5879,7 @@
 
 <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIRQ-merci_e_posta-2020-2019> a aio:RiepilogoDatiTraffico ;
     rdfs:label "merci e posta 2020-2019"^^xsd:string ;
-    aio:hacategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/merci_e_posta> ;
+    aio:haCategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/merci_e_posta> ;
     aio:riferitoAdAeroporto <http://purl.org/net/aeroporti_italiani/risorse/aeroporti/LIRQ> ;
     aio:totaleCorrente 7.800000000000000710542735760100185871124267578125 ;
     aio:totalePassato 85.0 ;
@@ -5887,7 +5887,7 @@
 
 <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIRQ-passeggeri-2020-2019> a aio:RiepilogoDatiTraffico ;
     rdfs:label "passeggeri 2020-2019"^^xsd:string ;
-    aio:hacategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/passeggeri> ;
+    aio:haCategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/passeggeri> ;
     aio:riferitoAdAeroporto <http://purl.org/net/aeroporti_italiani/risorse/aeroporti/LIRQ> ;
     aio:totaleCorrente 662527 ;
     aio:totalePassato 3441609 ;
@@ -5895,7 +5895,7 @@
 
 <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIRQ-voli_commerciali-2020-2019> a aio:RiepilogoDatiTraffico ;
     rdfs:label "voli commerciali 2020-2019"^^xsd:string ;
-    aio:hacategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/voli_commerciali> ;
+    aio:haCategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/voli_commerciali> ;
     aio:riferitoAdAeroporto <http://purl.org/net/aeroporti_italiani/risorse/aeroporti/LIRQ> ;
     aio:totaleCorrente 9885.0 ;
     aio:totalePassato 35750.0 ;
@@ -5903,7 +5903,7 @@
 
 <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIRS-merci_e_posta-2020-2019> a aio:RiepilogoDatiTraffico ;
     rdfs:label "merci e posta 2020-2019"^^xsd:string ;
-    aio:hacategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/merci_e_posta> ;
+    aio:haCategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/merci_e_posta> ;
     aio:riferitoAdAeroporto <http://purl.org/net/aeroporti_italiani/risorse/aeroporti/LIRS> ;
     aio:totaleCorrente 0.0 ;
     aio:totalePassato 0.0 ;
@@ -5911,7 +5911,7 @@
 
 <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIRS-passeggeri-2020-2019> a aio:RiepilogoDatiTraffico ;
     rdfs:label "passeggeri 2020-2019"^^xsd:string ;
-    aio:hacategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/passeggeri> ;
+    aio:haCategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/passeggeri> ;
     aio:riferitoAdAeroporto <http://purl.org/net/aeroporti_italiani/risorse/aeroporti/LIRS> ;
     aio:totaleCorrente 307 ;
     aio:totalePassato 247 ;
@@ -5919,7 +5919,7 @@
 
 <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIRS-voli_commerciali-2020-2019> a aio:RiepilogoDatiTraffico ;
     rdfs:label "voli commerciali 2020-2019"^^xsd:string ;
-    aio:hacategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/voli_commerciali> ;
+    aio:haCategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/voli_commerciali> ;
     aio:riferitoAdAeroporto <http://purl.org/net/aeroporti_italiani/risorse/aeroporti/LIRS> ;
     aio:totaleCorrente 8.0 ;
     aio:totalePassato 6.0 ;
@@ -5927,7 +5927,7 @@
 
 <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIRZ-merci_e_posta-2020-2019> a aio:RiepilogoDatiTraffico ;
     rdfs:label "merci e posta 2020-2019"^^xsd:string ;
-    aio:hacategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/merci_e_posta> ;
+    aio:haCategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/merci_e_posta> ;
     aio:riferitoAdAeroporto <http://purl.org/net/aeroporti_italiani/risorse/aeroporti/LIRZ> ;
     aio:totaleCorrente 0.0 ;
     aio:totalePassato 0.0 ;
@@ -5935,7 +5935,7 @@
 
 <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIRZ-passeggeri-2020-2019> a aio:RiepilogoDatiTraffico ;
     rdfs:label "passeggeri 2020-2019"^^xsd:string ;
-    aio:hacategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/passeggeri> ;
+    aio:haCategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/passeggeri> ;
     aio:riferitoAdAeroporto <http://purl.org/net/aeroporti_italiani/risorse/aeroporti/LIRZ> ;
     aio:totaleCorrente 76009 ;
     aio:totalePassato 222895 ;
@@ -5943,7 +5943,7 @@
 
 <http://purl.org/net/aeroporti_italiani/risorse/riepiloghi_traffico/LIRZ-voli_commerciali-2020-2019> a aio:RiepilogoDatiTraffico ;
     rdfs:label "voli commerciali 2020-2019"^^xsd:string ;
-    aio:hacategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/voli_commerciali> ;
+    aio:haCategoria <http://purl.org/net/aeroporti_italiani/risorse/categorie_traffico/voli_commerciali> ;
     aio:riferitoAdAeroporto <http://purl.org/net/aeroporti_italiani/risorse/aeroporti/LIRZ> ;
     aio:totaleCorrente 838.0 ;
     aio:totalePassato 1616.0 ;
